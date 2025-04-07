@@ -1,0 +1,78 @@
+---
+title: "Process LDP to text"
+author: "Dan Yurovsky"
+date: '`r Sys.Date()`'
+output:
+  html_document:
+  highlight: tango
+theme: sandstone
+code_folding: show
+toc: false
+toc_float: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, library, message=F, results='hide', warning=FALSE}
+library(here)
+library(tidyverse)
+library(tidytext)
+library(glue)
+library(udpipe)
+```
+
+```{r}
+source(here("read_ldp.R"))
+```
+
+Load utterances
+```{r load-ldp-data}
+ldp <- connect_to_ldp()
+
+subs_to_keep <- get_table(ldp, "subjects") %>%
+    collect() %>%
+    filter(lesion == "", project == 2) %>%
+    pull(id)
+
+utts <- get_table(ldp, "utterances") %>%
+  filter(subject %in% subs_to_keep) %>%
+  select(time, id, subject, session, p_chat, c_chat, p_utts, c_utts) %>%
+  collect() %>%
+  pivot_longer(cols = c(p_chat, c_chat, p_utts, c_utts), names_to = "person", 
+               values_to = "output") %>%
+  separate(person, into = c("person", "type"), sep = "_") %>%
+  mutate(person = if_else(person == "p", "parent", "child")) %>%
+  pivot_wider(names_from = type, values_from  = output) %>%
+  filter(!is.na(chat)) %>%
+  arrange(subject, session, id)
+
+```
+
+```{r, write-tokenized-files, eval = FALSE}
+write_clean_file <- function(utterances, speaker = "parent") {
+  
+  utterances %>%
+    filter(person == speaker) %>%
+    select(subject, session, row, chat) %>%
+    unnest_tokens(word, chat) %>%
+    group_by(subject, session, row) %>%
+    summarise(utterance = paste0(word, collapse = " ")) %>%
+    pull(utterance) %>%
+    write_lines(here(glue("data/ldp_{speaker}.txt")))
+}
+walk(c("parent", "child"), ~write_clean_file(utts, .x))
+```
+
+```{r write-files} 
+write_original_file <- function(utterances, speaker = "parent") {
+  
+  utterances %>%
+    filter(person == speaker) %>%
+    select(id, utts, chat) %>%
+    write_csv(here(glue("data/ldp_{speaker}_original.txt")))
+}
+
+walk(c("parent", "child"), ~write_original_file(utts, .x))
+```
