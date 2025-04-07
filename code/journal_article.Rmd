@@ -220,7 +220,7 @@ all_pairs <- subj_data %>%
 #write_csv(all_pairs, here("../data/final_pairs_ldp_cabnc.csv"))
 
 # then we run that file through word2vec/get_wiki_similarities.py to get this file ...
-w2v_judgments <- read_csv(here("data/w2v_sims_ldp_cabnc.csv")) %>%
+w2v_judgments <- read_csv(here("../data/w2v_sims_ldp_cabnc.csv")) %>%
   mutate(
          wiki_similarity = as.numeric(wiki_similarity),
          ldp_similarity = as.numeric(ldp_similarity))
