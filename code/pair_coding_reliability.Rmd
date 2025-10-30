@@ -1,0 +1,66 @@
+---
+title: "corpus reliability"
+output: html_document
+date: "2025-09-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+```{r}
+all_utts <- read_csv(here("../data/all_corpora_adj_noun_conc_utts.csv"))
+
+sample_to_code <- all_utts %>%
+  distinct(dataset, doc_id, sentence) %>%
+  group_by(dataset) %>%
+  sample_n(250) %>%
+  ungroup()
+
+#write_csv(sample_to_code, here("../data/all_corpora_utts_to_code.csv"))
+```
+
+```{r}
+all_coded <- read_csv(here("../data/all_corpora_utts_to_code.csv")) %>%
+  left_join(all_utts %>% select(dataset, doc_id, sentence, adj_token, noun_token), 
+            by = c("dataset", "doc_id", "sentence")) %>%
+  mutate(pair = paste(adj_token, noun_token, sep = " ")) %>%
+  group_by(sentence, doc_id) %>%
+  summarise(parser_pairs = list(pair)) %>%
+  ungroup() %>%
+  mutate(parser_pairs = as.list(tolower(str_squish(parser_pairs)))) %>%
+  mutate(parser_pairs = if_else(typeof(parser_pairs) == "character", as.list(parser_pairs), parser_pairs))
+
+bm <- read.csv(here("../data/all_corpora_utts_coded_BM.csv")) %>%
+  as_tibble() %>%
+  mutate(pair = paste(adj, noun, sep = " ")) %>%
+  group_by(sentence, doc_id) %>%
+  summarise(bm_pairs = list(pair)) %>%
+  ungroup() %>%
+  mutate(bm_pairs = as.list(tolower(str_squish(bm_pairs))))
+ 
+cb <- read.csv(here("../data/all_corpora_utts_coded_CB.csv")) %>%
+  as_tibble() %>%
+  mutate(pair = paste(adj, noun, sep = " ")) %>%
+  group_by(sentence, doc_id) %>%
+  summarise(cb_pairs = list(pair)) %>%
+  ungroup() %>%
+  mutate(cb_pairs = as.list(tolower(str_squish(cb_pairs))))
+
+all_coded <- all_coded %>%
+  left_join(bm, by = c("sentence", "doc_id")) %>%
+  left_join(cb, by = c("sentence", "doc_id"))
+```
+
+```{r}
+jaccard <- all_coded %>%
+  rowwise() %>%
+  mutate(human_intersect = list(intersect(bm_pairs, cb_pairs)),
+         cb_parser_intersect = list(intersect(cb_pairs, parser_pairs)),
+         bm_parser_intersect = list(intersect(bm_pairs, parser_pairs)),
+         human_union = list(union(bm_pairs, cb_pairs)),
+         cb_parser_union = list(union(cb_pairs, parser_pairs)),
+         bm_parser_union = list(union(bm_pairs, parser_pairs))) 
+```
