@@ -27,27 +27,28 @@ all_coded <- read_csv(here("../data/all_corpora_utts_to_code.csv")) %>%
   left_join(all_utts %>% select(dataset, doc_id, sentence, adj_token, noun_token), 
             by = c("dataset", "doc_id", "sentence")) %>%
   mutate(pair = paste(adj_token, noun_token, sep = " ")) %>%
+  rowwise() %>%
+  mutate(pair = str_squish(pair)) %>%
+  ungroup() %>%
   group_by(sentence, doc_id) %>%
   summarise(parser_pairs = list(pair)) %>%
-  ungroup() %>%
-  mutate(parser_pairs = as.list(tolower(str_squish(parser_pairs)))) %>%
-  mutate(parser_pairs = if_else(typeof(parser_pairs) == "character", as.list(parser_pairs), parser_pairs))
+  ungroup() 
 
 bm <- read.csv(here("../data/all_corpora_utts_coded_BM.csv")) %>%
   as_tibble() %>%
   mutate(pair = paste(adj, noun, sep = " ")) %>%
+  mutate(pair = str_squish(pair)) %>%
   group_by(sentence, doc_id) %>%
   summarise(bm_pairs = list(pair)) %>%
-  ungroup() %>%
-  mutate(bm_pairs = as.list(tolower(str_squish(bm_pairs))))
+  ungroup()
  
 cb <- read.csv(here("../data/all_corpora_utts_coded_CB.csv")) %>%
   as_tibble() %>%
   mutate(pair = paste(adj, noun, sep = " ")) %>%
+  mutate(pair = str_squish(pair)) %>%
   group_by(sentence, doc_id) %>%
   summarise(cb_pairs = list(pair)) %>%
-  ungroup() %>%
-  mutate(cb_pairs = as.list(tolower(str_squish(cb_pairs))))
+  ungroup() 
 
 all_coded <- all_coded %>%
   left_join(bm, by = c("sentence", "doc_id")) %>%
@@ -55,6 +56,26 @@ all_coded <- all_coded %>%
 ```
 
 ```{r}
+get_intersect <- function(list1, list2) {
+  
+  if (typeof(list1) == "list" & typeof(list2) == "list") {
+    print("list list")
+    print(list1)
+    print(list2)
+    return(intersect(list1, list2))
+  } else if (typeof(list1) == "character" & typeof(list2) == "character") {
+    print("character character")
+    print(list1)
+    print(list2)
+    return(c(intersect(list1, list2)))
+  } else if (typeof(list1) == "character" & typeof(list2) == "list") {
+    print(intersect(c(list1), list2))
+    return(intersect(c(list1), list2))
+  } else if (typeof(list1) == "list" & typeof(list2) == "character") {
+    print(intersect(list1, c(list2)))
+    return(intersect(list1, c(list2)))
+  }
+}
 jaccard <- all_coded %>%
   rowwise() %>%
   mutate(human_intersect = list(intersect(bm_pairs, cb_pairs)),
@@ -62,5 +83,12 @@ jaccard <- all_coded %>%
          bm_parser_intersect = list(intersect(bm_pairs, parser_pairs)),
          human_union = list(union(bm_pairs, cb_pairs)),
          cb_parser_union = list(union(cb_pairs, parser_pairs)),
-         bm_parser_union = list(union(bm_pairs, parser_pairs))) 
+         bm_parser_union = list(union(bm_pairs, parser_pairs))) %>%
+  mutate(human_jaccard = length(human_intersect)/length(human_union),
+         cb_parser_jaccard = length(cb_parser_intersect)/length(cb_parser_union),
+         bm_parser_jaccard = length(bm_parser_intersect)/length(bm_parser_union))
+
+human_jaccard_avg <- mean(jaccard$human_jaccard)
+cb_parser_jaccard_avg <- mean(jaccard$cb_parser_jaccard)
+bm_parser_jaccard_avg <- mean(jaccard$bm_parser_jaccard)
 ```

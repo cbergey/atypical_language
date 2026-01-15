@@ -170,6 +170,20 @@ mean_ratings <- subj_data %>%
   group_by(adjective, noun) %>%
   summarise(mean_typ = mean(rating)) %>%
   ungroup()
+
+subj_reliability <- subj_data %>%
+  group_by(adjective, noun) %>%
+  reframe(rating = rating, rating_n = paste0("rating_", 1:n())) %>%
+  pivot_wider(values_from = "rating", names_from = "rating_n") %>%
+  rowwise() %>%
+  mutate(mean_1 = mean(c(rating_2, rating_3, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_2 = mean(c(rating_1, rating_3, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_3 = mean(c(rating_1, rating_2, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_4 = mean(c(rating_1, rating_2, rating_3, rating_5, rating_6), na.rm = TRUE),
+         mean_5 = mean(c(rating_1, rating_2, rating_3, rating_4, rating_6), na.rm = TRUE),
+         mean_6 = mean(c(rating_1, rating_2, rating_3, rating_4, rating_5), na.rm = TRUE)) %>%
+  ungroup()
+
 ```
 
 ```{r read-corpora}
@@ -250,6 +264,56 @@ all_judgments <- mean_ratings %>%
   left_join(gpt3_judgments, by = c("adjective", "noun")) %>%
   mutate(wiki_similarity = if_else(is.nan(wiki_similarity), NA_real_, wiki_similarity)) %>%
   mutate(ldp_similarity = if_else(is.nan(ldp_similarity), NA_real_, ldp_similarity))
+```
+
+```{r, eval = FALSE}
+
+human_cor <- mean(c(
+cor.test(subj_reliability$rating_1, subj_reliability$mean_1, method = "spearman")$estimate,
+cor.test(subj_reliability$rating_2, subj_reliability$mean_2, method = "spearman")$estimate,
+cor.test(subj_reliability$rating_3, subj_reliability$mean_3, method = "spearman")$estimate,
+cor.test(subj_reliability$rating_4, subj_reliability$mean_4, method = "spearman")$estimate,
+cor.test(subj_reliability$rating_5, subj_reliability$mean_5, method = "spearman")$estimate,
+cor.test(subj_reliability$rating_6, subj_reliability$mean_6, method = "spearman")$estimate))
+
+subj_reliability %>%
+  ggplot(aes(x = rating_1, y = mean_typ)) +
+  geom_jitter(aes(alpha = 0.2))
+
+model_cors <- data.frame(
+  model = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", "Human"),
+  cor = c(cor.test(all_judgments$mean_typ, all_judgments$ldp_similarity, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$wiki_similarity, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$bert_prob, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$gpt3_score, method = "spearman")$estimate,
+          human_cor)
+)
+
+
+cors_plot <- model_cors %>%
+  mutate(model = factor(model, levels = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", "Human"))) %>%
+  ggplot(aes(x = model, y = cor, fill = model)) +
+  geom_col() +
+  scale_fill_paletteer_d("lisa::FridaKahlo") + 
+  theme(
+    strip.background =element_rect(fill="transparent"),
+    panel.background = element_rect(fill = "transparent"), # bg of the panel
+    plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+    panel.grid.major = element_blank(), # get rid of major grid
+    panel.grid.minor = element_blank(), # get rid of minor grid
+    legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+    legend.box.background = element_rect(fill = "transparent"), # get rid of legend panel bg
+    legend.key = element_rect(fill = "transparent", colour = NA), # get rid of key legend fill, and of the surrounding
+    axis.line = element_line(colour = "black") # adding a black line for x and y axis
+)
+
+ggsave(cors_plot, filename = here("figs/model_cors_plot.png"),  width = 6, height = 4, units = "in", dpi = 300, bg = "transparent")
+
+
+all_judgments %>%
+  ggplot(aes(x = mean_typ, y = gpt3_score)) +
+  geom_jitter(width = 0.2, height = 0.2, aes(alpha = 0.1)) +
+  geom_smooth(method='lm', formula= y~x)
 ```
 
 ```{r models}
