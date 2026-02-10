@@ -1,0 +1,255 @@
+---
+title: "supplemental_draft"
+output: html_document
+date: "2026-01-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(ggthemes)
+library(ggridges)
+library(scales)
+library(tidyboot)
+library(xtable)
+library(papaja)
+library(lme4)
+library(lmerTest)
+library(broom.mixed)
+library(weights)
+```
+
+```{r}
+most_typicals <- read_csv(here("../data/all_corpora_most_typical_adjs.csv")) %>%
+  filter(!is.na(adjective)) %>%
+  mutate(adj_noun = paste(adjective, noun, sep = " "))
+
+most_typicals %>%
+  mutate(most_common_feature_rating = if_else(is.na(most_common_feature_rating), 0, most_common_feature_rating)) %>%
+  ggplot(aes(x = most_common_feature_rating)) +
+  geom_histogram()
+
+most_typical_adj_nouns <- most_typicals %>%
+  filter(most_common_feature_rating >= 4)
+```
+
+```{r read-data-judgments}
+coded_data <- read_csv(here("../data/ldp_cabnc_data.csv"))
+
+all_subjs <- coded_data %>%
+  count(subid)
+
+keep_subjs <- coded_data %>%
+  filter(is.na(adjective) & is.na(noun) & rating == 5)
+
+subj_data <- coded_data %>%
+  filter(!(is.na(adjective) & is.na(noun))) %>%
+  filter(subid %in% keep_subjs$subid) 
+
+incomplete_subs <- coded_data %>%
+  group_by(subid) %>%
+  summarise(ntrials = n()) %>%
+  filter(ntrials != 36)
+
+nonsense_pairs <- subj_data %>%
+  group_by(adjective, noun) %>%
+  tally(rating == 8) %>%
+  filter(n >= 2) %>%
+  mutate(adj_noun_phrase = paste(adjective, noun, sep = " "))
+
+subj_data <- subj_data %>%
+  mutate(adj_noun_phrase = paste(adjective, noun, sep = " ")) %>%
+  filter(!(adj_noun_phrase %in% nonsense_pairs$adj_noun_phrase),
+         rating != 8)
+
+mean_ratings <- subj_data %>%
+  group_by(adjective, noun) %>%
+  summarise(mean_typ = mean(rating)) %>%
+  ungroup()
+
+subj_reliability <- subj_data %>%
+  group_by(adjective, noun) %>%
+  reframe(rating = rating, rating_n = paste0("rating_", 1:n())) %>%
+  pivot_wider(values_from = "rating", names_from = "rating_n") %>%
+  rowwise() %>%
+  mutate(mean_1 = mean(c(rating_2, rating_3, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_2 = mean(c(rating_1, rating_3, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_3 = mean(c(rating_1, rating_2, rating_4, rating_5, rating_6), na.rm = TRUE),
+         mean_4 = mean(c(rating_1, rating_2, rating_3, rating_5, rating_6), na.rm = TRUE),
+         mean_5 = mean(c(rating_1, rating_2, rating_3, rating_4, rating_6), na.rm = TRUE),
+         mean_6 = mean(c(rating_1, rating_2, rating_3, rating_4, rating_5), na.rm = TRUE)) %>%
+  ungroup()
+
+```
+
+```{r read-corpora}
+all_corpora <- read_csv(here("../data/all_corpora_adj_noun_utts_redacted.csv")) %>%
+  mutate(adj_noun = paste(adj_lower, noun_lemma, sep = " ")) %>%
+  filter(adj_noun %in% most_typicals$adj_noun)
+
+orig_tokens <- read_csv(here("../data/ldp_cabnc_pairs_all_info.csv"))
+
+ldp <- all_corpora %>%
+  filter(dataset != "cabnc_utts_udpipe")
+
+all_corpus_counts <- all_corpora %>%
+  left_join(orig_tokens, by = c("adj_token" = "adj", "noun_token" = "noun_orig")) %>%
+  rename(adjective = adj_token) %>%
+  count(adjective, noun) %>%
+  ungroup()
+
+cabnc <- all_corpora %>%
+  filter(dataset == "cabnc_utts_udpipe") %>%
+  left_join(orig_tokens, by = c("adj_token" = "adj", "noun_token" = "noun_orig")) %>%
+  rename(adjective = adj_token) %>%
+  select(doc_id, noun_token, adjective, noun, prenominal, 
+         dataset, mass, adj_article, 
+         article, adj_token_id, noun_token_id) %>%
+  left_join(mean_ratings, by = c("adjective", "noun")) %>%
+  rename(mean_rating = mean_typ) %>%
+  filter(!is.na(mean_rating))
+
+
+# NOTE: actual utterances from LDP are redacted for data sharing 
+  # to preserve anonymity while sharing as much as possible
+ldp_coded <- all_corpora %>%
+  filter(dataset %in% c("ldp_parent_utts_udpipe", "ldp_child_utts_udpipe")) %>%
+  left_join(orig_tokens, by = c("adj_token" = "adj", "noun_token" = "noun_orig")) %>%
+  mutate(adjective = adj_token) %>%
+  select(doc_id, noun_token, adjective, noun, prenominal, 
+         dataset, mass, adj_article,adj_token, 
+         article, adj_token_id, noun_token_id, subject, session, person) %>%
+  left_join(mean_ratings, by = c("adjective", "noun")) %>%
+  rename(mean_rating = mean_typ) %>%
+  mutate(age = (4*session + 10)) %>%
+  filter(!is.na(mean_rating))
+```
+
+```{r}
+ldp_coded %>%
+  filter(person == "parent") %>%
+  mutate(corpus = "Parent speech") %>%
+  select(adjective, noun, mean_rating, corpus) %>%
+  bind_rows(cabnc %>% mutate(corpus = "Adult-adult speech") %>% 
+              select(adjective, noun, mean_rating, corpus)) %>%
+  mutate(typicality=mean_rating) %>%
+  ggplot(aes(x = typicality)) +
+  geom_density(fill="cornsilk") +
+  xlab("More Atypical                   More Typical \n Typicality of adjective-noun pairs") +
+  geom_vline(xintercept = 4, size=1, linetype="solid")+
+  facet_wrap(~corpus, ncol = 1) +
+  theme_few() +
+  theme(#panel.grid = element_line(color="lightgrey",size=0.5), 
+    axis.line = element_line(colour = "black"),
+    axis.ticks = element_line(),
+    axis.text.x = element_text(size=11, angle=28, hjust=1),
+    axis.text.y = element_text(size=11),
+    legend.position = "none") +
+  scale_x_continuous(minor_breaks = seq(1 , 7, 1), breaks = seq(1, 7, 1), labels = c('never', 'rarely', 'sometimes', 'about half', 'often', 'almost always', 'always')) +
+  scale_y_continuous(minor_breaks = seq(14, 58, 4), breaks = seq(14, 58, 4)) +
+  theme(
+    strip.background =element_rect(fill="transparent"),
+    panel.background = element_rect(fill = "transparent"), # bg of the panel
+    plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+    panel.grid.major = element_blank(), # get rid of major grid
+    panel.grid.minor = element_blank(), # get rid of minor grid
+    legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+    legend.box.background = element_rect(fill = "transparent"), # get rid of legend panel bg
+    legend.key = element_rect(fill = "transparent", colour = NA), # get rid of key legend fill, and of the surrounding
+    axis.line = element_line(colour = "black") # adding a black line for x and y axis
+)
+```
+```{r distribution-plot, fig.align = "center", fig.width=3.4, fig.height = 5.4, fig.cap = "Density plots showing parents' use of atypical and typical adjective-noun pairs across their child's age.", fig.pos="tb"}
+ldp_coded %>%
+  filter(person == "parent") %>%
+  mutate(typicality=mean_rating) %>%
+  group_by(session) %>%
+  mutate(age = min(age)) %>%
+  ggplot(aes(x = typicality, y=age, group=age, fill=age)) +
+  geom_density_ridges2() +
+  ylab("Child Age (months)") +
+  xlab("More Atypical                   More Typical \n Typicality of adjective-noun pairs") +
+  geom_vline(xintercept = 4, size=1, linetype="solid")+
+  scale_fill_gradient(low="cornsilk", high=muted("red")) +
+  theme_few() +
+  theme(#panel.grid = element_line(color="lightgrey",size=0.5), 
+    axis.line = element_line(colour = "black"),
+    axis.ticks = element_line(),
+    axis.text.x = element_text(size=11, angle=28, hjust=1),
+    axis.text.y = element_text(size=11),
+    legend.position = "none") +
+  scale_x_continuous(minor_breaks = seq(1 , 7, 1), breaks = seq(1, 7, 1), labels = c('never', 'rarely', 'sometimes', 'about half', 'often', 'almost always', 'always')) +
+  scale_y_continuous(minor_breaks = seq(14, 58, 4), breaks = seq(14, 58, 4)) +
+  theme(
+    strip.background =element_rect(fill="transparent"),
+    panel.background = element_rect(fill = "transparent"), # bg of the panel
+    plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+    panel.grid.major = element_blank(), # get rid of major grid
+    panel.grid.minor = element_blank(), # get rid of minor grid
+    legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+    legend.box.background = element_rect(fill = "transparent"), # get rid of legend panel bg
+    legend.key = element_rect(fill = "transparent", colour = NA), # get rid of key legend fill, and of the surrounding
+    axis.line = element_line(colour = "black") # adding a black line for x and y axis
+)
+```
+
+
+
+```{r compute_prototypicals}
+parent_typical_ratings <- ldp_coded %>%
+  filter(person == "parent") %>%
+  group_by(age, adjective, noun, mean_rating) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(typical = mean_rating >= 5)
+
+typicals_parent <- ldp_coded %>%
+  filter(person == "parent") %>%
+  group_by(age, adjective, noun, mean_rating) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(typical = mean_rating >= 5) %>%
+  group_by(age, typical) %>%
+  summarise(weighted_sum = sum(n), sum = n()) %>%
+  pivot_longer(cols = c(sum, weighted_sum), names_to = "measure", values_to = "sum") %>%
+  group_by(age, measure) %>%
+  mutate(prop = sum / sum(sum)) %>%
+  filter(typical)
+
+typicals_cabnc <- cabnc %>%
+  group_by(adjective, noun, mean_rating) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(typical = mean_rating >= 5) %>%
+  group_by(typical) %>%
+  summarise(weighted_sum = sum(n), sum = n()) %>%
+  pivot_longer(cols = c(sum, weighted_sum), names_to = "measure", values_to = "sum") %>%
+  group_by(measure) %>%
+  mutate(prop = sum / sum(sum)) %>%
+  filter(typical)
+
+
+typical_type_lmer <- glmer(typical ~ log(age) + (1|noun), 
+                      data = parent_typical_ratings, 
+     family = "binomial") %>% 
+  tidy() %>%
+  filter(effect == "fixed")
+
+typical_token_lmer <- glmer(typical ~ log(age) + (1|noun), 
+                      data = parent_typical_ratings, 
+                      weights = n,
+     family = "binomial") %>% 
+  tidy() %>%
+  filter(effect == "fixed")
+```
+```{r typical-effects}
+typical_effect <- typical_token_lmer %>% filter(term == "log(age)") %>%
+  pull(estimate)
+typical_statistic <- typical_token_lmer %>% filter(term == "log(age)") %>% 
+  pull(statistic)
+typical_p <- typical_token_lmer %>% filter(term == "log(age)") %>% 
+  pull(p.value) %>% printp()
+```
+
+
