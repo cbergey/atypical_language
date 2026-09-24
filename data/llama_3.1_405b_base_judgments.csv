@@ -1,0 +1,4780 @@
+adjective,noun,article,adj_article,llama_405b_base_judgment
+fat,hen,a,a,never
+castle,puzzle,a,a,about half the time
+red,hexagon,a,a,about half the time
+red,dog,a,a,never
+glazed,window,a,a,almost always
+horned,viper,a,a,never
+round,body,a,a,about half the time
+coral,reef,a,a,often
+girl,glass,a,a,never
+pipe,cover,a,a,never
+elephant,mommy,a,an,always
+smiley,cake,a,a,never
+yellow,slab,a,a,always
+top,buckle,a,a,almost always
+green,suit,a,a,rarely
+green,chain,a,a,never
+purple,scissors,,,never
+purple,circle,a,a,never
+roast,marshmallow,a,a,rarely
+cookie,sheet,a,a,almost always
+street,corner,a,a,never
+bath,tile,a,a,often
+yellow,belt,a,a,never
+green,horse,a,a,rarely
+bed,breakfast,a,a,never
+woolly,sheep,a,a,about half the time
+bald,head,a,a,almost always
+brown,stick,a,a,almost always
+bridge,piece,a,a,about half the time
+giant,fish,a,a,never
+colored,ring,a,a,sometimes
+farm,vehicle,a,a,never
+yellow,zucchini,a,a,never
+strawberry,oatmeal,,,never
+garlic,powder,,,never
+wooden,train,a,a,almost always
+orange,pumpkin,a,an,almost always
+pumpkin,face,a,a,always
+toy,basket,a,a,never
+outside,room,a,an,never
+earth,worm,a,an,about half the time
+fat,body,a,a,rarely
+bite,mark,a,a,never
+snow,tire,a,a,rarely
+red,bag,a,a,rarely
+bright,light,a,a,always
+football,game,a,a,always
+navy,stripe,a,a,almost always
+ear,ring,a,an,never
+room,door,a,a,always
+puzzle,piece,a,a,about half the time
+dark,screen,a,a,almost always
+bear,mask,a,a,about half the time
+blood,test,a,a,about half the time
+orange,necklace,a,an,never
+pee,diaper,a,a,about half the time
+apple,head,a,an,never
+room,suite,a,a,always
+strawberry,sauce,,,never
+dictionary,publisher,a,a,about half the time
+giant,sandwich,a,a,rarely
+riding,toy,a,a,never
+purple,truck,a,a,almost always
+baby,pool,a,a,rarely
+green,leaf,a,a,never
+back,side,a,a,often
+wet,shoe,a,a,rarely
+turkey,sty,a,a,never
+fridge,magnet,a,a,often
+yellow,costume,a,a,always
+gas,cooker,a,a,about half the time
+mother,alligator,an,a,sometimes
+oval,triangle,a,an,never
+green,tomato,a,a,never
+red,horse,a,a,rarely
+light,switch,a,a,about half the time
+dead,ornament,an,a,always
+pigeon,shit,,,never
+apple,slice,a,an,sometimes
+wet,girl,a,a,never
+candy,machine,a,a,rarely
+jam,pot,a,a,about half the time
+lighting,hallway,a,a,often
+music,toy,a,a,never
+kitchen,counter,a,a,about half the time
+green,slide,a,a,rarely
+steam,shovel,a,a,almost always
+baby,hippo,a,a,always
+carrot,stick,a,a,never
+sleeve,shirt,a,a,never
+goods,shop,a,a,always
+file,drawer,a,a,about half the time
+dirty,daddy,a,a,almost always
+solid,smack,a,a,never
+balloon,streamer,a,a,almost always
+foot,length,a,a,sometimes
+dead,skin,,,always
+sidewalk,chalk,,,rarely
+fat,bunny,a,a,sometimes
+apple,tea,,,always
+dirty,foot,a,a,almost always
+record,run,a,a,always
+seaside,cart,a,a,often
+round,globe,a,a,always
+purple,onion,an,a,rarely
+red,cookie,a,a,never
+school,teacher,a,a,about half the time
+dirty,water,,,always
+curling,brush,a,a,never
+girl,kiss,a,a,never
+brown,dirt,,,never
+circus,tent,a,a,rarely
+hot,macaroni,,,rarely
+dark,green,,,often
+cinnamon,stick,a,a,rarely
+ham,salad,a,a,never
+roast,lamb,a,a,never
+school,girl,a,a,always
+crispy,worm,a,a,never
+gold,weaver,a,a,sometimes
+yellow,hoop,a,a,rarely
+honey,pie,a,a,rarely
+pencil,show,a,a,always
+arrow,sign,a,an,almost always
+track,suit,a,a,never
+train,gate,a,a,never
+red,notebook,a,a,rarely
+oak,chest,a,an,rarely
+navy,skirt,a,a,about half the time
+pink,robe,a,a,never
+thick,eyelash,an,a,rarely
+slide,leg,a,a,almost always
+cellar,door,a,a,about half the time
+maple,bar,a,a,never
+motorway,bridge,a,a,never
+cardboard,box,a,a,almost always
+freezing,road,a,a,never
+orange,tea,,,rarely
+statue,toy,a,a,never
+crispy,brown,,,often
+web,shooter,a,a,almost always
+purple,bed,a,a,never
+wastepaper,basket,a,a,often
+snow,leopard,a,a,rarely
+back,flip,a,a,almost always
+purple,cup,a,a,never
+peach,juice,,,sometimes
+sweet,chocolate,,,almost always
+dark,line,a,a,always
+brown,egg,an,a,never
+train,ride,a,a,rarely
+red,room,a,a,almost always
+red,coral,,,about half the time
+dirty,tissue,a,a,almost always
+orange,glasses,,,never
+orange,tube,a,an,never
+explorer,suit,a,an,sometimes
+glass,table,a,a,rarely
+colored,paper,a,a,never
+trash,truck,a,a,never
+fuzzy,slipper,a,a,often
+bottom,tooth,a,a,never
+girl,bed,a,a,never
+tennis,court,a,a,always
+boxing,glove,a,a,never
+hot,mom,a,a,about half the time
+feather,mattress,a,a,rarely
+jelly,fish,a,a,about half the time
+tonic,water,,,never
+dirty,bowl,a,a,almost always
+dolphin,family,a,a,never
+stroller,toy,a,a,always
+green,tail,a,a,never
+silver,bell,a,a,almost always
+red,flag,a,a,rarely
+tattoo,heart,a,a,never
+hot,water,,,sometimes
+baby,penguin,a,a,rarely
+dress,piece,a,a,sometimes
+smiley,guy,a,a,rarely
+hot,pepper,a,a,often
+farm,tractor,a,a,always
+curly,tail,a,a,always
+oatmeal,pie,a,an,never
+green,jacket,a,a,often
+back,porch,a,a,about half the time
+thick,canopy,a,a,almost always
+green,vegetable,a,a,always
+purple,cat,a,a,never
+dead,mommy,a,a,rarely
+baby,elephant,an,a,never
+bottom,lip,a,a,never
+bird,cage,a,a,almost always
+thick,clip,a,a,never
+kitty,cat,a,a,always
+office,phone,a,an,rarely
+bottom,row,a,a,always
+brown,spot,a,a,never
+sun,lotion,,,never
+yellow,bill,a,a,never
+brown,bear,a,a,often
+garbage,can,a,a,almost always
+rice,cake,a,a,about half the time
+dancing,bud,a,a,about half the time
+hot,air,,,rarely
+wooden,puzzle,a,a,rarely
+piano,piece,a,a,always
+yellow,hair,,,rarely
+bear,mama,a,a,about half the time
+pink,eyeball,an,a,never
+smiley,girl,a,a,often
+quarter,cup,a,a,rarely
+cum,store,a,a,almost always
+marine,tank,a,a,almost always
+teacher,day,a,a,sometimes
+green,edge,an,a,about half the time
+paint,can,a,a,about half the time
+night,gown,a,a,about half the time
+cartoon,ring,a,a,always
+ski,pants,,,rarely
+green,beard,a,a,never
+sugar,snack,a,a,often
+soup,kitchen,a,a,never
+queen,crab,a,a,never
+snow,book,a,a,never
+hot,bowl,a,a,sometimes
+turtle,shell,a,a,never
+night,dress,a,a,about half the time
+snow,dog,a,a,never
+dish,cloth,a,a,never
+cylinder,gas,,,often
+baby,stroller,a,a,always
+cursive,letter,a,a,sometimes
+yellow,dragon,a,a,rarely
+grape,fruit,a,a,almost always
+red,sweet,a,a,sometimes
+green,scooter,a,a,rarely
+yellow,duckling,a,a,never
+orange,sticker,a,an,rarely
+dirty,crayon,a,a,rarely
+stone,cup,a,a,never
+gold,ticket,a,a,almost always
+girl,hood,a,a,often
+giant,shadow,a,a,never
+concrete,driveway,a,a,rarely
+purple,dinosaur,a,a,never
+cereal,box,a,a,always
+moon,game,a,a,rarely
+girl,colors,a,a,never
+burnt,charcoal,,,never
+train,station,a,a,almost always
+boy,sock,a,a,sometimes
+wood,window,a,a,never
+green,triceratops,a,a,about half the time
+thick,model,a,a,sometimes
+bottom,stair,a,a,never
+kettle,drum,a,a,rarely
+baby,bunny,a,a,always
+closet,door,a,a,about half the time
+brown,bread,,,almost always
+corn,fan,a,a,almost always
+pink,noodle,a,a,rarely
+purple,bunny,a,a,never
+chip,cookie,a,a,about half the time
+green,airplane,an,a,never
+corner,house,a,a,sometimes
+bottom,cupboard,a,a,never
+poison,berry,a,a,rarely
+plastic,bottle,a,a,almost always
+pink,bubblegum,,,always
+yellow,pants,,,rarely
+cell,phone,a,a,almost always
+yellow,overalls,,,rarely
+fruit,sherry,,,often
+cellar,key,a,a,rarely
+tire,swing,a,a,sometimes
+mommy,squirrel,a,a,never
+round,case,a,a,never
+baby,food,,,never
+night,armadillo,an,a,often
+orange,box,a,an,never
+back,alley,an,a,almost always
+paper,cup,a,a,rarely
+pound,note,a,a,almost always
+vegetable,salad,a,a,about half the time
+college,lecturer,a,a,almost always
+yellow,submarine,a,a,always
+bunny,rabbit,a,a,always
+water,board,a,a,never
+ear,infection,an,an,almost always
+baby,piggy,a,a,rarely
+pecan,cluster,a,a,never
+yellow,man,a,a,never
+green,jungle,a,a,always
+broken,bag,a,a,always
+nail,polish,,,always
+dead,fish,a,a,almost always
+pregnant,person,a,a,rarely
+thick,wood,,,sometimes
+sea,green,,,often
+carrot,peel,a,a,never
+yarn,basket,a,a,sometimes
+walk,path,a,a,often
+purple,star,a,a,never
+eight,piece,a,an,never
+bed,sheet,a,a,often
+pill,box,a,a,never
+blackberry,patch,a,a,never
+fuzzy,teddy,a,a,almost always
+red,color,a,a,always
+hind,leg,a,a,often
+jungle,gym,a,a,never
+dirty,player,a,a,never
+curtain,window,a,a,always
+cigar,smoke,,,rarely
+baby,boy,a,a,always
+orange,sweater,a,an,rarely
+fudge,sundae,a,a,often
+knitting,basket,a,a,rarely
+water,melon,a,a,almost always
+garlic,bread,,,rarely
+pole,light,a,a,never
+brown,syrup,,,always
+crispy,patty,a,a,never
+crescent,moon,a,a,about half the time
+gun,guard,a,a,never
+bingo,game,a,a,sometimes
+marble,arch,an,a,almost always
+toy,train,a,a,sometimes
+dead,puppy,a,a,never
+red,clay,,,rarely
+silky,blanket,a,a,never
+door,valve,a,a,rarely
+plant,root,a,a,always
+mommy,fish,a,a,rarely
+pirate,flag,a,a,rarely
+broken,balloon,a,a,never
+bright,orange,an,a,always
+red,scissors,,,rarely
+egg,soup,,,never
+fish,aquarium,an,a,often
+clothes,basket,a,a,never
+garden,tool,a,a,sometimes
+sleep,walk,a,a,never
+blood,cell,a,a,always
+baby,ostrich,an,a,always
+dinner,table,a,a,often
+purple,noodle,a,a,never
+cast,iron,an,a,always
+cry,baby,a,a,always
+baby,sheep,a,a,never
+green,room,a,a,sometimes
+grey,boot,a,a,often
+pink,yogurt,,,never
+pirate,movie,a,a,rarely
+pink,shoe,a,a,rarely
+wooden,hammer,a,a,never
+pet,toy,a,a,rarely
+frozen,bean,a,a,never
+fat,elephant,an,a,never
+dogs,biscuit,a,a,sometimes
+hot,coffee,,,almost always
+purple,lipstick,,,rarely
+stew,pot,a,a,sometimes
+brown,table,a,a,often
+jellyfish,family,a,a,never
+sleeping,bag,a,a,sometimes
+hot,piggy,a,a,always
+multicolored,sign,a,a,never
+dog,poop,,,about half the time
+farm,movie,a,a,never
+green,hat,a,a,rarely
+green,flag,a,a,never
+navy,coat,a,a,often
+microwave,lid,a,a,always
+flat,roof,a,a,sometimes
+green,park,a,a,always
+red,stair,a,a,never
+path,hedge,a,a,often
+plastic,track,a,a,never
+dirty,banana,a,a,always
+alphabet,block,a,an,always
+baby,parrot,a,a,always
+train,car,a,a,never
+purple,snail,a,a,never
+green,zebra,a,a,always
+horse,manure,,,never
+yellow,cake,a,a,often
+music,book,a,a,never
+carrot,cake,a,a,rarely
+rolling,pin,a,a,often
+yellow,top,a,a,rarely
+giant,frog,a,a,about half the time
+wooden,stick,a,a,almost always
+dark,flower,a,a,never
+home,county,a,a,rarely
+green,book,a,a,never
+dirty,cave,a,a,always
+pink,skirt,a,a,rarely
+fat,mama,a,a,never
+green,dog,a,a,never
+cookie,bake,a,a,rarely
+alphabet,puzzle,a,an,rarely
+garden,shed,a,a,about half the time
+night,crawler,a,a,sometimes
+orange,pop,a,an,never
+pop,corn,a,a,never
+ox,tail,a,an,never
+pound,hammer,a,a,always
+heart,attack,an,a,rarely
+brown,shoe,a,a,sometimes
+jaw,bone,a,a,rarely
+red,lobster,a,a,always
+cracker,box,a,a,rarely
+green,thumb,a,a,rarely
+wig,hair,,,never
+caramel,sauce,,,rarely
+curly,head,a,a,rarely
+wet,grandpa,a,a,almost always
+slope,test,a,a,sometimes
+baby,panda,a,a,always
+gas,fire,,,often
+boy,tooth,a,a,never
+yellow,handle,a,a,never
+marble,roll,a,a,never
+twin,deck,a,a,never
+potty,sticker,a,a,never
+orange,plant,a,an,almost always
+coffee,machine,a,a,sometimes
+jelly,container,a,a,about half the time
+round,pumpkin,a,a,never
+body,puppet,a,a,never
+daddy,waffle,a,a,never
+giant,dump,a,a,never
+lobster,hat,a,a,never
+outside,world,a,an,always
+yellow,chicken,a,a,always
+bean,ball,a,a,rarely
+red,ice,,,never
+farm,shop,a,a,rarely
+garlic,salt,,,never
+pink,honey,,,never
+weenie,firefly,a,a,sometimes
+fat,tummy,a,a,always
+cloud,smoke,,,never
+car,boot,a,a,always
+phone,line,a,a,never
+art,advisor,an,an,sometimes
+top,molar,a,a,about half the time
+wrapping,paper,a,a,never
+road,sign,a,a,about half the time
+hand,drive,a,a,about half the time
+bloody,nose,a,a,rarely
+baby,bottle,a,a,rarely
+yellow,lip,a,a,sometimes
+pink,shorts,,,rarely
+fire,alarm,an,a,rarely
+north,pole,a,a,always
+dog,mama,a,a,always
+wiggle,dancing,,,never
+examination,board,a,an,about half the time
+bull,ant,an,a,never
+brown,cap,a,a,never
+kid,ride,a,a,almost always
+yellow,ball,a,a,never
+man,book,a,a,almost always
+door,bell,a,a,often
+dart,board,a,a,almost always
+puppet,baby,a,a,rarely
+dinner,break,a,a,about half the time
+granite,horse,a,a,always
+chest,plate,a,a,never
+record,case,a,a,almost always
+whale,hat,a,a,never
+mommy,daddy,a,a,almost always
+dinosaur,skull,a,a,never
+tree,farm,a,a,rarely
+orange,kitty,a,an,sometimes
+clown,nose,a,a,never
+potty,break,a,a,never
+bread,basket,a,a,often
+giraffe,leg,a,a,never
+fat,squirrel,a,a,rarely
+fish,guts,,,almost always
+bubble,soap,,,never
+fuzzy,creature,a,a,always
+basket,ball,a,a,sometimes
+red,wagon,a,a,often
+matchbox,car,a,a,sometimes
+jungle,ride,a,a,never
+quiz,game,a,a,rarely
+colored,green,,,always
+gold,ring,a,a,rarely
+paint,drip,a,a,never
+wet,slab,a,a,never
+green,blanket,a,a,never
+oil,filter,a,an,never
+tan,car,a,a,never
+green,grasshopper,a,a,never
+bowling,ball,a,a,rarely
+hot,tap,a,a,about half the time
+onion,ring,a,an,rarely
+petrol,account,an,a,about half the time
+thistle,patch,a,a,almost always
+dirty,mommy,a,a,never
+bright,picture,a,a,always
+picture,book,a,a,never
+step,stool,a,a,almost always
+tree,branch,a,a,never
+apple,cookie,a,an,never
+bar,staff,,,about half the time
+rock,crowd,a,a,always
+dirty,bottom,a,a,always
+bug,lift,a,a,rarely
+onion,gravy,,,never
+skirt,stain,a,a,never
+green,grape,a,a,sometimes
+night,sky,a,a,about half the time
+solid,feed,,,always
+sky,diving,,,always
+pirate,hat,a,a,rarely
+giant,pillow,a,a,sometimes
+green,side,a,a,always
+green,shirt,a,a,sometimes
+pink,mirror,a,a,never
+red,ear,an,a,never
+blowing,bubble,a,a,never
+grey,coat,a,a,never
+giant,octopus,an,a,rarely
+dwarf,tree,a,a,never
+slippery,balloon,a,a,always
+baby,pumpkin,a,a,never
+jelly,sandwich,a,a,sometimes
+octopus,video,a,an,always
+hill,track,a,a,about half the time
+fuzzy,pants,,,almost always
+spider,web,a,a,almost always
+pony,ride,a,a,rarely
+card,table,a,a,about half the time
+giant,bean,a,a,almost always
+song,book,a,a,rarely
+art,school,a,an,never
+head,office,an,a,rarely
+tire,mold,a,a,rarely
+bear,sleeping,,,about half the time
+ice,cube,a,an,never
+dead,fly,a,a,often
+dog,sticker,a,a,never
+food,coloring,,,rarely
+apple,farm,a,an,never
+bedroom,bathroom,a,a,never
+sweet,drink,a,a,never
+hot,egg,an,a,rarely
+beach,token,a,a,almost always
+brown,basket,a,a,often
+candy,corn,a,a,sometimes
+library,book,a,a,never
+train,track,a,a,about half the time
+orange,wall,a,an,never
+nylon,shirt,a,a,sometimes
+purple,pepperoni,,,never
+muscle,tissue,a,a,almost always
+outside,line,a,an,often
+blind,mouse,a,a,never
+coral,piece,a,a,never
+key,board,a,a,never
+water,filter,a,a,often
+root,beer,a,a,never
+turkey,chip,a,a,never
+grocery,store,a,a,almost always
+back,seat,a,a,almost always
+lemon,skin,,,never
+fly,ball,a,a,always
+purple,baby,a,a,never
+plastic,piece,a,a,never
+elephant,parade,a,an,rarely
+purple,collar,a,a,never
+brown,shirt,a,a,never
+outside,lane,a,an,never
+elephant,ear,an,an,never
+paper,plate,a,a,sometimes
+solar,shop,a,a,never
+coat,hanger,a,a,never
+comb,brooch,a,a,rarely
+lighter,purple,,,sometimes
+metal,plate,a,a,never
+country,mansion,a,a,often
+dolly,house,a,a,never
+elephant,fly,a,an,never
+green,bird,a,a,never
+red,squirrel,a,a,often
+candy,cane,a,a,rarely
+fat,man,a,a,sometimes
+sewing,machine,a,a,about half the time
+tobacco,tin,a,a,about half the time
+fuzzy,hair,,,never
+green,man,a,a,never
+green,ear,an,a,never
+ground,floor,a,a,always
+red,dress,a,a,rarely
+stair,carpet,a,a,never
+chicken,wing,a,a,often
+dancing,shoe,a,a,sometimes
+yellow,helicopter,a,a,never
+wet,ball,a,a,never
+pink,oval,an,a,never
+mommy,lion,a,a,about half the time
+green,guy,a,a,never
+bank,note,a,a,about half the time
+mulberry,tree,a,a,rarely
+orange,corner,a,an,about half the time
+dog,person,a,a,almost always
+furry,tail,a,a,often
+dead,one,a,a,sometimes
+red,crayon,a,a,sometimes
+bright,shirt,a,a,never
+dark,eye,an,a,almost always
+fish,puzzle,a,a,never
+hot,shit,,,never
+green,crayon,a,a,sometimes
+circus,train,a,a,never
+loaf,pan,a,a,rarely
+brown,hill,a,a,never
+blond,boy,a,a,sometimes
+stone,letter,a,a,never
+dirty,basement,a,a,about half the time
+burnt,cookie,a,a,never
+star,sticker,a,a,never
+bedroom,house,a,a,always
+cloth,mum,a,a,rarely
+pea,pod,a,a,rarely
+cargo,car,a,a,sometimes
+clothes,furnishing,,,never
+dish,washer,a,a,almost always
+cut,apple,an,a,rarely
+tape,measure,a,a,never
+red,bin,a,a,never
+yellow,skull,a,a,never
+thick,piece,a,a,never
+potato,pie,a,a,often
+explorer,guy,a,an,almost always
+red,coat,a,a,always
+plastic,toy,a,a,often
+quarry,tile,a,a,almost always
+puppet,stage,a,a,never
+thick,mud,,,about half the time
+table,cloth,a,a,about half the time
+baby,blanket,a,a,sometimes
+square,face,a,a,never
+fruit,machine,a,a,rarely
+smooch,dance,a,a,about half the time
+outside,house,a,an,always
+hair,cap,a,a,never
+purple,dog,a,a,never
+tooth,fairy,a,a,about half the time
+wet,pants,,,rarely
+flat,side,a,a,always
+green,lawn,a,a,almost always
+salty,egg,an,a,never
+peach,material,a,a,never
+thick,loaf,a,a,never
+fat,lady,a,a,never
+letter,puzzle,a,a,often
+chocolate,chip,a,a,never
+pink,tongue,a,a,often
+red,nose,a,a,rarely
+green,ball,a,a,rarely
+hot,tub,a,a,sometimes
+gingerbread,recipe,a,a,never
+drawing,table,a,a,rarely
+red,marker,a,a,about half the time
+gas,pipe,a,a,rarely
+giant,present,a,a,rarely
+dark,forest,a,a,always
+purple,block,a,a,almost always
+orange,suit,a,an,never
+yellow,guitar,a,a,rarely
+shoe,room,a,a,never
+grey,suite,a,a,about half the time
+chocolate,eclair,an,a,never
+stamp,pad,a,a,never
+bagel,dog,a,a,never
+tree,frog,a,a,rarely
+sugar,bowl,a,a,never
+moist,soil,,,never
+kitchen,floor,a,a,never
+jelly,doughnut,a,a,rarely
+hot,bath,a,a,almost always
+pink,square,a,a,never
+hot,fry,a,a,rarely
+color,sand,,,sometimes
+rock,music,,,about half the time
+flower,stem,a,a,often
+yellow,ring,a,a,rarely
+north,king,a,a,never
+baby,room,a,a,rarely
+pirate,sword,a,a,almost always
+pencil,sharpener,a,a,always
+oval,face,a,an,almost always
+door,grill,a,a,never
+navy,shorts,,,always
+children,adult,an,a,never
+building,downtown,a,a,about half the time
+town,dump,a,a,always
+yellow,barrel,a,a,never
+stall,light,a,a,almost always
+elephant,ride,a,an,often
+pink,rake,a,a,rarely
+sheet,side,a,a,never
+breast,lump,a,a,about half the time
+red,house,a,a,rarely
+bottom,piece,a,a,never
+tooth,paste,a,a,often
+carpet,shampoo,,,never
+grease,mark,a,a,sometimes
+orange,frosting,,,rarely
+camera,eye,an,a,rarely
+hot,lava,,,always
+butterfly,catcher,a,a,often
+metal,bath,a,a,rarely
+rubber,band,a,a,never
+leaf,cake,a,a,never
+green,bug,a,a,sometimes
+green,airship,an,a,never
+green,ring,a,a,never
+wooden,board,a,a,almost always
+lacing,piece,a,a,never
+rabbit,hole,a,a,rarely
+broken,ride,a,a,never
+purple,raindrop,a,a,never
+hot,tray,a,a,rarely
+letter,block,a,a,almost always
+plastic,ball,a,a,often
+fly,swatter,a,a,always
+toy,lizard,a,a,never
+daddy,crown,a,a,sometimes
+green,marble,a,a,always
+wet,kiss,a,a,never
+lunch,box,a,a,about half the time
+sweet,tooth,a,a,never
+bottom,bunk,a,a,about half the time
+dinosaur,foot,a,a,never
+elephant,trunk,a,an,always
+pink,kitty,a,a,never
+apple,butter,,,rarely
+green,flower,a,a,never
+bed,room,a,a,sometimes
+building,block,a,a,almost always
+ball,tent,a,a,never
+daddy,hand,a,a,always
+street,lighting,,,always
+yellow,stripe,a,a,rarely
+pink,chair,a,a,never
+grocery,cart,a,a,often
+gingerbread,man,a,a,often
+food,container,a,a,sometimes
+flower,pants,,,never
+wheat,flour,,,often
+brown,penny,a,a,never
+purple,animal,an,a,never
+flower,tree,a,a,never
+lemon,juice,,,about half the time
+yellow,room,a,a,rarely
+daddy,hippo,a,a,never
+road,license,a,a,never
+juice,drop,a,a,never
+washing,line,a,a,rarely
+purple,present,a,a,never
+girl,mommy,a,a,always
+hair,dryer,a,a,almost always
+mommy,goat,a,a,almost always
+sweet,tasting,a,a,never
+red,controller,a,a,almost always
+juicy,pear,a,a,never
+brown,cow,a,a,often
+garden,chair,a,a,rarely
+broken,toenail,a,a,rarely
+saucepan,spoon,a,a,never
+animal,fat,,,often
+page,moderator,a,a,always
+icecream,maker,a,an,about half the time
+snow,seal,a,a,often
+paper,model,a,a,never
+king,man,a,a,rarely
+monkey,bar,a,a,rarely
+curly,string,a,a,almost always
+bubble,wand,a,a,almost always
+pink,color,a,a,never
+purple,diamond,a,a,rarely
+tightrope,walker,a,a,rarely
+attic,room,a,an,never
+red,flower,a,a,often
+thick,hair,,,sometimes
+burnt,toast,,,sometimes
+red,heart,a,a,never
+color,marker,a,a,sometimes
+screen,door,a,a,never
+baby,piglet,a,a,never
+popsicle,stick,a,a,almost always
+pet,store,a,a,rarely
+hotel,breakfast,a,a,always
+light,saber,a,a,about half the time
+world,sea,a,a,never
+violet,light,a,a,never
+ice,hockey,,,always
+brass,wire,a,a,rarely
+purple,bag,a,a,rarely
+purple,sock,a,a,never
+country,air,,,almost always
+meatball,dinner,a,a,often
+back,door,a,a,sometimes
+mommy,shoe,a,a,never
+round,pond,a,a,almost always
+fax,machine,a,a,never
+wax,paper,a,a,rarely
+daddy,bug,a,a,sometimes
+sweat,pants,,,sometimes
+plastic,cupboard,a,a,never
+drawing,board,a,a,never
+red,cup,a,a,never
+baby,toy,a,a,often
+air,plane,a,an,always
+dragon,boy,a,a,about half the time
+picnic,food,,,rarely
+green,worktop,a,a,never
+tom,cat,a,a,about half the time
+barn,door,a,a,rarely
+dirty,clothes,,,often
+sea,food,,,sometimes
+pile,driver,a,a,never
+dirty,basket,a,a,about half the time
+plastic,train,a,a,always
+square,net,a,a,never
+fax,phone,a,a,never
+music,instrument,an,a,always
+timber,fencing,,,almost always
+green,color,a,a,never
+apple,snack,a,an,never
+chocolate,raisin,a,a,never
+goldfish,soup,,,never
+flaming,shake,a,a,never
+cherry,popsicle,a,a,rarely
+top,corner,a,a,never
+crocodile,dinner,a,a,never
+sweet,violet,a,a,never
+toilet,handle,a,a,never
+karate,kick,a,a,always
+red,panda,a,a,never
+bunny,sleeping,,,about half the time
+baby,exercise,an,a,never
+purple,trunk,a,a,never
+brown,circle,a,a,never
+petrol,station,a,a,rarely
+sweet,hay,,,always
+fish,pond,a,a,often
+pop,guns,a,a,never
+caravan,season,a,a,rarely
+kids,dance,a,a,never
+holly,wreath,a,a,almost always
+thistle,spud,a,a,sometimes
+student,bar,a,a,sometimes
+hot,oven,an,a,always
+clothes,line,a,a,rarely
+pumpkin,bear,a,a,never
+garden,toolbox,a,a,rarely
+green,line,a,a,never
+back,ride,a,a,never
+cut,tree,a,a,never
+chicken,nugget,a,a,sometimes
+dirty,dish,a,a,almost always
+oval,ball,a,an,rarely
+roof,ventilation,,,never
+cod,oil,,,never
+bat,file,a,a,never
+wooden,door,a,a,often
+flat,timber,,,never
+plaid,coat,a,a,never
+pop,star,a,a,always
+lilac,jade,,,about half the time
+world,cup,a,a,never
+smoke,machine,a,a,rarely
+purple,dolphin,a,a,never
+hot,pickle,a,a,never
+pink,star,a,a,never
+radio,repair,a,a,always
+purple,pillow,a,a,rarely
+basketball,hoop,a,a,almost always
+swimming,teacher,a,a,never
+round,field,a,a,almost always
+taxi,driver,a,a,rarely
+yellow,squash,a,a,sometimes
+blind,corner,a,a,never
+pink,spider,a,a,never
+red,worm,a,a,rarely
+baby,game,a,a,almost always
+chief,advisor,an,a,almost always
+round,table,a,a,rarely
+star,command,a,a,always
+giant,worm,a,a,never
+dirty,panty,a,a,sometimes
+chip,pan,a,a,almost always
+skittle,gum,a,a,rarely
+singing,dog,a,a,never
+dirty,slide,a,a,always
+honey,bunny,a,a,rarely
+gift,shop,a,a,always
+house,pig,a,a,never
+coral,bed,a,a,never
+puddle,boot,a,a,sometimes
+green,bowl,a,a,never
+wash,basin,a,a,about half the time
+tar,pit,a,a,never
+orange,cake,a,an,never
+red,meat,,,almost always
+bronze,sword,a,a,always
+yellow,egg,an,a,sometimes
+circus,car,a,a,never
+wet,rain,,,always
+bedroom,bungalow,a,a,about half the time
+pirate,girl,a,a,never
+wrist,watch,a,a,always
+guy,scream,a,a,sometimes
+snow,clothes,,,almost always
+bottom,edge,an,a,never
+pirate,show,a,a,never
+purple,card,a,a,never
+toy,car,a,a,often
+pink,phone,a,a,never
+square,knot,a,a,never
+worker,man,a,a,about half the time
+dragon,attack,an,a,never
+apple,sauce,,,never
+cataract,operation,an,a,sometimes
+plastic,bowl,a,a,sometimes
+panda,bear,a,a,rarely
+green,dinosaur,a,a,always
+dinner,bowl,a,a,sometimes
+leather,coat,a,a,never
+entrance,hall,a,an,sometimes
+fruit,juice,,,always
+ocean,floor,a,an,never
+hot,muffin,a,a,almost always
+dark,cloud,a,a,about half the time
+vitamin,drop,a,a,about half the time
+body,shop,a,a,rarely
+pig,boil,a,a,never
+garage,door,a,a,often
+paddle,game,a,a,rarely
+hot,spice,a,a,rarely
+heart,plate,a,a,never
+brake,light,a,a,rarely
+purple,spider,a,a,never
+giant,meteor,a,a,never
+yellow,puppy,a,a,rarely
+library,picture,a,a,never
+sister,elephant,an,a,almost always
+motor,caravan,a,a,never
+dark,ceiling,a,a,rarely
+red,basket,a,a,never
+purple,hat,a,a,never
+lip,stick,a,a,sometimes
+green,card,a,a,never
+bus,ride,a,a,always
+bug,bite,a,a,often
+dog,dish,a,a,never
+hot,body,a,a,rarely
+baby,sweater,a,a,never
+triceratops,sand,,,never
+fare,crossing,a,a,never
+coral,snake,a,a,never
+fat,piece,a,a,about half the time
+green,cat,a,a,never
+stone,wall,a,a,almost always
+furry,caterpillar,a,a,sometimes
+phone,bill,a,a,about half the time
+red,light,a,a,almost always
+money,tree,a,a,never
+red,balloon,a,a,sometimes
+sunny,day,a,a,about half the time
+wall,tiling,,,always
+wet,hair,,,often
+cock,eye,an,a,never
+foot,lounge,a,a,rarely
+wedding,dress,a,a,rarely
+nap,video,a,a,never
+red,knight,a,a,almost always
+book,paperback,a,a,almost always
+bedroom,window,a,a,about half the time
+hillbilly,baby,a,a,never
+quarter,past,a,a,never
+red,tie,a,a,rarely
+skunk,burger,a,a,never
+blueberry,pie,a,a,sometimes
+chalk,board,a,a,sometimes
+baby,lion,a,a,never
+yellow,snow,,,never
+carp,family,a,a,never
+herb,garden,a,an,rarely
+alcove,bedroom,a,an,about half the time
+swimming,suit,a,a,about half the time
+fruit,tree,a,a,sometimes
+note,card,a,a,always
+yellow,screw,a,a,rarely
+hash,brown,,,almost always
+sugar,plum,a,a,never
+potato,skin,,,never
+chamber,pot,a,a,rarely
+orange,beak,a,an,about half the time
+fairy,lady,a,a,never
+rice,milk,,,rarely
+grape,juice,,,sometimes
+round,edge,an,a,rarely
+water,fountain,a,a,never
+office,chair,a,an,often
+foot,pool,a,a,never
+yellow,tube,a,a,rarely
+yellow,knight,a,a,rarely
+day,pastor,a,a,never
+whale,squirt,a,a,always
+pink,paint,,,rarely
+cookie,sandwich,a,a,never
+giant,truck,a,a,sometimes
+flower,bed,a,a,never
+yellow,wheel,a,a,almost always
+dark,side,a,a,never
+gold,balloon,a,a,never
+lemon,soda,,,never
+purple,stage,a,a,never
+cream,cake,a,a,sometimes
+puppy,food,,,never
+baby,heart,a,a,never
+smiley,ball,a,a,never
+gold,guy,a,a,rarely
+varnish,stripper,a,a,almost always
+purple,square,a,a,never
+red,phone,a,a,never
+brown,pumpkin,a,a,rarely
+flower,petal,a,a,never
+instrument,panel,a,an,almost always
+giant,saucer,a,a,never
+face,painting,a,a,never
+curve,piece,a,a,sometimes
+raisin,bun,a,a,never
+milk,bar,a,a,almost always
+pink,diamond,a,a,never
+back,window,a,a,never
+apple,green,,,always
+outside,edge,an,an,always
+string,puppet,a,a,never
+green,tower,a,a,always
+rolling,ball,a,a,often
+rain,storm,a,a,almost always
+green,popsicle,a,a,sometimes
+hot,pants,,,about half the time
+light,lunch,a,a,sometimes
+light,ball,a,a,rarely
+hammer,fork,a,a,never
+farm,game,a,a,almost always
+caterpillar,walking,,,never
+wet,day,a,a,sometimes
+red,roof,a,a,never
+pink,collar,a,a,often
+top,coat,a,a,never
+bear,walking,,,never
+flower,box,a,a,never
+kid,cartoon,a,a,often
+yellow,paper,a,a,never
+skating,girl,a,a,about half the time
+dead,brother,a,a,almost always
+lady,song,a,a,sometimes
+pink,ear,an,a,almost always
+cookie,dough,,,about half the time
+light,green,,,sometimes
+edge,piece,a,an,always
+computer,scientist,a,a,about half the time
+orange,star,a,an,about half the time
+farmer,lady,a,a,never
+troll,bridge,a,a,never
+fire,truck,a,a,never
+slate,mine,a,a,rarely
+brown,barn,a,a,sometimes
+gold,game,a,a,never
+police,car,a,a,almost always
+tan,lotion,,,rarely
+rectangle,diamond,a,a,rarely
+baby,basket,a,a,never
+broken,piece,a,a,about half the time
+thick,person,a,a,never
+fish,book,a,a,never
+purple,lollipop,a,a,never
+hot,pot,a,a,always
+hall,servant,a,a,almost always
+crispy,piece,a,a,never
+dictionary,writer,a,a,never
+thick,sandwich,a,a,often
+square,block,a,a,always
+puppy,dog,a,a,sometimes
+farmer,truck,a,a,sometimes
+yellow,baby,a,a,never
+hot,plastic,,,never
+hot,mommy,a,a,never
+mud,puddle,a,a,often
+arcade,music,,,sometimes
+green,field,a,a,almost always
+cocktail,side,a,a,about half the time
+telephone,box,a,a,never
+quarter,inch,an,a,always
+coffee,cake,a,a,rarely
+picnic,meal,a,a,rarely
+ice,tea,,,almost always
+baby,spoon,a,a,rarely
+yellow,page,a,a,rarely
+crystal,cave,a,a,never
+light,wood,,,sometimes
+green,finger,a,a,about half the time
+block,building,a,a,never
+baby,doll,a,a,sometimes
+elephant,trumpeting,,,almost always
+yellow,rain,,,always
+yard,clipping,a,a,almost always
+back,garden,a,a,always
+green,path,a,a,often
+red,cutter,a,a,often
+snow,ninja,a,a,almost always
+nose,guy,a,a,almost always
+airplane,ride,a,an,always
+fish,jump,a,a,never
+green,overalls,,,never
+stump,grinder,a,a,about half the time
+singing,mama,a,a,always
+pink,clothes,,,never
+dirty,hand,a,a,sometimes
+drum,stick,a,a,sometimes
+bear,cave,a,a,sometimes
+green,pants,,,rarely
+hot,bun,a,a,always
+pink,satin,,,sometimes
+daddy,ear,an,a,rarely
+varnish,paint,,,sometimes
+silver,car,a,a,often
+giant,puzzle,a,a,rarely
+red,pot,a,a,rarely
+guy,wizard,a,a,about half the time
+red,door,a,a,rarely
+picture,frame,a,a,almost always
+infant,teacher,a,an,rarely
+lizard,mom,a,a,never
+lion,dung,,,rarely
+orange,nose,a,an,never
+puzzle,pile,a,a,always
+hot,fire,,,always
+iron,sword,a,an,always
+gold,map,a,a,always
+grandfather,clock,a,a,rarely
+whisky,drop,a,a,never
+paint,brush,a,a,about half the time
+solid,rain,,,sometimes
+human,body,a,a,almost always
+dead,plant,a,a,always
+tea,cup,a,a,about half the time
+dirty,blanket,a,a,rarely
+chip,machine,a,a,always
+leopard,seal,a,a,never
+baby,leaf,a,a,often
+yellow,circle,a,a,never
+food,chain,a,a,sometimes
+fire,exit,an,a,never
+mutant,peacock,a,a,rarely
+red,drum,a,a,about half the time
+yellow,parrot,a,a,about half the time
+dirty,plate,a,a,almost always
+round,track,a,a,always
+slippery,sock,a,a,never
+baby,dog,a,a,rarely
+paw,print,a,a,rarely
+red,towel,a,a,about half the time
+guy,robot,a,a,often
+red,stripe,a,a,almost always
+dirty,pants,,,sometimes
+red,track,a,a,never
+meteor,crater,a,a,rarely
+carpet,shop,a,a,almost always
+green,candy,,,sometimes
+thorn,bush,a,a,sometimes
+hand,bag,a,a,never
+yellow,line,a,a,always
+green,frosting,,,never
+square,pan,a,a,almost always
+pointy,tree,a,a,sometimes
+purple,necklace,a,a,never
+cotton,candy,,,never
+top,hat,a,a,rarely
+potato,plant,a,a,never
+color,popsicle,a,a,never
+red,hole,a,a,never
+wall,clock,a,a,almost always
+tea,pot,a,a,often
+frog,toy,a,a,never
+blooming,herb,a,a,never
+bottom,shelf,a,a,about half the time
+cup,cake,a,a,about half the time
+pink,brush,a,a,rarely
+purple,boot,a,a,never
+fruit,snack,a,a,about half the time
+brown,coffee,,,never
+yellow,sleeve,a,a,never
+umbrella,handle,a,an,never
+purple,tower,a,a,never
+hot,cocoa,,,often
+animal,cracker,a,an,rarely
+broken,bridge,a,a,rarely
+kid,scissors,,,never
+dog,book,a,a,rarely
+furnishings,gift,a,a,about half the time
+man,face,a,a,about half the time
+light,horse,a,a,about half the time
+phone,ring,a,a,never
+red,top,a,a,about half the time
+kids,block,a,a,always
+giant,mess,a,a,almost always
+rolling,robot,a,a,often
+elephant,eye,an,an,rarely
+lounge,window,a,a,never
+green,strawberry,a,a,never
+oven,door,a,an,sometimes
+dirty,girl,a,a,almost always
+camera,man,a,a,always
+maple,syrup,,,about half the time
+pink,dinosaur,a,a,never
+traffic,jam,,,never
+mail,card,a,a,never
+rope,ladder,a,a,never
+broken,cracker,a,a,always
+wooden,button,a,a,never
+flat,edge,an,a,often
+kid,toy,a,a,often
+milk,man,a,a,sometimes
+dancing,troop,a,a,always
+sinus,infection,an,a,rarely
+back,yard,a,a,always
+arm,pit,a,an,always
+guy,talking,,,often
+day,game,a,a,about half the time
+photo,album,an,a,always
+outside,guy,a,an,sometimes
+spaghetti,meatball,a,a,rarely
+kitchen,sink,a,a,often
+corner,piece,a,a,always
+purple,octagon,an,a,never
+diving,board,a,a,always
+garden,worm,a,a,sometimes
+bright,star,a,a,almost always
+patio,door,a,a,rarely
+brown,eye,an,a,often
+banana,bread,,,rarely
+enamel,shell,a,an,never
+furry,tummy,a,a,often
+solar,eclipse,an,a,sometimes
+purple,flower,a,a,rarely
+drop,curtain,a,a,never
+bull,frog,a,a,rarely
+purple,purse,a,a,rarely
+video,camera,a,a,sometimes
+orange,animal,an,an,never
+rag,doll,a,a,never
+yellow,sun,,,always
+clothes,hamper,a,a,about half the time
+cookie,cutter,a,a,almost always
+green,bow,a,a,about half the time
+plastic,card,a,a,never
+giant,shoe,a,a,never
+pink,pipe,a,a,never
+orange,skittle,a,an,always
+head,louse,a,a,always
+purple,candy,,,about half the time
+orange,square,a,an,never
+cooker,gas,,,always
+locked,closet,a,a,rarely
+red,ant,an,a,often
+box,office,an,a,rarely
+orange,frog,a,an,sometimes
+mop,head,a,a,never
+puppy,doggy,a,a,almost always
+tool,repair,a,a,about half the time
+color,page,a,a,never
+hip,bone,a,a,never
+red,ladybug,a,a,sometimes
+red,wheel,a,a,sometimes
+purple,bat,a,a,rarely
+cake,shop,a,a,rarely
+picture,hook,a,a,never
+crusty,roll,a,a,often
+bright,tail,a,a,sometimes
+daddy,gorilla,a,a,almost always
+ladies,toilet,a,a,almost always
+gravel,pile,a,a,almost always
+dog,stand,a,a,never
+clock,piece,a,a,never
+yellow,shirt,a,a,rarely
+velvety,horse,a,a,never
+purple,cabbage,a,a,rarely
+dirty,mouth,a,a,never
+top,trainer,a,a,often
+birth,present,a,a,always
+dark,sky,a,a,almost always
+coffee,milk,,,always
+baby,bounce,a,a,never
+scar,scar,a,a,about half the time
+battery,drawer,a,a,never
+circus,truck,a,a,rarely
+room,table,a,a,never
+boa,constrictor,a,a,often
+car,transporter,a,a,about half the time
+bleeding,finger,a,a,rarely
+human,head,a,a,almost always
+ball,bounce,a,a,always
+yellow,light,a,a,rarely
+tree,trunk,a,a,always
+ball,bearing,,,always
+sweat,gland,a,a,often
+call,line,a,a,never
+bin,liner,a,a,almost always
+red,brush,a,a,never
+digger,truck,a,a,never
+shovel,honey,,,never
+cheese,pie,a,a,about half the time
+night,spider,a,a,always
+store,lady,a,a,often
+teddy,bear,a,a,rarely
+medication,honey,,,rarely
+school,book,a,a,almost always
+goldfish,day,a,a,always
+toy,boy,a,a,about half the time
+pink,girl,a,a,never
+people,town,a,a,always
+worm,soup,,,never
+pink,worm,a,a,always
+egg,shell,a,an,about half the time
+baby,song,a,a,never
+furry,face,a,a,never
+brown,mountain,a,a,always
+red,coloring,,,never
+patio,barbecue,a,a,about half the time
+blonde,hair,,,sometimes
+top,lid,a,a,never
+wooden,reel,a,a,never
+iron,leg,a,an,never
+baby,crayon,a,a,never
+train,line,a,a,about half the time
+birth,day,a,a,rarely
+doctor,kit,a,a,never
+door,key,a,a,often
+bus,fare,a,a,about half the time
+solid,piece,a,a,always
+fish,soup,,,rarely
+princess,bed,a,a,rarely
+top,edge,an,a,about half the time
+turkey,sandwich,a,a,sometimes
+timer,switch,a,a,rarely
+red,mouse,a,a,never
+green,garbage,,,rarely
+wet,bird,a,a,never
+yellow,pepper,a,a,never
+dalmatian,dog,a,a,rarely
+red,fence,a,a,never
+daddy,pirate,a,a,always
+brown,clump,a,a,never
+red,airplane,an,a,never
+military,police,,,often
+red,orange,an,a,rarely
+bear,hunt,a,a,always
+red,triangle,a,a,never
+gas,station,a,a,almost always
+pink,flamingo,a,a,almost always
+yellow,tree,a,a,rarely
+satellite,dish,a,a,always
+cigar,smoking,,,rarely
+dance,music,,,never
+candy,bar,a,a,about half the time
+egg,box,a,an,never
+sand,box,a,a,never
+pet,cage,a,a,never
+yellow,coral,,,never
+dark,hair,,,rarely
+vegetable,oil,,,about half the time
+green,picture,a,a,rarely
+green,baby,a,a,never
+pant,leg,a,a,never
+hedge,cutter,a,a,never
+beef,hash,a,a,sometimes
+plastic,box,a,a,rarely
+green,nose,a,a,never
+brown,sauce,,,about half the time
+yellow,coloring,,,never
+hot,lunch,a,a,often
+fish,stall,a,a,never
+wire,sandwich,a,a,never
+bright,color,a,a,about half the time
+bathroom,window,a,a,never
+hot,ride,a,a,never
+tub,seat,a,a,never
+draw,picture,a,a,about half the time
+water,pipe,a,a,sometimes
+safari,hat,a,a,rarely
+hot,seat,a,a,never
+top,step,a,a,never
+spider,ring,a,a,rarely
+bottom,corner,a,a,always
+cotton,ball,a,a,never
+record,button,a,a,rarely
+doll,baby,a,a,never
+cat,product,a,a,sometimes
+rusty,bucket,a,a,rarely
+gun,runner,a,a,never
+washing,machine,a,a,never
+naked,butt,a,a,always
+cabbage,leaf,a,a,never
+dirty,sock,a,a,about half the time
+karate,chop,a,a,almost always
+yard,tent,a,a,about half the time
+goat,boy,a,a,never
+father,duck,a,a,almost always
+pink,rattle,a,a,rarely
+witch,hair,,,almost always
+crane,station,a,a,almost always
+toy,store,a,a,rarely
+dark,ball,a,a,about half the time
+pink,corner,a,a,always
+truck,piece,a,a,rarely
+red,jumper,a,a,never
+pink,dot,a,a,rarely
+money,card,a,a,always
+teapot,water,,,never
+chocolate,cake,a,a,never
+person,game,a,a,rarely
+sea,urchin,an,a,almost always
+red,broccoli,,,never
+bus,ticket,a,a,about half the time
+rock,pool,a,a,never
+red,dragon,a,a,almost always
+movie,camera,a,a,rarely
+flat,mouth,a,a,never
+salmon,leaping,a,a,never
+outside,person,a,an,about half the time
+tin,tray,a,a,never
+hand,glove,a,a,about half the time
+scout,group,a,a,often
+guy,beard,a,a,never
+silver,beard,a,a,never
+smoke,stack,a,a,always
+rain,glasses,,,never
+zucchini,plant,a,a,rarely
+purple,bud,a,a,never
+cash,till,a,a,almost always
+pink,dragon,a,a,never
+girl,case,a,a,never
+orange,cutter,a,an,never
+kitchen,door,a,a,about half the time
+pear,skin,,,never
+dirty,hamper,a,a,about half the time
+orange,sunset,a,an,about half the time
+hot,wood,,,never
+dirty,penny,a,a,almost always
+dirty,cup,a,a,sometimes
+apple,oatmeal,,,rarely
+olive,green,,,about half the time
+pear,juice,,,always
+water,spout,a,a,never
+bacon,crisp,a,a,never
+knife,edge,an,a,rarely
+green,crunch,a,a,never
+doggy,bone,a,a,about half the time
+yellow,eye,an,a,rarely
+yellow,apple,an,a,almost always
+farm,channel,a,a,almost always
+boy,seat,a,a,sometimes
+machine,chap,a,a,rarely
+eye,ball,a,an,rarely
+thick,branch,a,a,rarely
+sunny,path,a,a,often
+back,step,a,a,almost always
+brown,tail,a,a,sometimes
+gravel,border,a,a,almost always
+pink,tights,,,never
+store,room,a,a,never
+frog,outfit,an,a,never
+yellow,hay,,,almost always
+red,strawberry,a,a,always
+dead,turtle,a,a,about half the time
+inch,square,a,an,always
+shell,suit,a,a,never
+honey,doll,a,a,never
+ceiling,rose,a,a,rarely
+baby,meat,,,never
+flat,surface,a,a,rarely
+fat,head,a,a,always
+circus,officer,an,a,sometimes
+sweet,baby,a,a,never
+purple,grape,a,a,sometimes
+pencil,eraser,an,a,sometimes
+tie,back,a,a,never
+massage,table,a,a,almost always
+orange,leaf,a,an,rarely
+sand,sheep,a,a,never
+red,side,a,a,rarely
+red,caboose,a,a,often
+pink,window,a,a,never
+sweet,pea,a,a,never
+orange,angelfish,an,an,rarely
+cork,tile,a,a,never
+bleeding,head,a,a,rarely
+brown,fur,,,about half the time
+mommy,elephant,an,a,almost always
+daddy,glasses,,,often
+round,tree,a,a,always
+red,bear,a,a,never
+laundry,basket,a,a,always
+egg,white,,,almost always
+peacock,body,a,a,never
+green,plant,a,a,almost always
+dead,worm,a,a,never
+dog,food,,,sometimes
+wine,sherry,,,never
+swimming,guy,a,a,about half the time
+sign,gate,a,a,never
+animal,magazine,a,an,never
+furry,fuzzy,a,a,almost always
+dinosaur,hunt,a,a,almost always
+food,shopping,,,often
+draw,bridge,a,a,rarely
+bath,door,a,a,never
+triangle,piece,a,a,always
+baby,brother,a,a,often
+purple,boxcar,a,a,never
+broken,arm,an,a,rarely
+sickle,cell,a,a,never
+snow,boot,a,a,never
+orange,heart,a,an,almost always
+hot,chicken,a,a,never
+ash,tray,a,an,sometimes
+radio,cassette,a,a,about half the time
+gold,reindeer,a,a,never
+unbuttoned,jacket,a,an,almost always
+cigar,box,a,a,rarely
+frozen,water,,,sometimes
+red,fruit,a,a,sometimes
+yellow,drum,a,a,never
+lighter,hair,,,rarely
+mashed,potato,a,a,always
+oat,porridge,,,always
+festival,company,a,a,never
+flat,piece,a,a,never
+college,downtown,a,a,about half the time
+pony,tail,a,a,never
+giant,thorn,a,a,never
+sunny,spot,a,a,almost always
+orange,pants,,,rarely
+vanilla,chocolate,,,never
+cheese,pizza,,,often
+circus,animal,an,a,rarely
+plastic,circle,a,a,never
+chicken,dance,a,a,never
+chicken,finger,a,a,never
+green,piece,a,a,never
+green,salad,a,a,never
+brown,grey,,,always
+tea,bag,a,a,never
+top,floor,a,a,never
+dinosaur,movie,a,a,rarely
+pink,lollypop,a,a,about half the time
+fish,food,,,always
+night,shirt,a,a,rarely
+puppy,mom,a,a,never
+purple,sand,,,never
+yellow,train,a,a,rarely
+pepperoni,pizza,,,sometimes
+yellow,leaf,a,a,rarely
+mommy,deer,a,a,often
+ear,plug,a,an,never
+bird,box,a,a,rarely
+back,bedroom,a,a,about half the time
+food,pea,a,a,almost always
+adult,alligator,an,an,often
+broken,foot,a,a,rarely
+soccer,player,a,a,often
+garbage,feast,a,a,never
+red,cake,a,a,never
+wet,soaking,a,a,always
+bear,boob,a,a,always
+dam,bush,a,a,almost always
+dead,guy,a,a,always
+face,pumpkin,a,a,always
+primrose,oil,,,rarely
+top,bunk,a,a,almost always
+red,popsicle,a,a,about half the time
+daddy,tape,a,a,always
+land,horse,a,a,almost always
+dog,collar,a,a,always
+turtle,tank,a,a,almost always
+yellow,key,a,a,never
+night,light,a,a,sometimes
+book,honey,,,about half the time
+top,gear,a,a,always
+pink,bird,a,a,never
+alloy,wheel,a,an,rarely
+brown,leaf,a,a,never
+test,barometer,a,a,almost always
+baby,book,a,a,rarely
+plum,pudding,,,sometimes
+press,record,a,a,rarely
+green,apple,an,a,sometimes
+workshop,downtown,a,a,often
+boy,voice,a,a,about half the time
+dirty,fox,a,a,almost always
+property,market,a,a,about half the time
+washing,powder,,,rarely
+block,cheese,,,always
+pink,tube,a,a,always
+train,fare,a,a,often
+dead,obituary,an,a,always
+snow,man,a,a,always
+farmer,overalls,,,about half the time
+roast,beef,,,almost always
+ironing,board,a,an,never
+broken,string,a,a,never
+wine,glasses,,,often
+birth,date,a,a,about half the time
+bottom,one,a,a,always
+spider,monkey,a,a,never
+farm,puppet,a,a,rarely
+wash,room,a,a,rarely
+red,ball,a,a,sometimes
+dust,wagon,a,a,rarely
+gold,fish,a,a,rarely
+burnt,finger,a,a,rarely
+horse,box,a,a,never
+mummy,shout,a,a,often
+velcro,latch,a,a,never
+curb,stone,a,a,sometimes
+batter,box,a,a,rarely
+trash,call,a,a,sometimes
+brown,patch,a,a,never
+dust,ball,a,a,never
+toy,bus,a,a,never
+ginger,man,a,a,rarely
+wood,sculpture,a,a,rarely
+red,bug,a,a,rarely
+baby,chair,a,a,never
+brick,fireplace,a,a,almost always
+candy,piece,a,a,never
+turkey,leg,a,a,rarely
+red,bucket,a,a,rarely
+pencil,box,a,a,never
+fat,fryer,a,a,almost always
+band,man,a,a,about half the time
+spray,bottle,a,a,rarely
+unbuttoned,pants,,,never
+dirty,mama,a,a,sometimes
+hot,curry,a,a,often
+red,piranha,a,a,never
+bear,family,a,a,never
+daddy,face,a,a,never
+yogurt,pudding,,,rarely
+diaper,check,a,a,never
+mud,truck,a,a,rarely
+fish,shop,a,a,almost always
+mountain,bike,a,a,often
+exit,sign,a,an,rarely
+purple,food,,,never
+baby,cub,a,a,always
+food,restaurant,a,a,almost always
+bath,tub,a,a,about half the time
+baseball,game,a,a,never
+treasure,chest,a,a,never
+red,bird,a,a,sometimes
+sweet,gift,a,a,sometimes
+yellow,piece,a,a,often
+dirty,piggy,a,a,always
+hot,soup,,,often
+yellow,flower,a,a,about half the time
+plastic,heron,a,a,never
+dark,bikini,a,a,rarely
+garbage,collector,a,a,rarely
+hot,flaming,,,never
+light,hair,,,about half the time
+back,corner,a,a,never
+green,stripe,a,a,always
+slippery,ice,,,almost always
+fat,boy,a,a,never
+taller,bed,a,a,often
+color,paper,a,a,never
+bubble,container,a,a,never
+tan,wig,a,a,always
+red,gecko,a,a,rarely
+red,puppy,a,a,rarely
+brown,ant,an,a,almost always
+sweet,onion,an,a,sometimes
+baby,worm,a,a,never
+water,swim,a,a,almost always
+fat,worm,a,a,never
+intercom,beep,a,an,always
+alarm,clock,a,an,never
+color,paint,,,never
+cotton,shirt,a,a,almost always
+hot,tot,a,a,always
+cauliflower,pea,a,a,never
+hot,wash,a,a,almost always
+ostrich,egg,an,an,never
+silver,green,,,never
+board,tile,a,a,never
+pink,violet,a,a,never
+dirty,nose,a,a,often
+ant,path,a,an,never
+pumpkin,head,a,a,always
+quarter,teaspoon,a,a,never
+bright,paper,a,a,almost always
+heart,beat,a,a,never
+red,road,a,a,sometimes
+hot,onion,an,a,about half the time
+orange,bead,a,an,always
+shaking,ball,a,a,never
+orange,dinosaur,a,an,rarely
+daddy,bird,a,a,always
+green,marker,a,a,always
+daddy,rooster,a,a,almost always
+kitchen,table,a,a,often
+mackerel,fishing,,,about half the time
+green,pig,a,a,never
+top,tap,a,a,never
+pumpkin,farm,a,a,rarely
+orange,tummy,a,an,rarely
+red,button,a,a,rarely
+yellow,bowl,a,a,rarely
+bottom,oven,an,a,always
+blowing,wind,,,always
+tiger,picture,a,a,almost always
+street,sweeper,a,a,almost always
+entrance,door,a,an,almost always
+water,table,a,a,never
+rocket,shot,a,a,sometimes
+beef,sandwich,a,a,sometimes
+detective,show,a,a,rarely
+pumpkin,pie,a,a,rarely
+green,moose,a,a,never
+orange,cat,a,an,often
+yellow,tongue,a,a,never
+purple,top,a,a,never
+salmon,salad,a,a,rarely
+purple,captain,a,a,never
+bright,pink,,,almost always
+clown,hair,,,rarely
+report,card,a,a,about half the time
+rainy,day,a,a,often
+airline,pilot,a,an,often
+school,boy,a,a,often
+dragon,game,a,a,rarely
+football,match,a,a,almost always
+green,wreath,a,a,often
+molasses,swamp,a,a,rarely
+pink,rose,a,a,never
+home,daddy,a,a,never
+cutting,edge,an,a,always
+purple,eye,an,a,never
+green,kitty,a,a,never
+rail,ticket,a,a,never
+hay,cart,a,a,about half the time
+wooden,platter,a,a,rarely
+round,spot,a,a,always
+garden,furniture,,,sometimes
+bar,bell,a,a,always
+worm,belly,a,a,always
+pastel,pink,,,sometimes
+prawn,sandwich,a,a,never
+cabbage,plant,a,a,always
+clock,tower,a,a,almost always
+sleeping,policeman,a,a,always
+thick,player,a,a,about half the time
+dog,beach,a,a,rarely
+fish,cracker,a,a,rarely
+outside,tap,a,an,sometimes
+bubble,gum,a,a,almost always
+letter,tile,a,a,almost always
+purple,spaghetti,,,never
+farmer,guy,a,a,almost always
+cut,grass,,,always
+croquet,stroke,a,a,never
+hay,cookie,a,a,always
+green,ornament,an,a,sometimes
+water,tower,a,a,always
+plant,pot,a,a,never
+fat,roll,a,a,rarely
+brown,coconut,a,a,always
+purple,shoe,a,a,rarely
+giant,boy,a,a,rarely
+green,pepper,a,a,about half the time
+purple,tail,a,a,always
+ogre,lady,a,an,never
+bow,colors,a,a,never
+cross,bun,a,a,never
+red,punch,a,a,rarely
+pink,heart,a,a,often
+cat,scratching,,,almost always
+peppermint,candy,,,never
+dirty,baby,a,a,almost always
+brown,mud,,,always
+food,board,a,a,rarely
+slot,machine,a,a,never
+yellow,door,a,a,rarely
+dirty,diaper,a,a,never
+roast,potato,a,a,always
+red,handle,a,a,never
+water,drip,a,a,always
+puppet,show,a,a,sometimes
+yellow,bucket,a,a,rarely
+yellow,banana,a,a,often
+pink,tutu,a,a,always
+solar,battery,a,a,almost always
+ice,cream,,,rarely
+sugar,dough,,,never
+barbecue,recipe,a,a,always
+orange,flag,a,an,rarely
+bunny,sleep,,,sometimes
+box,toy,a,a,about half the time
+dirt,road,a,a,almost always
+orange,dot,a,an,always
+tape,player,a,a,always
+broken,egg,an,a,often
+daddy,foot,a,a,always
+mommy,chin,a,a,often
+green,coat,a,a,rarely
+night,moon,a,a,always
+brown,suite,a,a,never
+giant,committee,a,a,never
+sweet,honey,,,always
+school,room,a,a,about half the time
+giant,skyscraper,a,a,never
+trash,book,a,a,never
+top,row,a,a,always
+pink,coat,a,a,rarely
+mud,pile,a,a,never
+mommy,worm,a,a,never
+farm,cat,a,a,never
+crayon,pile,a,a,never
+green,melon,a,a,often
+aloe,plant,a,an,never
+icy,coast,a,an,always
+refrigerator,door,a,a,about half the time
+baby,pig,a,a,rarely
+fire,grate,a,a,never
+yellow,flag,a,a,almost always
+baby,wipe,a,a,about half the time
+engine,train,a,an,always
+fuzzy,peach,a,a,almost always
+dirty,straw,a,a,rarely
+bleach,water,,,rarely
+fishing,pole,a,a,never
+snow,shovel,a,a,sometimes
+oven,top,a,an,almost always
+yellow,reindeer,a,a,never
+red,man,a,a,never
+girl,doctor,a,a,often
+fat,doctor,a,a,rarely
+brain,rot,,,never
+red,hand,a,a,about half the time
+fat,face,a,a,about half the time
+knee,joint,a,a,sometimes
+food,processor,a,a,often
+committee,report,a,a,sometimes
+dirty,one,a,a,never
+green,hoop,a,a,almost always
+wet,washing,,,often
+top,oven,an,a,never
+strawberry,juice,,,sometimes
+cheddar,cracker,a,a,never
+slipper,sock,a,a,almost always
+capital,letter,a,a,rarely
+ground,almond,an,a,rarely
+vanilla,pudding,,,often
+shower,tray,a,a,never
+tracksuit,bottom,a,a,almost always
+dirty,park,a,a,sometimes
+green,door,a,a,never
+sweet,boy,a,a,always
+red,reindeer,a,a,never
+red,train,a,a,never
+broken,leg,a,a,rarely
+brown,gravy,,,never
+smoke,salmon,,,sometimes
+cigarette,carton,a,a,always
+brass,drum,a,a,about half the time
+baby,booty,a,a,rarely
+dirty,shirt,a,a,sometimes
+purple,triangle,a,a,never
+bright,moonlight,,,sometimes
+icecream,scoop,a,an,sometimes
+sliced,cheese,,,often
+sweet,cocoa,,,almost always
+van,window,a,a,never
+bunny,clothes,,,often
+orange,tail,a,an,always
+bead,string,a,a,never
+mirror,piece,a,a,never
+yellow,guy,a,a,never
+food,bowl,a,a,always
+red,foot,a,a,never
+bird,nest,a,a,almost always
+color,clothes,,,always
+elephant,puzzle,a,an,never
+window,frame,a,a,sometimes
+pink,snail,a,a,rarely
+blind,mom,a,a,never
+teddy,workshop,a,a,never
+rabbit,stew,a,a,sometimes
+purple,horn,a,a,never
+puzzle,book,a,a,often
+farm,animal,an,a,never
+tiger,baby,a,a,never
+wet,whisker,a,a,never
+tube,company,a,a,never
+steel,worker,a,a,rarely
+yellow,brush,a,a,rarely
+orange,leg,a,an,never
+green,spider,a,a,never
+jump,rope,a,a,about half the time
+bright,beak,a,a,never
+brown,path,a,a,almost always
+naked,person,a,a,rarely
+furry,bear,a,a,almost always
+green,cactus,a,a,almost always
+soldier,crab,a,a,never
+purple,turtle,a,a,never
+plastic,metal,,,never
+juicy,meat,a,a,sometimes
+yellow,rake,a,a,rarely
+pink,pig,a,a,always
+mama,elephant,an,a,sometimes
+baby,sock,a,a,never
+green,shell,a,a,about half the time
+room,clock,a,a,never
+fish,skeleton,a,a,never
+mutton,head,a,a,never
+strawberry,color,a,a,never
+chicken,coop,a,a,never
+curtain,ring,a,a,never
+manor,ground,,,never
+hill,riding,,,sometimes
+paddle,wheel,a,a,always
+country,mouse,a,a,never
+purple,saber,a,a,never
+red,kite,a,a,often
+baby,monkey,a,a,sometimes
+rubber,book,a,a,never
+sun,block,a,a,never
+mantel,fire,,,about half the time
+porcelain,doll,a,a,never
+cut,dude,a,a,never
+quarter,moon,a,a,often
+pink,pickle,a,a,never
+silver,packet,a,a,never
+bear,cub,a,a,sometimes
+broken,tv,a,a,sometimes
+poison,apple,an,a,rarely
+stroller,baby,a,a,always
+solid,path,a,a,almost always
+top,penthouse,a,a,about half the time
+red,planet,a,a,almost always
+cookie,day,a,a,never
+noodle,soup,,,always
+television,actress,an,a,never
+solid,line,a,a,always
+baby,raccoon,a,a,rarely
+frame,chip,a,a,never
+bright,punch,a,a,about half the time
+yellow,saddle,a,a,never
+mommy,doggie,a,a,about half the time
+cinnamon,roll,a,a,never
+foot,ball,a,a,almost always
+puzzle,maker,a,a,sometimes
+purple,teddy,a,a,never
+room,slipper,a,a,often
+wood,cylinder,a,a,never
+pink,scooter,a,a,rarely
+manual,gear,a,a,about half the time
+concrete,floor,a,a,often
+yellow,mouth,a,a,never
+plant,debris,,,sometimes
+shield,brooch,a,a,never
+outside,soccer,,,never
+upstairs,sleeping,,,always
+ladybug,toy,a,a,never
+tonic,glass,a,a,never
+fish,pie,a,a,never
+purple,bug,a,a,never
+red,jacket,a,a,rarely
+flower,piece,a,a,never
+tissue,paper,a,a,never
+city,mouse,a,a,sometimes
+dark,shadow,a,a,often
+green,toy,a,a,never
+wet,bucket,a,a,almost always
+sister,game,a,a,sometimes
+bottom,hair,,,almost always
+frog,book,a,a,always
+juicy,worm,a,a,never
+diving,dummy,a,a,never
+purple,flag,a,a,never
+snow,tiger,a,a,never
+dark,tunnel,a,a,almost always
+umbrella,tree,a,an,rarely
+fuzzy,bone,a,a,never
+glass,slipper,a,a,never
+dinosaur,hunter,a,a,never
+shop,book,a,a,often
+sister,church,a,a,never
+color,block,a,a,sometimes
+baby,person,a,a,almost always
+dark,chap,a,a,almost always
+green,bone,a,a,about half the time
+ocean,world,a,an,rarely
+wet,man,a,a,rarely
+purple,guy,a,a,always
+broken,pen,a,a,never
+solid,hedge,a,a,almost always
+green,bag,a,a,never
+fish,hook,a,a,almost always
+yellow,glasses,,,never
+sea,horse,a,a,never
+wooden,table,a,a,always
+yellow,sheet,a,a,never
+jet,engine,an,a,never
+night,star,a,a,never
+color,grey,,,always
+country,lane,a,a,never
+orange,rock,a,an,never
+bank,account,an,a,almost always
+train,table,a,a,rarely
+dead,dad,a,a,always
+group,secretary,a,a,about half the time
+basket,game,a,a,almost always
+yellow,girl,a,a,never
+mucus,sack,a,a,never
+dirty,tank,a,a,almost always
+brown,bag,a,a,often
+marble,hearth,a,a,rarely
+box,cooler,a,a,never
+movie,puppet,a,a,rarely
+cigarette,smoke,,,often
+dinosaur,leg,a,a,never
+green,glove,a,a,rarely
+baby,nose,a,a,always
+dead,battery,a,a,sometimes
+car,mat,a,a,almost always
+dead,ant,an,a,always
+lemon,chicken,a,a,almost always
+giant,bomb,a,a,never
+round,cracker,a,a,sometimes
+brown,person,a,a,often
+library,ticket,a,a,rarely
+lobster,pot,a,a,rarely
+brown,writing,,,never
+round,scissors,,,never
+red,tape,a,a,never
+bunny,ear,an,a,never
+baby,rabbit,a,a,often
+school,report,a,a,often
+red,puck,a,a,about half the time
+green,uniform,a,a,never
+top,line,a,a,always
+wax,coat,a,a,rarely
+rocky,truck,a,a,almost always
+yellow,hand,a,a,never
+giant,caterpillar,a,a,never
+brown,belt,a,a,almost always
+baby,giraffe,a,a,sometimes
+animal,puzzle,a,an,never
+plant,food,,,always
+gym,teacher,a,a,rarely
+pink,boot,a,a,never
+bike,riding,,,often
+bath,toy,a,a,never
+money,broker,a,a,often
+round,mark,a,a,never
+knuckle,head,a,a,rarely
+crusty,loaf,a,a,rarely
+video,store,a,a,rarely
+toilet,seat,a,a,rarely
+sweet,girl,a,a,never
+toe,soup,,,always
+icy,drink,a,an,always
+tooth,brush,a,a,about half the time
+diamond,piece,a,a,rarely
+dirty,key,a,a,rarely
+purple,cocoon,a,a,rarely
+princess,sticker,a,a,sometimes
+purple,coat,a,a,never
+gum,tree,a,a,often
+top,prize,a,a,rarely
+lunch,break,a,a,never
+giant,cloud,a,a,always
+planet,earth,,,often
+fire,hose,a,a,almost always
+fat,chap,a,a,about half the time
+mother,pig,a,a,sometimes
+red,pants,,,almost always
+purple,button,a,a,rarely
+baby,gorilla,a,a,sometimes
+sleeping,dolphin,a,a,never
+solid,bronze,,,always
+scrap,paper,a,a,never
+girl,bike,a,a,never
+bean,plant,a,a,about half the time
+purple,wing,a,a,never
+sweet,heart,a,a,always
+farmer,market,a,a,about half the time
+dirty,truck,a,a,almost always
+brown,marker,a,a,never
+painting,shirt,a,a,never
+flat,table,a,a,always
+boiling,pot,a,a,always
+colored,dot,a,a,always
+yellow,rubber,,,rarely
+red,boat,a,a,about half the time
+standing,penguin,a,a,rarely
+cat,hair,,,never
+roof,rack,a,a,rarely
+bean,sprout,a,a,always
+whale,song,a,a,rarely
+red,turtle,a,a,never
+red,penguin,a,a,never
+parmesan,cheese,,,never
+hill,top,a,a,always
+cottage,cheese,,,rarely
+dark,rock,a,a,rarely
+round,corner,a,a,never
+cake,baby,a,a,never
+yellow,outfit,an,a,never
+shave,rash,a,a,rarely
+scrap,heap,a,a,never
+air,push,a,an,never
+girl,hair,,,sometimes
+shoe,polish,,,never
+red,whale,a,a,rarely
+sweet,pie,a,a,almost always
+bald,boy,a,a,never
+stone,coating,a,a,never
+truck,mom,a,a,sometimes
+orange,kitten,a,an,always
+giant,head,a,a,never
+daddy,horse,a,a,rarely
+roller,coaster,a,a,about half the time
+frozen,room,a,a,never
+gold,dust,,,never
+pink,carpet,a,a,rarely
+juicy,pineapple,a,a,always
+red,book,a,a,never
+wooden,piece,a,a,often
+water,bucket,a,a,sometimes
+night,bird,a,a,rarely
+tap,dance,a,a,rarely
+bread,crust,a,a,always
+floor,archway,an,a,never
+shark,game,a,a,never
+hot,radiator,a,a,rarely
+boy,baby,a,a,about half the time
+paper,towel,a,a,sometimes
+stage,spot,a,a,often
+bible,book,a,a,often
+purple,handle,a,a,never
+star,red,,,never
+green,snake,a,a,rarely
+purple,train,a,a,never
+beetle,game,a,a,sometimes
+garden,tree,a,a,sometimes
+thick,soup,,,almost always
+river,shack,a,a,rarely
+red,machine,a,a,never
+stomach,bug,a,a,about half the time
+strawberry,cookie,a,a,never
+pink,fur,,,never
+color,purple,,,never
+meal,guy,a,a,almost always
+orange,truck,a,an,never
+tin,can,a,a,always
+daddy,lion,a,a,never
+sweet,guy,a,a,always
+rocket,ship,a,a,rarely
+copper,dagger,a,a,about half the time
+brick,wall,a,a,never
+camp,fire,a,a,sometimes
+purple,water,,,never
+air,conditioner,,,always
+throw,ball,a,a,almost always
+ham,ball,a,a,never
+red,railing,a,a,never
+solid,color,a,a,always
+bulletin,board,a,a,rarely
+yellow,metal,,,sometimes
+wood,basket,a,a,never
+grey,clay,,,never
+dirty,mitt,a,a,never
+glass,door,a,a,rarely
+green,cup,a,a,rarely
+mommy,movie,a,a,rarely
+orange,ear,an,an,never
+orange,piece,a,an,never
+human,race,a,a,often
+baseball,bat,a,a,about half the time
+hot,grease,,,almost always
+grill,cheese,,,rarely
+golf,ball,a,a,sometimes
+water,plant,a,a,almost always
+yellow,hose,a,a,sometimes
+string,bean,a,a,never
+cow,manure,,,always
+swim,trunk,a,a,rarely
+bleeding,phone,a,a,never
+gum,flavor,a,a,about half the time
+giant,yogurt,,,never
+heart,sweet,a,a,always
+roll,shot,a,a,almost always
+blueberry,juice,,,never
+green,grass,,,always
+slope,testing,a,a,never
+wrestling,guy,a,a,sometimes
+squirt,gun,a,a,rarely
+smoke,alarm,an,a,sometimes
+phone,box,a,a,never
+stock,room,a,a,never
+bamboo,shoot,a,a,never
+red,hat,a,a,rarely
+hippopotamus,face,a,a,never
+yellow,moon,a,a,always
+hand,print,a,a,sometimes
+snow,flake,a,a,always
+hot,cookie,a,a,almost always
+pterodactyl,leg,a,a,never
+derby,girl,a,a,never
+baby,beluga,a,a,always
+fence,post,a,a,rarely
+pink,bag,a,a,rarely
+purple,shirt,a,a,never
+calendar,book,a,a,never
+juicy,fruit,a,a,almost always
+gold,key,a,a,rarely
+purple,girl,a,a,never
+till,receipt,a,a,almost always
+back,fence,a,a,never
+green,frog,a,a,never
+kid,person,a,a,sometimes
+sweet,mama,a,a,never
+rain,day,a,a,rarely
+baby,platypus,a,a,almost always
+green,mat,a,a,never
+spa,camera,a,a,never
+piggy,ride,a,a,about half the time
+poker,game,a,a,rarely
+box,tape,a,a,never
+ballet,skirt,a,a,rarely
+plastic,bag,a,a,almost always
+green,water,,,never
+orange,fish,a,an,never
+onion,stuffing,,,never
+bow,honey,,,never
+water,ride,a,a,never
+stuffed,crocodile,a,a,never
+purple,pony,a,a,always
+orange,lip,a,an,never
+bear,eye,an,a,never
+yellow,duck,a,a,about half the time
+pumpkin,bread,,,rarely
+locked,gate,a,a,often
+green,plate,a,a,rarely
+pink,balloon,a,a,rarely
+flaming,desk,a,a,never
+sheet,pan,a,a,sometimes
+yellow,milk,,,never
+boat,person,a,a,never
+candy,apple,an,a,never
+purple,juice,,,never
+wire,hair,,,never
+chest,paddling,a,a,always
+day,person,a,a,often
+red,dinosaur,a,a,never
+brown,oatmeal,,,rarely
+dark,picture,a,a,often
+glue,stick,a,a,about half the time
+boy,doctor,a,a,about half the time
+dark,rabbit,a,a,sometimes
+dragon,bear,a,a,never
+bear,track,a,a,never
+hot,desert,a,a,never
+brown,ribbon,a,a,never
+dirty,suit,a,a,about half the time
+door,frame,a,a,often
+pink,fan,a,a,rarely
+parent,girl,a,a,sometimes
+hen,egg,an,a,almost always
+bear,head,a,a,never
+pumpkin,muffin,a,a,never
+plastic,sack,a,a,always
+soapy,water,,,never
+pink,makeup,,,almost always
+turtle,purple,,,often
+plastic,grid,a,a,never
+pearl,ribbon,a,a,never
+wooden,side,a,a,never
+apple,cinnamon,,,never
+piggy,toe,a,a,never
+swamp,land,,,rarely
+bathroom,suite,a,a,often
+dirty,tractor,a,a,about half the time
+thick,tights,,,sometimes
+red,sun,,,never
+red,crab,a,a,rarely
+dirty,mess,a,a,often
+baby,chick,a,a,almost always
+fridge,door,a,a,never
+doggy,food,,,rarely
+brown,beard,a,a,sometimes
+purple,bear,a,a,never
+giant,creature,a,a,never
+yellow,octagon,an,a,sometimes
+dark,mulch,,,almost always
+green,light,a,a,always
+church,warden,a,a,rarely
+varnish,stain,a,a,almost always
+square,pretzel,a,a,rarely
+red,ruby,a,a,always
+solid,food,,,almost always
+hot,pipe,a,a,always
+green,balloon,a,a,rarely
+muffin,pan,a,a,never
+orange,green,,,always
+milk,pint,a,a,almost always
+bathroom,ceiling,a,a,rarely
+ear,drum,a,an,rarely
+thick,cheese,,,almost always
+mud,pool,a,a,never
+orange,peel,a,an,sometimes
+red,bell,a,a,rarely
+red,eye,an,a,never
+purple,robe,a,a,never
+snare,drum,a,a,always
+riding,horse,a,a,often
+bunny,costume,a,a,often
+baby,voice,a,a,rarely
+steam,engine,an,a,rarely
+purple,corner,a,a,never
+saucepan,lid,a,a,about half the time
+pink,slipper,a,a,rarely
+brown,wing,a,a,about half the time
+fence,door,a,a,never
+red,bridge,a,a,rarely
+orange,carrot,a,an,always
+car,engine,an,a,almost always
+wet,wipe,a,a,often
+fish,meal,a,a,about half the time
+yellow,marble,a,a,rarely
+blood,vessel,a,a,about half the time
+marble,painting,a,a,never
+yellow,mustache,a,a,always
+linen,closet,a,a,about half the time
+sticker,book,a,a,rarely
+red,clock,a,a,never
+candy,man,a,a,rarely
+window,sill,a,a,never
+mulberry,bush,a,a,rarely
+blueberry,tea,,,never
+green,square,a,a,never
+scavenger,hunt,a,a,never
+green,tube,a,a,about half the time
+gulf,stream,a,a,about half the time
+green,tummy,a,a,never
+blood,check,a,a,never
+dirty,town,a,a,never
+baby,bubble,a,a,always
+outside,basket,a,an,never
+bed,explorer,an,a,never
+telephone,point,a,a,almost always
+wood,worm,a,a,rarely
+finger,nail,a,a,never
+gas,cooking,,,always
+car,green,,,never
+baby,stick,a,a,always
+potty,book,a,a,never
+brown,lettuce,,,never
+fish,dad,a,a,never
+country,music,,,sometimes
+fire,hydrant,a,a,always
+sea,baby,a,a,never
+toy,tub,a,a,never
+colored,worm,a,a,sometimes
+purple,ball,a,a,never
+mitten,back,a,a,never
+cookie,crumb,a,a,never
+plastic,fork,a,a,rarely
+passenger,train,a,a,almost always
+giant,cat,a,a,rarely
+survey,photograph,a,a,always
+purple,wrapper,a,a,rarely
+slam,dunk,a,a,sometimes
+pirate,ship,a,a,rarely
+green,straw,a,a,never
+giant,squid,a,a,rarely
+bald,guy,a,a,almost always
+tomato,sauce,,,sometimes
+pink,sweater,a,a,rarely
+orange,bean,a,an,sometimes
+sleigh,bell,a,a,rarely
+green,key,a,a,never
+brown,crayon,a,a,sometimes
+outside,window,a,an,never
+red,pole,a,a,sometimes
+red,rose,a,a,about half the time
+yellow,dress,a,a,never
+liver,oil,,,never
+surf,board,a,a,never
+dirty,ground,,,always
+purple,moon,a,a,never
+swim,dolphin,a,a,always
+green,rain,,,never
+baby,body,a,a,always
+orange,baby,a,an,always
+cheese,packet,a,a,never
+velvety,calf,a,a,rarely
+egg,bread,,,sometimes
+salmon,sandwich,a,a,rarely
+chocolate,log,a,a,never
+ballroom,dancing,,,always
+pine,needle,a,a,never
+eye,shadow,a,an,almost always
+purple,plant,a,a,never
+wheat,cracker,a,a,rarely
+transporter,company,a,a,rarely
+green,candle,a,a,rarely
+green,sugar,,,never
+brick,piece,a,a,always
+purple,spoon,a,a,never
+red,letter,a,a,always
+bowling,pin,a,a,almost always
+military,person,a,a,sometimes
+bank,card,a,a,about half the time
+green,shoe,a,a,rarely
+hedge,shears,,,never
+square,balloon,a,a,never
+spiral,nail,a,a,never
+spaghetti,porridge,,,never
+jump,jockey,a,a,never
+yellow,bar,a,a,never
+garage,key,a,a,rarely
+sand,swell,a,a,about half the time
+water,gun,a,a,rarely
+sewer,line,a,a,about half the time
+boy,swing,a,a,almost always
+butter,cup,a,a,never
+green,tooth,a,a,always
+sugar,oatmeal,,,about half the time
+yellow,boat,a,a,rarely
+red,suit,a,a,never
+ocean,ship,a,an,about half the time
+sugar,man,a,a,about half the time
+purple,duck,a,a,rarely
+milk,pitcher,a,a,almost always
+onion,skin,,,rarely
+cake,stall,a,a,never
+fat,kiss,a,a,sometimes
+worm,bin,a,a,never
+wet,clothes,,,always
+trash,game,a,a,never
+green,daddy,a,a,always
+purple,marker,a,a,about half the time
+police,station,a,a,always
+pig,roll,a,a,never
+metal,clip,a,a,almost always
+baby,step,a,a,almost always
+music,room,a,a,always
+night,air,,,always
+red,petal,a,a,almost always
+nanny,training,a,a,always
+pink,cloud,a,a,never
+plastic,spoon,a,a,never
+fat,lump,a,a,never
+baby,picture,a,a,rarely
+daddy,company,a,a,never
+yellow,cow,a,a,never
+red,grey,,,always
+bottom,bar,a,a,never
+tree,bark,a,a,about half the time
+yellow,bag,a,a,never
+flat,pumpkin,a,a,about half the time
+college,building,a,a,never
+locomotive,car,a,a,never
+gold,dragon,a,a,never
+chocolate,milk,,,rarely
+bald,baby,a,a,often
+rugby,player,a,a,about half the time
+card,game,a,a,often
+laser,beam,a,a,never
+lead,boot,a,a,never
+battle,field,a,a,about half the time
+yellow,button,a,a,rarely
+water,test,a,a,never
+broken,neck,a,a,about half the time
+tea,towel,a,a,sometimes
+pirate,guy,a,a,always
+bright,sun,,,almost always
+pet,shop,a,a,rarely
+green,bead,a,a,about half the time
+kid,movie,a,a,about half the time
+dead,flower,a,a,never
+yellow,bed,a,a,never
+pest,attack,an,a,almost always
+sirloin,steak,a,a,always
+burnt,toasted,,,never
+icy,road,a,an,rarely
+comforter,cover,a,a,rarely
+curtain,rail,a,a,never
+water,feed,,,never
+square,paper,a,a,never
+foot,hole,a,a,never
+computer,man,a,a,never
+thyroid,infection,an,a,never
+green,helmet,a,a,never
+purple,head,a,a,almost always
+purple,wheel,a,a,never
+hammer,head,a,a,never
+green,stem,a,a,always
+green,star,a,a,never
+soapy,bubble,a,a,sometimes
+top,card,a,a,about half the time
+orange,skin,,,never
+cargo,ship,a,a,often
+pink,piece,a,a,never
+baby,jaguar,a,a,never
+food,picture,a,a,about half the time
+garden,door,a,a,sometimes
+brown,bottom,a,a,about half the time
+pony,home,a,a,never
+dragon,picture,a,a,rarely
+red,mouth,a,a,almost always
+chicken,prawn,a,a,never
+baby,duck,a,a,sometimes
+plastic,duck,a,a,never
+blueberry,bar,a,a,never
+juicy,bite,a,a,about half the time
+fat,cookie,a,a,never
+wet,sand,,,always
+bath,drain,a,a,sometimes
+yellow,card,a,a,never
+green,creature,a,a,sometimes
+draw,pile,a,a,never
+pipe,band,a,a,almost always
+outside,toilet,a,an,rarely
+yellow,block,a,a,often
+green,boxcar,a,a,never
+blob,cookie,a,a,never
+back,chair,a,a,always
+back,wall,a,a,never
+pizza,crust,a,a,almost always
+giant,circle,a,a,never
+chocolate,fry,a,a,rarely
+boy,tiger,a,a,always
+piano,bench,a,a,never
+giant,baby,a,a,always
+hot,coal,a,a,always
+tub,toy,a,a,never
+pink,box,a,a,never
+kid,slide,a,a,almost always
+outside,kitty,a,an,often
+water,tap,a,a,almost always
+asteroid,belt,a,an,never
+baby,swing,a,a,about half the time
+glass,jar,a,a,almost always
+yellow,hat,a,a,never
+green,button,a,a,sometimes
+dark,night,a,a,almost always
+yellow,house,a,a,rarely
+puzzle,box,a,a,always
+naked,bear,a,a,never
+egg,salad,a,an,never
+red,fan,a,a,never
+green,dragon,a,a,never
+slim,girl,a,a,always
+outdoor,art,,,about half the time
+green,boat,a,a,never
+orange,scissors,,,rarely
+wooden,chair,a,a,often
+blonde,one,a,a,always
+head,piece,a,a,almost always
+cherry,pie,a,a,rarely
+cathedral,window,a,a,rarely
+blond,hair,,,sometimes
+lunch,bag,a,a,never
+elephant,grey,,,always
+purple,pot,a,a,rarely
+brown,page,a,a,never
+hot,sauce,,,often
+stick,person,a,a,never
+mince,pie,a,a,almost always
+yellow,color,a,a,often
+colored,water,,,always
+film,wrap,a,a,rarely
+corn,movie,a,a,never
+grey,dog,a,a,never
+truck,book,a,a,never
+girl,teacher,a,a,often
+broken,toy,a,a,rarely
+orange,cracker,a,an,never
+brown,lid,a,a,almost always
+orange,mango,a,an,never
+water,park,a,a,sometimes
+yellow,pot,a,a,rarely
+shadow,puppet,a,a,rarely
+brick,fire,,,always
+willow,tree,a,a,rarely
+trash,man,a,a,rarely
+apple,skin,,,almost always
+top,window,a,a,never
+farm,puzzle,a,a,never
+karate,suit,a,a,rarely
+green,broccoli,,,always
+orange,slice,a,an,sometimes
+pink,piggy,a,a,often
+dinosaur,bone,a,a,always
+milk,cow,a,a,often
+clock,book,a,a,never
+pink,marker,a,a,never
+oatmeal,bath,a,an,often
+racing,car,a,a,rarely
+red,tower,a,a,never
+yellow,truck,a,a,almost always
+red,tail,a,a,about half the time
+blowing,nose,a,a,never
+princess,tea,,,never
+upstairs,brush,a,an,never
+north,wind,,,always
+bottom,floor,a,a,always
+slide,watch,a,a,always
+train,money,,,never
+soap,juice,,,never
+red,boy,a,a,always
+karate,ballerina,a,a,never
+steering,wheel,a,a,almost always
+pineapple,juice,,,rarely
+honey,marmalade,,,never
+hot,sun,,,always
+color,stripe,a,a,almost always
+orange,marmalade,,,always
+upstairs,flat,a,an,always
+snow,pants,,,almost always
+engine,driver,a,an,about half the time
+eye,witness,a,an,almost always
+thick,point,a,a,never
+green,booger,a,a,sometimes
+picnic,bench,a,a,almost always
+yellow,carrot,a,a,rarely
+orange,flower,a,an,rarely
+diamond,ring,a,a,rarely
+chocolate,bar,a,a,always
+vegetable,soup,,,sometimes
+sunflower,seed,a,a,rarely
+snack,bar,a,a,never
+dogs,face,a,a,never
+yellow,broom,a,a,never
+glass,light,a,a,about half the time
+freezing,water,,,never
+brown,dog,a,a,always
+orange,squid,a,an,about half the time
+country,road,a,a,about half the time
+pocket,money,,,often
+wet,wash,a,a,about half the time
+purple,camera,a,a,never
+red,ribbon,a,a,never
+colored,glue,,,rarely
+hot,tea,,,often
+pink,frosting,,,sometimes
+night,school,a,a,sometimes
+giant,meteorite,a,a,never
+pink,pony,a,a,always
+upstairs,bed,a,an,often
+dinosaur,picture,a,a,never
+sun,rise,a,a,about half the time
+wet,towel,a,a,about half the time
+dirty,table,a,a,sometimes
+kid,bike,a,a,never
+river,fishing,,,about half the time
+downstairs,loo,a,a,about half the time
+dirty,pavement,,,always
+apple,tree,a,an,rarely
+icy,ring,a,an,never
+hot,rod,a,a,rarely
+brown,wig,a,a,often
+red,sauce,,,always
+broken,bone,a,a,rarely
+pink,bank,a,a,always
+flat,knife,a,a,about half the time
+green,rectangle,a,a,never
+fat,child,a,a,often
+round,hand,a,a,never
+couple,stair,a,a,always
+bottom,cover,a,a,rarely
+glitter,glue,,,never
+bubble,wrap,a,a,never
+flower,plate,a,a,sometimes
+scrap,yard,a,a,rarely
+hair,cut,a,a,almost always
+football,teacher,a,a,never
+duffel,coat,a,a,often
+dirty,box,a,a,about half the time
+dirty,movie,a,a,almost always
+daddy,chin,a,a,almost always
+candy,gum,a,a,almost always
+bus,driver,a,a,rarely
+green,land,,,rarely
+dirty,vent,a,a,almost always
+pub,window,a,a,rarely
+green,car,a,a,rarely
+cut,piece,a,a,about half the time
+yellow,queen,a,a,never
+hot,wing,a,a,never
+wooden,animal,an,a,never
+mommy,bird,a,a,rarely
+brown,suit,a,a,never
+baby,chicken,a,a,rarely
+body,wash,a,a,never
+orange,sword,a,an,rarely
+yellow,shoe,a,a,about half the time
+orange,tree,a,an,never
+back,page,a,a,never
+taxi,man,a,a,always
+yellow,row,a,a,sometimes
+bacon,casserole,a,a,rarely
+green,knight,a,a,never
+ginger,ale,an,a,never
+yellow,wedge,a,a,always
+toy,box,a,a,rarely
+song,sheet,a,a,about half the time
+pelican,crossing,a,a,always
+hot,juice,,,never
+doll,dress,a,a,never
+yellow,pig,a,a,always
+hot,cross,a,a,always
+flower,pan,a,a,never
+dog,joint,a,a,never
+poop,factory,a,a,almost always
+flower,room,a,a,never
+bear,shoe,a,a,never
+diamond,rock,a,a,never
+blond,captain,a,a,never
+header,tank,a,a,about half the time
+color,knight,a,a,always
+dad,hand,a,a,almost always
+ice,truck,a,an,rarely
+water,bottle,a,a,often
+yellow,fire,,,almost always
+step,mother,a,a,about half the time
+bright,feather,a,a,rarely
+machine,gun,a,a,rarely
+hairy,finger,a,a,never
+yellow,bead,a,a,never
+brown,floor,a,a,almost always
+dump,truck,a,a,rarely
+print,shop,a,a,never
+yellow,sheep,a,a,never
+hot,pink,,,rarely
+daddy,headache,a,a,never
+dog,hair,,,sometimes
+girl,shoe,a,a,always
+toilet,paper,a,a,sometimes
+sand,toy,a,a,never
+blind,person,a,a,rarely
+lighter,colors,a,a,rarely
+orange,paint,,,rarely
+pussy,cat,a,a,never
+flat,bed,a,a,never
+orange,hat,a,an,never
+night,kiss,a,a,never
+yellow,van,a,a,rarely
+color,petal,a,a,about half the time
+bear,puzzle,a,a,never
+carrier,bag,a,a,often
+wolf,hound,a,a,never
+wet,floor,a,a,about half the time
+pooper,scooper,a,a,rarely
+lollipop,stick,a,a,never
+sweat,top,a,a,about half the time
+back,cellar,a,a,about half the time
+macaroni,cheese,,,never
+violin,group,a,a,never
+nail,cut,a,a,rarely
+farm,machine,a,a,rarely
+baby,tiger,a,a,rarely
+curly,hair,,,rarely
+candy,house,a,a,rarely
+wood,hardware,,,never
+hermit,crab,a,a,sometimes
+ankle,sock,a,an,always
+strawberry,flower,a,a,never
+broken,car,a,a,rarely
+coffee,cup,a,a,sometimes
+cut,hair,,,always
+hot,towel,a,a,rarely
+mommy,horse,a,a,often
+fish,finger,a,a,sometimes
+chipmunk,song,a,a,never
+frog,leg,a,a,never
+giant,bucket,a,a,almost always
+hot,boil,a,a,almost always
+pink,snow,,,never
+red,pin,a,a,never
+rain,bow,a,a,always
+red,colors,a,a,always
+dish,soap,,,always
+mommy,duck,a,a,almost always
+hair,ball,a,a,always
+thick,marker,a,a,never
+dirty,pajamas,,,sometimes
+bow,tie,a,a,never
+solar,house,a,a,never
+purple,monkey,a,a,never
+hot,grill,a,a,often
+climbing,stair,a,a,always
+purple,cartridge,a,a,never
+saw,puzzle,a,a,never
+shortbread,cookie,a,a,never
+car,parking,,,about half the time
+farm,instrument,an,a,rarely
+dirty,room,a,a,sometimes
+troll,person,a,a,often
+drawing,office,an,a,about half the time
+shaving,mirror,a,a,about half the time
+thick,rope,a,a,rarely
+orange,bird,a,an,rarely
+lighter,snack,a,a,about half the time
+red,hamster,a,a,never
+split,cup,a,a,never
+orange,color,a,an,about half the time
+purple,stick,a,a,never
+gold,helmet,a,a,rarely
+mother,bear,a,a,almost always
+puzzle,board,a,a,about half the time
+sand,castle,a,a,almost always
+mail,truck,a,a,never
+red,bowl,a,a,never
+strawberry,lemonade,,,never
+gold,shoe,a,a,never
+fat,brush,a,a,never
+top,cap,a,a,never
+red,doggie,a,a,never
+tea,cake,a,a,rarely
+wet,diaper,a,a,rarely
+mechanic,shop,a,a,never
+army,officer,an,an,always
+bear,book,a,a,never
+cream,tub,a,a,almost always
+secretary,treasurer,a,a,never
+ferry,crossing,a,a,almost always
+purple,octopus,an,a,never
+oatmeal,bite,a,an,always
+glass,building,a,a,never
+dirty,finger,a,a,never
+toddler,bed,a,a,always
+circus,man,a,a,rarely
+cut,glass,a,a,never
+dark,color,a,a,almost always
+hot,bottle,a,a,never
+barge,person,a,a,never
+yellow,tooth,a,a,always
+pitch,fork,a,a,almost always
+driving,instructor,an,a,rarely
+astronaut,hat,a,an,rarely
+bear,cry,a,a,about half the time
+bay,window,a,a,never
+berry,patch,a,a,never
+piano,player,a,a,about half the time
+bedside,table,a,a,about half the time
+dead,person,a,a,never
+bird,cave,a,a,never
+gold,coin,a,a,never
+engine,oil,,,about half the time
+green,pot,a,a,never
+ocean,animal,an,an,always
+cheese,ball,a,a,never
+red,bicycle,a,a,never
+turkey,breast,a,a,never
+hairy,spider,a,a,about half the time
+apple,juice,,,often
+paper,sticker,a,a,about half the time
+air,balloon,a,an,never
+mud,pie,a,a,never
+orange,circle,a,an,about half the time
+star,fish,a,a,never
+fish,lip,a,a,never
+orange,broom,a,an,sometimes
+paint,plaster,a,a,rarely
+dance,contest,a,a,never
+hot,chocolate,,,sometimes
+green,elephant,an,a,never
+flower,day,a,a,rarely
+orange,pentagon,a,an,never
+student,band,a,a,rarely
+pink,milk,,,never
+milk,shake,a,a,always
+yellow,plastic,,,rarely
+daddy,car,a,a,never
+wet,tarmac,a,a,never
+pink,blanket,a,a,never
+shovel,fork,a,a,never
+fat,piggy,a,a,rarely
+sugar,cone,a,a,always
+glass,washer,a,a,often
+silver,penny,a,a,always
+sugar,syrup,,,about half the time
+cookie,blob,a,a,often
+donut,chair,a,a,never
+watch,strap,a,a,almost always
+top,cream,,,almost always
+brown,teddy,a,a,never
+red,purple,,,never
+blooming,month,a,a,about half the time
+bloody,coconut,a,a,rarely
+game,tile,a,a,always
+circle,drawing,a,a,often
+fat,belly,a,a,often
+puffy,cloud,a,a,often
+dirty,outside,an,a,never
+book,tray,a,a,never
+red,blood,,,never
+cream,taste,a,a,never
+grey,tights,,,sometimes
+sword,fight,a,a,rarely
+female,alligator,an,a,about half the time
+dark,turquoise,,,never
+check,mark,a,a,never
+throw,toy,a,a,rarely
+back,line,a,a,never
+silky,mask,a,a,never
+potato,chip,a,a,always
+stand,firm,a,a,about half the time
+cut,trunk,a,a,never
+red,mark,a,a,sometimes
+powder,paint,,,never
+broken,crayon,a,a,always
+mail,uniform,a,a,often
+police,man,a,a,almost always
+yellow,taxi,a,a,often
+river,path,a,a,sometimes
+flat,tire,a,a,never
+brown,horse,a,a,often
+purple,dot,a,a,never
+cranberry,juice,,,rarely
+fire,fighter,a,a,always
+ocean,wave,a,an,often
+red,paint,,,about half the time
+red,dot,a,a,always
+orange,leaflet,a,an,never
+red,cab,a,a,rarely
+triangle,roof,a,a,about half the time
+plastic,cup,a,a,never
+ant,trail,a,an,almost always
+seat,belt,a,a,about half the time
+bread,box,a,a,never
+yellow,car,a,a,rarely
+mud,color,a,a,about half the time
+orange,shovel,a,an,about half the time
+red,picture,a,a,rarely
+orange,macaroni,,,sometimes
+orange,screw,a,an,never
+head,shot,a,a,never
+snowy,day,a,a,rarely
+road,track,a,a,rarely
+green,wall,a,a,rarely
+hot,steam,,,always
+hot,mess,a,a,often
+drummer,boy,a,a,always
+market,stall,a,a,sometimes
+turtle,magazine,a,a,never
+orange,packet,a,an,always
+home,movie,a,a,rarely
+red,cape,a,a,never
+weeping,willow,a,a,never
+red,bone,a,a,never
+oil,barrel,a,an,never
+shirt,top,a,a,almost always
+purple,frog,a,a,never
+children,book,a,a,often
+purple,bubble,a,a,never
+sweet,potato,a,a,rarely
+village,hall,a,a,rarely
+lacrosse,stick,a,a,almost always
+snake,tongue,a,a,never
+bread,knife,a,a,about half the time
+bake,cookie,a,a,never
+hare,lip,a,a,rarely
+pink,pants,,,rarely
+red,lip,a,a,rarely
+batman,shoe,a,a,never
+dark,room,a,a,never
+dark,paint,,,never
+dinosaur,egg,an,a,never
+wooden,horse,a,a,never
+oval,circle,a,an,never
+kid,game,a,a,often
+purple,basket,a,a,never
+purple,bead,a,a,never
+orange,tiger,a,an,almost always
+hot,corn,a,a,rarely
+ballet,dress,a,a,rarely
+fish,puppet,a,a,never
+purple,patch,a,a,rarely
+green,bear,a,a,rarely
+bread,dough,,,almost always
+grey,hair,,,sometimes
+document,file,a,a,always
+bedroom,flat,a,a,about half the time
+yellow,kite,a,a,sometimes
+pitcher,glove,a,a,never
+ink,pad,a,an,rarely
+mouse,ear,an,a,never
+pink,cup,a,a,almost always
+red,belly,a,a,never
+orange,crayon,a,an,about half the time
+ankle,boot,a,an,rarely
+dog,bun,a,a,never
+bus,puzzle,a,a,never
+green,leg,a,a,never
+dirty,food,,,never
+hamburger,bun,a,a,never
+soccer,ball,a,a,about half the time
+jean,jacket,a,a,never
+green,chair,a,a,never
+yellow,stick,a,a,never
+leaf,pile,a,a,sometimes
+red,luggage,,,rarely
+orange,sequin,a,an,rarely
+dirty,garbage,,,never
+wash,cloth,a,a,often
+green,bubble,a,a,rarely
+upstairs,toy,a,an,about half the time
+balloon,popping,a,a,never
+yellow,mountain,a,a,never
+water,line,a,a,about half the time
+top,piece,a,a,always
+straw,cup,a,a,rarely
+red,lead,a,a,always
+snack,boy,a,a,about half the time
+circle,puzzle,a,a,never
+banana,chip,a,a,never
+apple,cider,,,often
+snowman,melt,a,a,never
+skate,board,a,a,about half the time
+grocery,warehouse,a,a,often
+wheel,chair,a,a,rarely
+baby,bag,a,a,about half the time
+wood,box,a,a,never
+car,ferry,a,a,about half the time
+red,tights,,,always
+smiley,face,a,a,always
+crystal,piece,a,a,rarely
+cherry,vanilla,,,never
+bath,room,a,a,never
+yellow,match,a,a,never
+student,nurse,a,a,about half the time
+baby,cat,a,a,never
+orange,ball,a,an,sometimes
+firehouse,lunch,a,a,about half the time
+red,tractor,a,a,always
+bowling,alley,an,a,never
+snow,ball,a,a,rarely
+pink,teddy,a,a,never
+toy,man,a,a,rarely
+purple,mouse,a,a,never
+baby,bath,a,a,rarely
+green,house,a,a,never
+red,dandelion,a,a,rarely
+frozen,shoulder,a,a,about half the time
+hot,milk,,,sometimes
+vinegar,bottle,a,a,sometimes
+color,book,a,a,almost always
+company,software,,,about half the time
+red,border,a,a,never
+oak,tree,a,an,sometimes
+music,note,a,a,always
+mommy,hair,,,never
+top,branch,a,a,always
+burglar,alarm,an,a,always
+office,key,a,an,about half the time
+green,toe,a,a,never
+movie,channel,a,a,sometimes
+dune,buggy,a,a,never
+yellow,green,,,always
+red,pig,a,a,never
+exterior,light,a,an,almost always
+plastics,company,a,a,never
+yellow,chalk,,,always
+baby,clothes,,,rarely
+park,parade,a,a,rarely
+bike,ride,a,a,almost always
+car,seat,a,a,almost always
+hot,doggy,a,a,never
+pink,sock,a,a,never
+green,dress,a,a,sometimes
+sea,shell,a,a,rarely
+copy,cat,a,a,never
+yellow,square,a,a,sometimes
+wall,drawer,a,a,never
+maple,sugar,,,always
+snow,hill,a,a,almost always
+sky,color,a,a,sometimes
+day,school,a,a,always
+vanilla,wafer,a,a,always
+peacock,feather,a,a,often
+flat,fish,a,a,rarely
+garden,sign,a,a,always
+cream,cheese,,,rarely
+hair,barrette,a,a,always
+orange,zebra,a,an,never
+bear,tooth,a,a,never
+cheese,sauce,,,never
+blood,checker,a,a,never
+bright,leaf,a,a,often
+brown,ale,an,a,often
+red,sifter,a,a,never
+color,leg,a,a,almost always
+purple,light,a,a,never
+wrap,present,a,a,often
+frozen,lip,a,a,rarely
+puppy,bark,a,a,sometimes
+letter,side,a,a,about half the time
+model,girl,a,a,almost always
+horse,shoeing,a,a,always
+coal,block,a,a,never
+green,triangle,a,a,sometimes
+red,cap,a,a,sometimes
+rectangle,door,a,a,always
+purple,submarine,a,a,never
+orange,bud,a,an,rarely
+mommy,parrot,a,a,almost always
+belly,button,a,a,sometimes
+round,carpet,a,a,rarely
+orange,noodle,a,an,rarely
+baby,tooth,a,a,rarely
+plastic,lid,a,a,often
+rain,umbrella,an,a,always
+shore,island,an,a,almost always
+brown,guy,a,a,never
+cigarette,smoking,,,never
+green,pea,a,a,often
+bear,cookie,a,a,rarely
+picnic,blanket,a,a,sometimes
+tobacco,jar,a,a,sometimes
+baby,girl,a,a,never
+outside,toy,a,an,almost always
+pointy,fish,a,a,never
+shoe,rack,a,a,rarely
+bubble,game,a,a,never
+head,pirate,a,a,never
+web,site,a,a,almost always
+gold,medal,a,a,rarely
+brake,dust,,,about half the time
+mama,deer,a,a,about half the time
+bicycle,store,a,a,rarely
+orange,peach,a,an,never
+red,seat,a,a,about half the time
+hay,stack,a,a,almost always
+brown,trunk,a,a,never
+brush,handle,a,a,never
+family,room,a,a,almost always
+orange,letter,a,an,always
+grassy,field,a,a,always
+fish,fin,a,a,about half the time
+stegosaurus,strike,a,a,never
+knight,costume,a,a,sometimes
+executive,committee,a,an,never
+potato,scoop,a,a,never
+red,star,a,a,almost always
+cannon,ball,a,a,always
+flat,house,a,a,almost always
+trash,can,a,a,always
+yellow,blanket,a,a,never
+green,shovel,a,a,never
+cardboard,house,a,a,never
+round,wall,a,a,never
+red,edge,an,a,often
+orange,train,a,an,never
+wooden,leg,a,a,rarely
+pink,bottle,a,a,never
+tip,toe,a,a,rarely
+purple,crayon,a,a,never
+building,marker,a,a,never
+red,card,a,a,about half the time
+mommy,hand,a,a,never
+tea,pickle,a,a,never
+baby,alligator,an,a,sometimes
+jelly,bagel,a,a,never
+hot,stove,a,a,almost always
+cable,run,a,a,about half the time
+purple,reindeer,a,a,never
+yellow,roller,a,a,never
+green,yogurt,,,never
+grey,label,a,a,about half the time
+pink,scarf,a,a,rarely
+hairless,cat,a,a,rarely
+hand,washing,,,almost always
+teen,movie,a,a,rarely
+fuel,tank,a,a,always
+brown,monkey,a,a,never
+red,pea,a,a,never
+apple,core,a,an,never
+walking,stick,a,a,never
+fuzzy,blanket,a,a,often
+wet,hand,a,a,never
+red,bow,a,a,never
+slave,driver,a,a,always
+yellow,leg,a,a,sometimes
+organ,pipe,a,an,never
+farmer,man,a,a,never
+pink,rectangle,a,a,always
+ear,hole,a,an,never
+ice,box,a,an,about half the time
+yogurt,raisin,a,a,never
+pink,lip,a,a,almost always
+grey,cap,a,a,rarely
+orange,button,a,an,almost always
+dark,glasses,,,rarely
+top,model,a,a,never
+floor,tiling,,,always
+fruit,cake,a,a,about half the time
+squirt,guns,a,a,never
+pencil,case,a,a,never
+purple,shovel,a,a,never
+red,rod,a,a,never
+yellow,triangle,a,a,always
+red,leaf,a,a,rarely
+red,square,a,a,always
+dark,yard,a,a,never
+dance,floor,a,a,rarely
+furry,puppy,a,a,always
+orange,container,a,an,never
+daddy,picture,a,a,rarely
+pickle,sandwich,a,a,never
+station,sign,a,a,about half the time
+sweet,packet,a,a,often
+bright,hair,,,never
+fire,engine,an,a,about half the time
+whale,shark,a,a,never
+bald,eagle,an,a,rarely
+square,piece,a,a,almost always
+cream,sandwich,a,a,sometimes
+locked,door,a,a,sometimes
+yellow,elephant,an,a,never
+bubble,clown,a,a,always
+toy,board,a,a,never
+scout,tent,a,a,rarely
+yellow,piggie,a,a,almost always
+green,fish,a,a,about half the time
+giant,one,a,a,about half the time
+market,day,a,a,sometimes
+school,call,a,a,sometimes
+acid,soil,,,almost always
+sweet,person,a,a,about half the time
+quarter,motor,a,a,rarely
+granola,bar,a,a,never
+bunny,hole,a,a,never
+wine,purse,a,a,never
+freeze,tag,a,a,never
+yellow,colors,a,a,never
+boy,drink,a,a,never
+finger,food,,,sometimes
+purple,ark,an,a,rarely
+boat,singing,,,never
+bloody,day,a,a,rarely
+pottery,room,a,a,never
+chicken,mushroom,a,a,often
+giant,potato,a,a,rarely
+color,orange,an,a,almost always
+round,glasses,,,often
+wildlife,park,a,a,about half the time
+child,seat,a,a,rarely
+sweet,home,a,a,almost always
+hair,day,a,a,never
+dozen,egg,an,a,about half the time
+doggy,bin,a,a,never
+dinosaur,blanket,a,a,always
+wall,light,a,a,sometimes
+school,playground,a,a,often
+red,bead,a,a,sometimes
+paper,boy,a,a,rarely
+purple,worm,a,a,never
+sleep,walking,,,rarely
+dirty,car,a,a,almost always
+blind,mommy,a,a,never
+sugar,spoon,a,a,often
+key,lock,a,a,about half the time
+dirty,pillow,a,a,never
+kitchen,light,a,a,never
+night,cream,,,never
+round,tablet,a,a,never
+tennis,ball,a,a,sometimes
+green,scissors,,,never
+grilled,cheese,,,never
+rainbow,parrot,a,a,never
+pool,table,a,a,sometimes
+call,box,a,a,always
+female,crab,a,a,always
+board,book,a,a,never
+bridesmaid,dress,a,a,sometimes
+oatmeal,breakfast,a,an,about half the time
+teddy,snack,a,a,never
+red,cone,a,a,never
+cheese,sandwich,a,a,sometimes
+mama,duck,a,a,about half the time
+round,penny,a,a,always
+chain,saw,a,a,often
+holly,leaf,a,a,rarely
+ginger,wine,,,rarely
+flat,floor,a,a,never
+woman,sitting,a,a,never
+kettle,boiling,,,never
+grassy,piece,a,a,always
+flower,border,a,a,never
+yellow,star,a,a,never
+oil,taste,a,an,almost always
+orange,taste,a,an,almost always
+steam,roller,a,a,never
+jazz,band,a,a,never
+fish,net,a,a,often
+baby,dinosaur,a,a,never
+furry,duck,a,a,never
+dance,room,a,a,never
+green,diamond,a,a,never
+alligator,green,,,almost always
+soy,milk,,,often
+fuzzy,poodle,a,a,always
+girl,toy,a,a,never
+orange,tower,a,an,never
+red,face,a,a,never
+shot,guns,a,a,about half the time
+music,box,a,a,almost always
+fat,leg,a,a,sometimes
+yellow,pail,a,a,never
+baking,bread,,,never
+cocktail,bar,a,a,often
+pirate,beard,a,a,about half the time
+red,hair,,,rarely
+drum,body,a,a,never
+hand,dress,a,a,never
+breakfast,bar,a,a,rarely
+dough,rise,a,a,never
+seedless,grape,a,a,often
+television,licence,a,a,never
+toy,soldier,a,a,never
+woman,show,a,a,always
+dark,brown,,,sometimes
+frog,umbrella,an,a,always
+wing,color,a,a,always
+flip,flop,a,a,always
+green,honey,,,never
+strawberry,milk,,,never
+dark,food,,,often
+wet,baby,a,a,almost always
+bunny,show,a,a,never
+giant,seal,a,a,rarely
+snack,honey,,,never
+ferry,boat,a,a,rarely
+pink,juice,,,rarely
+school,day,a,a,always
+navy,sweater,a,a,often
+milk,bottle,a,a,almost always
+pirate,station,a,a,never
+yellow,shovel,a,a,sometimes
+flower,seed,a,a,never
+picnic,basket,a,a,never
+fish,song,a,a,never
+orange,finger,a,an,never
+paint,stamping,,,often
+bright,child,a,a,sometimes
+round,knob,a,a,often
+attic,bedroom,a,an,never
+orange,collection,a,an,never
+driving,horse,a,a,often
+thick,one,a,a,never
+fish,cake,a,a,rarely
+plastic,edging,,,rarely
+outside,building,a,an,always
+pie,baking,,,sometimes
+giant,dog,a,a,sometimes
+singing,song,a,a,always
+cat,food,,,never
+office,clerk,a,an,almost always
+guitar,player,a,a,about half the time
+dark,purple,,,almost always
+fire,pole,a,a,never
+sweat,shirt,a,a,about half the time
+iron,board,a,an,never
+wooden,stair,a,a,about half the time
+pink,lipstick,,,always
+green,container,a,a,never
+bubble,gun,a,a,never
+yellow,airplane,an,a,never
+yellow,lion,a,a,often
+back,leg,a,a,often
+leg,bone,a,a,rarely
+salad,sandwich,a,a,rarely
+red,gate,a,a,never
+orange,eye,an,an,never
+girl,potty,a,a,never
+dinosaur,arm,an,a,never
+orange,boat,a,an,never
+yellow,marker,a,a,always
+whey,curd,a,a,about half the time
+fat,piggie,a,a,often
+red,box,a,a,sometimes
+office,girl,a,an,never
+gold,sky,a,a,never
+electronics,firm,a,an,sometimes
+chair,seat,a,a,always
+dirty,guy,a,a,often
+metallic,bronze,,,sometimes
+yellow,arrow,an,a,rarely
+owl,book,a,an,always
+juice,box,a,a,never
+sweet,granny,a,a,almost always
+dirty,spoon,a,a,about half the time
+snow,falling,,,rarely
+dark,woods,,,sometimes
+pink,door,a,a,never
+mermaid,leg,a,a,never
+fat,guy,a,a,sometimes
+wooden,shoe,a,a,rarely
+pink,lemonade,,,rarely
+show,office,an,a,often
+dolly,guy,a,a,always
+green,jelly,,,rarely
+shoe,museum,a,a,rarely
+assistant,manager,a,an,rarely
+green,vacuum,a,a,never
+yellow,track,a,a,never
+skunk,salad,a,a,never
+circle,piece,a,a,never
+top,side,a,a,never
+water,pill,a,a,sometimes
+traffic,light,a,a,often
+puppy,guy,a,a,often
+pink,sandal,a,a,rarely
+kitty,litter,,,never
+frown,face,a,a,always
+grey,beard,a,a,almost always
+gold,cap,a,a,never
+dead,brain,a,a,always
+stand,point,a,a,never
+bear,pants,,,often
+lunch,plate,a,a,sometimes
+candy,dish,a,a,about half the time
+bunny,mama,a,a,never
+green,paper,a,a,never
+mommy,baby,a,a,never
+octopus,tentacle,a,an,always
+slide,honey,,,never
+yellow,bin,a,a,about half the time
+fat,girl,a,a,sometimes
+draw,prize,a,a,almost always
+round,hole,a,a,never
+fire,side,a,a,never
+grilled,sandwich,a,a,rarely
+purple,screw,a,a,never
+flat,one,a,a,never
+rain,shower,a,a,often
+wooden,trough,a,a,always
+road,racing,,,often
+orange,grey,,,never
+daddy,dinosaur,a,a,never
+shop,floor,a,a,often
+potato,salad,a,a,rarely
+gold,necklace,a,a,almost always
+family,day,a,a,about half the time
+mommy,talk,a,a,almost always
+throw,pillow,a,a,almost always
+baby,powder,,,about half the time
+spray,bubble,a,a,rarely
+pink,purse,a,a,never
+onion,sandwich,a,an,never
+rum,truffle,a,a,often
+pink,leg,a,a,never
+kid,book,a,a,sometimes
+leather,case,a,a,almost always
+orange,hand,a,an,rarely
+green,tea,,,about half the time
+giant,fire,,,always
+book,sticker,a,a,never
+lollipop,wand,a,a,rarely
+forty,eight,an,a,never
+gram,jar,a,a,never
+coffee,pot,a,a,always
+tile,pattern,a,a,often
+green,truck,a,a,rarely
+baby,dish,a,a,never
+cloth,heart,a,a,never
+fruit,punch,a,a,never
+dark,ring,a,a,never
+green,eel,an,a,never
+hamburger,meat,,,often
+back,hoe,a,a,always
+hot,tank,a,a,never
+yellow,shelf,a,a,never
+purple,pear,a,a,never
+sweet,shrimp,,,never
+mud,pot,a,a,about half the time
+bell,sticker,a,a,always
+brandy,butter,,,never
+pink,car,a,a,never
+spanking,spot,a,a,never
+yellow,grey,,,never
+ball,player,a,a,always
+checkout,girl,a,a,never
+cut,bread,,,always
+plastic,wrap,a,a,often
+cooking,chocolate,,,never
+orange,belt,a,an,never
+purple,pickle,a,a,never
+yellow,fat,,,always
+wheat,cookie,a,a,never
+oyster,cracker,a,an,rarely
+elephant,scale,a,an,always
+yellow,cap,a,a,about half the time
+oval,piece,a,an,never
+flag,drawer,a,a,about half the time
+elephant,toy,a,an,rarely
+grocery,list,a,a,about half the time
+red,diamond,a,a,never
+outside,wind,,,almost always
+sail,boat,a,a,sometimes
+round,wheel,a,a,never
+bunny,slipper,a,a,never
+hot,sandwich,a,a,never
+cub,group,a,a,about half the time
+gym,shoe,a,a,often
+brother,bunny,a,a,always
+orange,car,a,an,rarely
+banana,sundae,a,a,often
+ladies,mother,a,a,always
+pirate,land,,,never
+beetle,family,a,a,never
+door,casing,a,a,often
+mauve,ring,a,a,never
+hot,book,a,a,never
+nut,juice,,,never
+octopus,talon,a,an,never
+cash,book,a,a,often
+motor,bridge,a,a,never
+oatmeal,raisin,a,an,rarely
+red,digger,a,a,never
+page,boy,a,a,about half the time
+metal,edge,an,a,never
+top,butter,,,never
+bright,boy,a,a,often
+round,sun,,,always
+car,tire,a,a,always
+gas,man,a,a,rarely
+green,spoon,a,a,never
+hail,storm,a,a,rarely
+yellow,noodle,a,a,always
+taller,tower,a,a,sometimes
+uniform,skirt,a,a,rarely
+sunset,sky,a,a,sometimes
+firework,factory,a,a,never
+naked,girl,a,a,sometimes
+fish,stick,a,a,never
+red,cow,a,a,rarely
+pink,nose,a,a,about half the time
+fat,bird,a,a,sometimes
+red,corner,a,a,always
+green,hand,a,a,never
+yellow,coat,a,a,rarely
+forty,inch,an,a,never
+pink,eye,an,a,rarely
+pink,hippo,a,a,never
+stain,varnish,,,sometimes
+hot,blanket,a,a,sometimes
+house,spider,a,a,never
+swimming,pool,a,a,almost always
+mama,hat,a,a,never
+taller,ceiling,a,a,rarely
+police,guard,a,a,always
+giant,sundial,a,a,rarely
+putty,hand,a,a,always
+mud,trail,a,a,sometimes
+circus,baby,a,a,never
+furry,guy,a,a,never
+oatmeal,bowl,a,an,always
+green,heart,a,a,never
+sugar,fat,,,always
+orange,structure,a,an,rarely
+hot,whisky,,,never
+outside,theater,a,an,rarely
+grey,snow,,,never
+phone,call,a,a,always
+bug,book,a,a,rarely
+charcoal,grill,a,a,about half the time
+stairs,toy,a,a,never
+purple,sandbox,a,a,never
+frog,hat,a,a,never
+yellow,radiator,a,a,never
+purple,chalk,,,never
+green,turtle,a,a,almost always
+chocolate,dough,,,rarely
+pink,edge,an,a,sometimes
+girl,bunny,a,a,always
+tennis,shoe,a,a,often
+pork,chop,a,a,always
+pillar,box,a,a,always
+orange,juice,,,always
+plastic,wateringcan,a,a,sometimes
+pink,shirt,a,a,rarely
+muffin,man,a,a,never
+dragon,piece,a,a,never
+bar,lounge,a,a,rarely
+baby,carrot,a,a,sometimes
+corn,cookie,a,a,never
+cream,cone,a,a,never
+mama,lion,a,a,about half the time
+plant,house,a,a,never
+light,weight,a,a,about half the time
+bear,costume,a,a,sometimes
+cheese,bag,a,a,rarely
+dirty,floor,a,a,about half the time
+yellow,crayon,a,a,about half the time
+fish,seafood,,,always
+picture,window,a,a,sometimes
+goldfish,jumping,,,never
+bowler,hat,a,a,rarely
+draw,ticket,a,a,rarely
+hive,bee,a,a,always
+smoke,tablet,a,a,about half the time
+baby,puppy,a,a,always
+picture,card,a,a,about half the time
+child,person,a,a,never
+green,tree,a,a,almost always
+cheese,stick,a,a,never
+fork,lift,a,a,sometimes
+peach,cobbler,a,a,never
+toast,cheese,,,never
+purple,grey,,,never
+shoe,shop,a,a,always
+orange,tractor,a,an,never
+flat,box,a,a,never
+yellow,lemon,a,a,always
+toy,house,a,a,never
+red,gravy,,,never
+grill,pan,a,a,never
+toy,block,a,a,almost always
+bear,face,a,a,often
+terrace,house,a,a,sometimes
+red,plate,a,a,never
+apple,pie,a,an,rarely
+hot,food,,,often
+wooden,box,a,a,about half the time
+daddy,tiger,a,a,sometimes
+green,sword,a,a,never
+fatty,lady,a,a,often
+rain,forest,a,a,rarely
+jelly,bean,a,a,never
+casserole,dish,a,a,never
+baby,seat,a,a,never
+butt,cheek,a,a,almost always
+licorice,snack,a,a,never
+green,box,a,a,never
+hot,cream,,,rarely
+wood,chip,a,a,almost always
+cooking,meal,a,a,almost always
+round,puzzle,a,a,rarely
+magnet,toy,a,a,rarely
+sketchbook,pad,a,a,almost always
+slippery,bug,a,a,never
+phone,card,a,a,rarely
+puzzle,game,a,a,often
+sleeveless,suit,a,a,never
+dark,orange,an,a,almost always
+camping,school,a,a,never
+daddy,bear,a,a,rarely
+fish,dinner,a,a,almost always
+room,closet,a,a,always
+purple,arm,an,a,never
+calendar,date,a,a,always
+pink,cookie,a,a,always
+trash,bin,a,a,always
+honey,bee,a,a,sometimes
+yellow,honey,,,about half the time
+pinky,toe,a,a,always
+bright,colors,a,a,often
+red,truck,a,a,sometimes
+rail,road,a,a,never
+hot,date,a,a,always
+light,grate,a,a,never
+dead,cereal,,,never
+letter,factory,a,a,never
+baby,animal,an,a,rarely
+yellow,lemonade,,,always
+green,paint,,,never
+lawn,mower,a,a,always
+tape,head,a,a,never
+dill,pickle,a,a,rarely
+chocolate,frog,a,a,never
+mud,pit,a,a,almost always
+green,grey,,,never
+rusty,nail,a,a,rarely
+text,book,a,a,sometimes
+sunny,road,a,a,often
+hand,motor,a,a,always
+machine,smock,a,a,never
+lego,boy,a,a,rarely
+film,star,a,a,rarely
+sugar,mama,a,a,never
+baby,ice,,,rarely
+red,shirt,a,a,never
+paint,tray,a,a,rarely
+fat,finger,a,a,almost always
+umbrella,stick,a,an,never
+orange,apple,an,an,never
+toddler,toy,a,a,about half the time
+mama,bear,a,a,always
+sugar,cookie,a,a,sometimes
+pink,limousine,a,a,never
+yellow,butterfly,a,a,never
+round,side,a,a,never
+turtle,brown,,,never
+ball,bat,a,a,about half the time
+pussy,hair,,,sometimes
+puppy,blanket,a,a,sometimes
+dead,bug,a,a,rarely
+color,circle,a,a,sometimes
+hot,oil,,,always
+rope,walker,a,a,never
+walking,boot,a,a,never
+bird,bath,a,a,rarely
+family,exercise,an,a,never
+key,chain,a,a,about half the time
+dressing,room,a,a,rarely
+round,egg,an,a,always
+meat,sandwich,a,a,about half the time
+kissing,hand,a,a,never
+fish,bowl,a,a,never
+bubble,flavor,a,a,rarely
+spider,leg,a,a,never
+lego,person,a,a,often
+railway,line,a,a,never
+marble,flooring,,,never
+veggie,cheese,,,never
+mail,box,a,a,sometimes
+gum,drop,a,a,never
+fish,eye,an,a,never
+bear,hunter,a,a,never
+mutant,toy,a,a,rarely
+birth,month,a,a,always
+purple,balloon,a,a,rarely
+purple,phone,a,a,rarely
+floor,board,a,a,sometimes
+brother,chick,a,a,never
+hot,bag,a,a,never
+record,player,a,a,never
+pink,whale,a,a,never
+dirty,milk,,,never
+frog,girl,a,a,never
+cream,truck,a,a,never
+feather,painting,a,a,always
+outside,shoe,a,an,always
+red,piece,a,a,never
+strawberry,chocolate,,,rarely
+braid,hair,,,never
+orange,sugar,,,never
+face,cake,a,a,sometimes
+net,curtain,a,a,rarely
+lady,toy,a,a,never
+pink,cap,a,a,almost always
+breaking,limb,a,a,never
+red,tree,a,a,never
+daddy,cow,a,a,never
+painting,bib,a,a,never
+broken,tool,a,a,never
+circus,police,,,never
+silky,thread,a,a,about half the time
+pink,dress,a,a,sometimes
+crusty,top,a,a,sometimes
+brown,shorts,,,rarely
+baby,goat,a,a,sometimes
+fat,milk,,,often
+foil,tray,a,a,never
+prize,game,a,a,rarely
+vitamin,pill,a,a,about half the time
+dark,lollipop,a,a,never
+sea,picture,a,a,never
+purple,pepper,a,a,never
+breakfast,cereal,,,always
+milk,mustache,a,a,about half the time
+red,wine,,,always
+red,milk,,,never
+fruit,stall,a,a,never
+fuzzy,flower,a,a,never
+hot,cloth,a,a,never
+junction,box,a,a,almost always
+yellow,bus,a,a,sometimes
+music,hall,a,a,never
+cooking,breakfast,a,a,rarely
+fish,game,a,a,sometimes
+girl,deer,a,a,about half the time
+purple,puppy,a,a,never
+brake,drum,a,a,never
+yogurt,juice,,,never
+baby,owl,an,a,rarely
+bakery,bread,,,almost always
+cheese,slice,a,a,always
+table,leg,a,a,sometimes
+turtle,orange,an,a,never
+conveyor,belt,a,a,rarely
+fat,marker,a,a,almost always
+snow,fight,a,a,almost always
+fishing,hole,a,a,rarely
+burnt,rubber,,,rarely
+hot,honey,,,rarely
+snow,night,a,a,about half the time
+hot,sausage,a,a,sometimes
+round,clock,a,a,always
+pear,tree,a,a,never
+green,stool,a,a,rarely
+pink,stair,a,a,never
+carat,ring,a,a,always
+fur,coat,a,a,never
+skate,boarding,,,never
+fold,laundry,,,sometimes
+closet,chair,a,a,always
+giant,belt,a,a,about half the time
+library,tray,a,a,rarely
+pink,tool,a,a,about half the time
+magazine,rack,a,a,never
+car,station,a,a,never
+sea,turtle,a,a,never
+material,flower,a,a,about half the time
+baby,seal,a,a,never
+pirate,costume,a,a,about half the time
+cow,boy,a,a,never
+yellow,paint,,,rarely
+toy,baby,a,a,never
+solid,tape,a,a,almost always
+yellow,balloon,a,a,never
+wet,face,a,a,rarely
+orange,hamster,a,an,often
+green,hair,,,never
+water,kitty,a,a,rarely
+hot,pattern,a,a,never
+purple,dude,a,a,never
+hot,fan,a,a,rarely
+bottom,jaw,a,a,always
+gold,bag,a,a,never
+stud,dog,a,a,rarely
+purple,wiggle,a,a,about half the time
+bright,tomato,a,a,always
+night,raccoon,a,a,never
+marmalade,fish,a,a,never
+wedding,ring,a,a,sometimes
+twin,room,a,a,always
+wiggle,worm,a,a,always
+breakfast,egg,an,a,never
+fishing,rod,a,a,never
+yellow,cup,a,a,rarely
+foam,piece,a,a,always
+aluminum,rod,a,an,almost always
+plastic,tray,a,a,almost always
+gas,mask,a,a,never
+yellow,wing,a,a,about half the time
+hot,ice,,,never
+paint,shirt,a,a,sometimes
+red,shoe,a,a,rarely
+coffee,break,a,a,always
+cuckoo,clock,a,a,rarely
+girl,cup,a,a,almost always
+toucan,bird,a,a,about half the time
+green,pencil,a,a,never
+family,feast,a,a,almost always
+circus,bus,a,a,never
+money,machine,a,a,never
+elephant,brooch,a,an,almost always
+elephant,crying,,,never
+spiral,grip,a,a,about half the time
+furry,cat,a,a,never
+baby,cup,a,a,always
+paper,cut,a,a,rarely
+toy,bag,a,a,about half the time
+car,carrier,a,a,about half the time
+tree,top,a,a,about half the time
+fat,cat,a,a,sometimes
+suction,cup,a,a,rarely
+red,licorice,,,about half the time
+wet,suit,a,a,never
+hot,car,a,a,never
+outside,piece,a,an,always
+pink,suit,a,a,never
+tennis,racket,a,a,about half the time
+green,cookie,a,a,never
+flying,dragon,a,a,never
+dog,dance,a,a,about half the time
+bunny,jumping,,,always
+ultrasound,picture,a,an,almost always
+sliced,potato,a,a,never
+giant,tower,a,a,always
+male,lead,a,a,almost always
+velvet,slipper,a,a,always
+frog,jump,a,a,rarely
+push,bike,a,a,often
+face,guy,a,a,sometimes
+ant,block,a,an,never
+tile,floor,a,a,about half the time
+bouncing,spot,a,a,always
+turtle,hat,a,a,rarely
+plastic,truck,a,a,almost always
+baby,eagle,an,a,rarely
+red,ocean,an,a,never
+ball,man,a,a,almost always
+wet,road,a,a,rarely
+furry,coach,a,a,sometimes
+red,bracelet,a,a,never
+red,candy,,,always
+shower,curtain,a,a,often
+jacket,top,a,a,sometimes
+cough,drop,a,a,always
+fish,egg,an,a,rarely
+picnic,table,a,a,sometimes
+elf,talk,a,an,sometimes
+one,piece,a,a,never
+yellow,ribbon,a,a,never
+yellow,feather,a,a,never
+red,juice,,,sometimes
+worm,poop,,,never
+home,page,a,a,always
+strawberry,yogurt,,,often
+triangle,toast,,,sometimes
+sperm,cell,a,a,never
+puppy,print,a,a,never
+bottom,light,a,a,about half the time
+red,gym,a,a,often
+green,carrot,a,a,never
+yellow,knee,a,a,never
+purple,footprint,a,a,never
+hot,shake,a,a,never
+teddy,home,a,a,about half the time
+twin,tub,a,a,never
+diaper,baby,a,a,always
+back,plate,a,a,never
+hot,piece,a,a,often
+red,bottom,a,a,about half the time
+red,tongue,a,a,always
+ball,bunny,a,a,never
+red,green,,,never
+bear,growl,a,a,almost always
+door,speaker,a,a,sometimes
+purple,room,a,a,never
+prawn,cocktail,a,a,never
+boy,bed,a,a,never
+brown,sweater,a,a,sometimes
+chocolate,cookie,a,a,sometimes
+surface,dwelling,a,a,about half the time
+purple,jacket,a,a,never
+red,snake,a,a,never
+mommy,cup,a,a,never
+octopus,spying,,,never
+animal,picture,a,an,always
+pond,deer,a,a,rarely
+children,slip,a,a,always
+dark,pink,,,never
+army,man,a,an,often
+bean,bag,a,a,never
+dirty,mouse,a,a,always
+sweatshirt,top,a,a,never
+tuna,fish,a,a,never
+night,sign,a,a,never
+burger,bar,a,a,rarely
+penguin,body,a,a,never
+cream,chocolate,,,almost always
+dolphin,show,a,a,never
+hot,wax,,,always
+wet,spot,a,a,almost always
+furry,gorilla,a,a,always
+stuffed,puppy,a,a,rarely
+scout,badge,a,a,always
+blowing,kiss,a,a,never
+dead,leaf,a,a,often
+thick,noodle,a,a,rarely
+bubble,blower,a,a,never
+purple,bird,a,a,never
+brown,tree,a,a,always
+fire,station,a,a,about half the time
+mama,rabbit,a,a,sometimes
+square,box,a,a,never
+garbage,truck,a,a,rarely
+red,oval,an,a,never
+bank,manager,a,a,about half the time
+top,lip,a,a,always
+red,butterfly,a,a,never
+farm,book,a,a,never
+welding,rod,a,a,almost always
+nylon,bag,a,a,always
+purple,ear,an,a,never
+ballet,slipper,a,a,never
+ball,mitt,a,a,almost always
+boy,mouth,a,a,always
+sycamore,tree,a,a,almost always
+wet,shirt,a,a,never
+roll,marble,a,a,always
+giant,ball,a,a,never
+purple,cow,a,a,never
+poison,rattlesnake,a,a,always
+color,green,,,always
+cupboard,door,a,a,sometimes
+brown,piece,a,a,never
+singing,contest,a,a,about half the time
+yellow,head,a,a,never
+furry,teddy,a,a,almost always
+dirty,corner,a,a,always
+dish,wash,a,a,always
+bright,crayon,a,a,always
+concrete,path,a,a,never
+green,block,a,a,never
+wet,panty,a,a,never
+railroad,track,a,a,almost always
+ninja,turtle,a,a,never
+green,bed,a,a,never
+heart,muscle,a,a,about half the time
+purple,salad,a,a,never
+foot,piece,a,a,never
+baby,jogger,a,a,never
+street,car,a,a,almost always
+hall,closet,a,a,about half the time
+yellow,chair,a,a,never
+furry,costume,a,a,rarely
+soap,bottle,a,a,often
+grey,shorts,,,never
+mommy,bear,a,a,almost always
+blind,spot,a,a,sometimes
+purple,kangaroo,a,a,always
+house,beam,a,a,never
+castle,book,a,a,never
+rectangle,book,a,a,never
+sand,block,a,a,never
+cement,truck,a,a,rarely
+grey,cat,a,a,sometimes
+oven,mitt,a,an,almost always
+fruit,shop,a,a,sometimes
+muscle,man,a,a,rarely
+giant,gorilla,a,a,almost always
+shadow,line,a,a,always
+strawberry,patch,a,a,never
+movie,theater,a,a,often
+cat,litter,,,never
+snow,melt,a,a,about half the time
+dark,light,a,a,always
+elephant,book,a,an,never
+yellow,cartridge,a,a,always
+food,card,a,a,never
+round,hoop,a,a,always
+pink,sand,,,rarely
+yellow,box,a,a,always
+light,beam,a,a,never
+fish,sticker,a,a,rarely
+baby,alarm,an,a,never
+foot,radiator,a,a,never
+foot,pruner,a,a,almost always
+raspberry,patch,a,a,never
+pine,tree,a,a,sometimes
+purple,cap,a,a,rarely
+block,house,a,a,almost always
+ant,trap,a,an,always
+orange,drop,a,an,never
+wooden,track,a,a,often
+petrol,tank,a,a,always
+caramel,cluster,a,a,rarely
+shrub,border,a,a,about half the time
+pointy,tip,a,a,always
+car,park,a,a,rarely
+aphid,sandwich,a,an,never
+yellow,neon,,,never
+bubble,world,a,a,never
+yellow,horse,a,a,almost always
+ostrich,leg,a,an,never
+coffee,grinder,a,a,always
+skunk,stew,a,a,never
+red,bat,a,a,rarely
+video,recorder,a,a,rarely
+wet,mommy,a,a,rarely
+pita,bread,,,never
+striped,worm,a,a,about half the time
+bum,worker,a,a,about half the time
+hot,day,a,a,sometimes
+silk,worm,a,a,rarely
+fish,market,a,a,rarely
+water,bridge,a,a,almost always
+purple,fish,a,a,rarely
+lace,cover,a,a,almost always
+sugar,water,,,sometimes
+flat,mat,a,a,always
+wife,battering,a,a,never
+slippery,soap,,,almost always
+paper,airplane,an,a,never
+olive,oil,,,often
+sweet,sauce,,,never
+blind,eye,an,a,often
+people,zombie,a,a,almost always
+bedroom,room,a,a,sometimes
+soy,sauce,,,never
+sea,mammal,a,a,rarely
+silky,ear,an,a,never
+church,minister,a,a,sometimes
+red,paper,a,a,never
+dirty,laundry,,,always
+bubble,blow,a,a,always
+wooden,sword,a,a,rarely
+flat,land,,,never
+pink,ring,a,a,never
+boy,pants,,,never
+popcorn,maker,a,a,rarely
+dress,clothes,,,rarely
+school,bus,a,a,sometimes
+fat,baby,a,a,sometimes
+furniture,shop,a,a,rarely
+pull,toy,a,a,never
+brown,squirrel,a,a,almost always
+farm,truck,a,a,rarely
+curry,rice,,,rarely
+vanilla,cookie,a,a,sometimes
+red,block,a,a,almost always
+round,ball,a,a,always
+green,chest,a,a,never
+people,group,a,a,almost always
+train,yard,a,a,sometimes
+aquarium,car,a,an,never
+mural,show,a,a,rarely
+daddy,kiss,a,a,never
+squid,soda,,,never
+red,wing,a,a,never
+food,group,a,a,sometimes
+thick,head,a,a,never
+sweet,pepper,a,a,often
+yellow,collar,a,a,never
+yellow,chick,a,a,almost always
+striped,fish,a,a,rarely
+wooden,spoon,a,a,always
+red,boot,a,a,never
+green,money,,,always
+fuzzy,tail,a,a,almost always
+purple,color,a,a,always
+fold,blanket,a,a,almost always
+yellow,bib,a,a,never
+upstairs,cafe,a,an,never
+game,mommy,a,a,often
+witch,castle,a,a,always
+dead,horse,a,a,always
+train,piece,a,a,never
+stroke,room,a,a,almost always
+red,circle,a,a,never
+thick,marmalade,,,almost always
+rainbow,crayon,a,a,never
+princess,puzzle,a,a,never
+purple,pentagon,a,a,sometimes
+flying,horse,a,a,never
+orange,planet,a,an,never
+glass,house,a,a,rarely
+brown,dot,a,a,never
+screw,driver,a,a,rarely
+wet,snow,,,sometimes
+solid,door,a,a,always
+yellow,dinosaur,a,a,always
+giant,piece,a,a,always
+purple,scribble,a,a,rarely
+lego,girl,a,a,often
+grey,cloud,a,a,never
+dark,pet,a,a,almost always
+daddy,elephant,an,a,always
+dirty,pamper,a,a,never
+town,clerk,a,a,almost always
+freeze,pop,a,a,never
+naked,baby,a,a,almost always
+wet,glue,,,rarely
+farm,dog,a,a,almost always
+alphabet,toy,a,an,rarely
+toast,stick,a,a,never
+lace,curtain,a,a,always
+meat,pie,a,a,never
+lily,pad,a,a,never
+blond,girl,a,a,often
+dairy,barn,a,a,about half the time
+green,casing,a,a,never
+dead,man,a,a,always
+red,pickle,a,a,rarely
+baby,cot,a,a,often
+yoyo,ball,a,a,never
+fish,animal,an,a,never
+elephant,leg,a,an,rarely
+table,tennis,,,never
+skunk,baby,a,a,never
+water,tank,a,a,often
+ant,powder,,,rarely
+brass,plate,a,a,never
+yellow,tape,a,a,never
+head,stand,a,a,often
+purple,heart,a,a,about half the time
+tv,retailer,a,a,about half the time
+purple,dress,a,a,rarely
+broom,sweep,a,a,sometimes
+staff,entertainment,,,about half the time
+car,stair,a,a,never
+floor,face,a,a,almost always
+bright,man,a,a,often
+dress,ring,a,a,never
+bowl,bud,a,a,always
+green,mouth,a,a,never
+strawberry,cream,,,never
+dog,house,a,a,rarely
+laughing,baby,a,a,almost always
+mirror,tile,a,a,often
+freezing,plant,a,a,about half the time
+worm,food,,,always
+bubble,maker,a,a,sometimes
+bubble,soup,,,never
+dog,park,a,a,rarely
+fairy,baby,a,a,never
+pink,ball,a,a,never
+classroom,window,a,a,sometimes
+purple,snake,a,a,never
+mud,line,a,a,always
+office,group,a,an,almost always
+glass,cover,a,a,never
+pet,food,,,about half the time
+frog,house,a,a,never
+mouse,driver,a,a,almost always
+wet,filter,a,a,never
+flip,top,a,a,never
+red,sand,,,sometimes
+hot,room,a,a,rarely
+purple,soda,,,never
+toy,ship,a,a,sometimes
+daddy,book,a,a,always
+game,contestant,a,a,never
+red,bunny,a,a,rarely
+ear,phone,a,an,always
+dinosaur,sticker,a,a,rarely
+green,train,a,a,rarely
+dirty,honey,,,never
+shoe,horn,a,a,never
+bunny,cloud,a,a,never
+red,cherry,a,a,always
+candy,bag,a,a,about half the time
+green,pop,a,a,never
+dog,cheese,,,almost always
+yellow,dot,a,a,rarely
+cough,medicine,,,rarely
+hot,potato,a,a,rarely
+ball,game,a,a,sometimes
+mail,person,a,a,sometimes
+green,paddle,a,a,never
+candy,gumball,a,a,about half the time
+boy,bear,a,a,rarely
+hind,foot,a,a,about half the time
+yellow,fish,a,a,never
+wet,rag,a,a,sometimes
+pink,pillow,a,a,never
+red,car,a,a,often
+orange,hippo,a,an,never
+brother,tiger,a,a,almost always
+water,toy,a,a,sometimes
+green,eye,an,a,rarely
+pink,orange,an,a,never
+fly,soup,,,never
+puppet,house,a,a,never
+night,bear,a,a,always
+inch,wire,a,an,rarely
+bread,pasta,,,never
+karate,girl,a,a,rarely
+nursery,school,a,a,rarely
+red,jeep,a,a,about half the time
+pink,tulip,a,a,almost always
+beach,ball,a,a,about half the time
+dark,suit,a,a,always
+orange,arm,an,an,never
+stick,bug,a,a,rarely
+kitchen,water,,,about half the time
+ground,rice,,,often
+carpet,tile,a,a,almost always
+mommy,room,a,a,never
+brown,paper,a,a,never
+bunny,blanket,a,a,almost always
+grey,shoe,a,a,rarely
+moon,beam,a,a,never
+red,match,a,a,always
+hot,pan,a,a,never
+top,shop,a,a,almost always
+pill,pen,a,a,never
+pink,purple,,,never
+peg,leg,a,a,never
+frozen,chicken,a,a,almost always
+outside,hallway,a,an,never
+doctor,visit,a,a,almost always
+singing,mommy,a,a,never
+pretzel,stick,a,a,always
+toy,bin,a,a,never
+engine,shed,a,an,never
+princess,cake,a,a,never
+trigger,fish,a,a,never
+kids,day,a,a,almost always
+hot,cup,a,a,almost always
+plastic,table,a,a,sometimes
+log,book,a,a,rarely
+fish,tank,a,a,often
+poison,stem,a,a,sometimes
+chief,accountant,an,a,almost always
+bear,mitten,a,a,never
+forty,pound,a,a,always
+bean,dish,a,a,never
+dirty,cloth,a,a,almost always
+green,bean,a,a,sometimes
+baby,bear,a,a,rarely
+wet,foot,a,a,rarely
+diamond,button,a,a,about half the time
+letter,box,a,a,sometimes
+swim,shoe,a,a,rarely
+bird,girl,a,a,never
+battery,game,a,a,almost always
+mermaid,hole,a,a,never
+dragon,guy,a,a,rarely
+top,hit,a,a,almost always
+round,circle,a,a,always
+brown,cookie,a,a,rarely
+fuzzy,ear,an,a,never
+broken,toe,a,a,never
+fire,man,a,a,about half the time
+orange,monkey,a,an,never
+noodle,worm,a,a,always
+silver,line,a,a,never
+mommy,chair,a,a,never
+red,spot,a,a,never
+dolly,dress,a,a,rarely
+hummus,bread,,,rarely
+red,fish,a,a,never
+apple,barrel,a,an,never
+plastic,tunnel,a,a,never
+red,lid,a,a,rarely
+cardboard,cylinder,a,a,almost always
+green,fire,,,almost always
+green,circle,a,a,always
+yellow,lid,a,a,never
+chalk,duster,a,a,always
+sweet,bread,,,rarely
+green,cap,a,a,rarely
+meadow,walk,a,a,never
+baby,moon,a,a,always
+hound,letter,a,a,often
+pony,piece,a,a,never
+water,man,a,a,rarely
+hot,syrup,,,often
+frozen,pea,a,a,sometimes
+shelve,divider,a,a,sometimes
+key,ring,a,a,never
+baby,buggy,a,a,always
+people,rug,a,a,always
+bottom,picture,a,a,never
+bathroom,room,a,a,often
+pink,sword,a,a,rarely
+pink,bottom,a,a,sometimes
+top,refrigerator,a,a,always
+table,honey,,,almost always
+dark,bath,a,a,never
+tooth,book,a,a,never
+daddy,chair,a,a,never
+leg,room,a,a,never
+oat,meal,a,an,rarely
+trash,block,a,a,never
+bright,red,,,always
+potty,chair,a,a,never
+dirty,bubble,a,a,never
+violin,teacher,a,a,never
+purple,suit,a,a,never
+cutting,board,a,a,often
+cathedral,choir,a,a,never
+yellow,plane,a,a,never
+astronaut,costume,a,an,always
+door,handle,a,a,almost always
+pink,block,a,a,never
+bottom,dollar,a,a,rarely
+pink,tunnel,a,a,never
+green,knife,a,a,never
+telephone,call,a,a,almost always
+orange,shirt,a,an,never
+tartar,taste,a,a,never
+bible,school,a,a,sometimes
+baby,mama,a,a,never
+green,noodle,a,a,never
+machinery,catalogue,a,a,always
+chicken,noodle,a,a,never
+top,shelf,a,a,about half the time
+plastic,wallet,a,a,never
+square,yard,a,a,almost always
+metal,piece,a,a,rarely
+mommy,tiger,a,a,almost always
+yellow,picture,a,a,almost always
+computer,person,a,a,rarely
+guy,knight,a,a,always
+brake,fluid,,,almost always
+purple,ketchup,,,never
+wall,tile,a,a,about half the time
+sister,fight,a,a,never
+coffee,bean,a,a,rarely
+dinosaur,head,a,a,never
+solid,block,a,a,always
+purple,pad,a,a,never
+hot,balloon,a,a,rarely
+toy,puppy,a,a,never
+orange,bag,a,an,never
+green,scissor,a,a,never
+red,cheek,a,a,never
+round,tower,a,a,about half the time
+plastic,glasses,,,about half the time
+banana,apple,an,a,never
+suite,shower,a,a,never
+granddad,kiss,a,a,never
+broken,bat,a,a,rarely
+brick,house,a,a,about half the time
+plastic,container,a,a,always
+peanut,butter,,,never
+yellow,curtain,a,a,never
+car,track,a,a,rarely
+animal,book,a,an,never
+sailor,collar,a,a,never
+post,office,an,a,often
+red,knob,a,a,almost always
+orange,soda,,,rarely
+ant,food,,,never
+purple,sweater,a,a,rarely
+orange,block,a,an,rarely
+purple,leg,a,a,never
+questionnaire,letter,a,a,never
+baby,turtle,a,a,about half the time
+tee,shirt,a,a,almost always
+water,running,,,always
+wheelie,bin,a,a,never
+furniture,curtain,a,a,never
+water,honey,,,never
+room,sweet,a,a,always
+picture,rail,a,a,never
+toy,closet,a,a,rarely
+honey,butter,,,never
+red,toy,a,a,sometimes
+standing,wall,a,a,always
+bread,roll,a,a,always
+brown,hair,,,about half the time
+red,sky,a,a,never
+oil,pot,a,an,always
+wet,water,,,always
+red,tricycle,a,a,sometimes
+door,step,a,a,never
+purple,bracelet,a,a,never
+video,player,a,a,about half the time
+baby,bee,a,a,rarely
+boy,bike,a,a,never
+kitchen,window,a,a,often
+yellow,orange,an,a,never
+brown,blanket,a,a,never
+red,van,a,a,never
+hot,roll,a,a,often
+bacon,toast,,,never
+spinach,dip,a,a,always
+garden,soil,,,rarely
+cough,syrup,,,never
+elephant,garland,a,an,never
+press,office,an,a,never
+passenger,car,a,a,often
+elephant,weight,a,an,never
+purple,cranium,a,a,never
+light,orange,an,a,rarely
+princess,snack,a,a,never
+secretary,table,a,a,always
+ocean,train,a,an,rarely
+asteroid,hit,a,an,never
+fat,pig,a,a,often
+bible,road,a,a,never
+yellow,mommy,a,a,never
+hot,rice,,,sometimes
+dinosaur,artifact,an,a,never
+mommy,cat,a,a,sometimes
+bouncing,ball,a,a,always
+game,marble,a,a,always
+bear,workshop,a,a,never
+upstairs,stair,a,an,always
+pee,pod,a,a,always
+green,red,,,always
+country,house,a,a,never
+plum,soup,,,never
+purple,bath,a,a,never
+wet,rug,a,a,never
+hall,lighting,,,almost always
+foot,print,a,a,never
+pink,crayon,a,a,never
+crab,line,a,a,never
+dog,walk,a,a,about half the time
+bright,spot,a,a,never
+chocolate,lollipop,a,a,rarely
+street,shop,a,a,sometimes
+dirty,face,a,a,about half the time
+furry,platypus,a,a,rarely
+mud,water,,,never
+picture,wall,a,a,rarely
+light,flashing,,,never
+outhouse,door,a,an,never
+microscope,spotlight,a,a,never
+paper,shop,a,a,never
+red,flap,a,a,sometimes
+video,tape,a,a,never
+car,door,a,a,about half the time
+ant,aphid,an,an,always
+art,museum,a,an,sometimes
+thick,gland,a,a,often
+stag,group,a,a,always
+milk,jug,a,a,about half the time
+baby,bird,a,a,rarely
+singing,drawer,a,a,always
+bathing,suit,a,a,never
+brass,dart,a,a,never
+dressing,table,a,a,sometimes
+red,bed,a,a,never
+purple,window,a,a,never
+spot,check,a,a,sometimes
+bear,teddy,a,a,almost always
+banana,tree,a,a,rarely
+dogs,barking,,,almost always
+top,drawer,a,a,about half the time
+horse,running,,,never
+eleven,pound,a,an,never
+fire,officer,an,a,often
+weight,bag,a,a,rarely
+whisky,ginger,,,sometimes
+red,string,a,a,always
+icy,mountain,a,an,never
+orange,rain,,,never
+oatmeal,cookie,a,an,never
+food,company,a,a,sometimes
+wooden,floor,a,a,about half the time
+strawberry,bar,a,a,never
+bear,jump,a,a,never
+banana,mess,a,a,never
+farm,house,a,a,rarely
+red,tomato,a,a,almost always
+shop,envelope,an,a,never
+bottom,drawer,a,a,always
+yellow,school,a,a,never
+computer,game,a,a,never
+doggy,tail,a,a,about half the time
+melon,ball,a,a,never
+tea,room,a,a,rarely
+naked,mole,a,a,almost always
+bunny,book,a,a,never
+bug,spray,a,a,often
+brown,train,a,a,never
+flower,pot,a,a,almost always
+scaly,skin,,,always
+hot,dog,a,a,about half the time
+red,bike,a,a,rarely
+flat,cheese,,,always
+stuffed,animal,an,a,sometimes
+diaper,wipe,a,a,almost always
+night,plane,a,a,about half the time
+yellow,bird,a,a,rarely
+pop,opera,an,a,rarely
+tree,house,a,a,rarely
+dark,leaf,a,a,almost always
+yellow,mom,a,a,never
+red,street,a,a,never
+pink,hair,,,rarely
+man,mum,a,a,never
+fish,jelly,,,never
+bus,park,a,a,rarely
+baby,talk,a,a,always
+orange,guy,a,an,never
+thick,mustache,a,a,never
+compost,pile,a,a,always
+press,jacket,a,a,rarely
+spider,head,a,a,always
+green,tie,a,a,rarely
+ear,lobe,a,an,rarely
+back,room,a,a,never
+outside,bird,a,an,always
+kid,driving,,,rarely
+gold,coffee,,,never
+honey,pot,a,a,rarely
+purple,book,a,a,never
+wedding,day,a,a,rarely
+moon,rover,a,a,never
+dark,snake,a,a,rarely
+penny,packet,a,a,never
+car,driver,a,a,never
+plastic,back,a,a,never
+orange,colors,a,an,often
+apple,juicer,a,an,rarely
+green,mountain,a,a,never
+yellow,hippo,a,a,never
+hot,mama,a,a,almost always
+red,onion,an,a,rarely
+cherry,tomato,a,a,never
+doll,house,a,a,never
+giant,puppet,a,a,never
+motor,car,a,a,never
+dark,lounge,a,a,always
+brown,sugar,,,rarely
+telephone,ringing,,,sometimes
+red,pillow,a,a,never
+silver,ship,a,a,never
+hot,sundae,a,a,rarely
+pink,elephant,an,a,never
+brown,doggie,a,a,always
+yogurt,hair,,,almost always
+kids,honey,,,never
+guy,walking,,,sometimes
+taller,spoon,a,a,almost always
+pirate,necklace,a,a,rarely
+cloudy,day,a,a,often
+pink,towel,a,a,never
+baby,snail,a,a,rarely
+purple,ring,a,a,never
+tv,company,a,a,never
+sunny,side,a,a,sometimes
+purple,car,a,a,never
+green,monkey,a,a,rarely
+broken,door,a,a,never
+pink,bear,a,a,never
+home,sign,a,a,sometimes
+plastic,mat,a,a,often
+home,committee,a,a,never
+dinosaur,book,a,a,never
+male,goldfish,a,a,about half the time
+saw,blade,a,a,never
+baby,deer,a,a,rarely
+vampire,zombie,a,a,never
+monkey,whisper,a,a,never
+bathroom,shop,a,a,rarely
+panel,radiator,a,a,almost always
+kitchen,net,a,a,never
+red,horn,a,a,never
+outside,shell,a,an,about half the time
+octopus,show,a,an,never
+racing,pigeon,a,a,sometimes
+green,shamrock,a,a,almost always
+land,motorway,a,a,about half the time
+pregnant,blond,a,a,never
+yellow,scarf,a,a,rarely
+track,record,a,a,about half the time
+shovel,scoop,a,a,sometimes
+colors,green,,,always
+orange,bug,a,an,never
+green,lego,a,a,rarely
+crease,mark,a,a,rarely
+green,dish,a,a,never
+baby,hair,,,about half the time
+gold,plate,a,a,rarely
+piggy,bank,a,a,never
+sugar,cube,a,a,never
+hay,ride,a,a,never
+pink,flower,a,a,sometimes
+red,rectangle,a,a,often
+squirt,toy,a,a,about half the time
+panel,game,a,a,almost always
+fridge,freezer,a,a,often
+lock,stock,,,never
+naked,child,a,a,sometimes
+gold,star,a,a,always
+gold,band,a,a,about half the time
+room,bathroom,a,a,always
+ceiling,tile,a,a,often
+dirty,swine,a,a,always
+trash,yard,a,a,rarely
+apple,book,a,an,never
+puffin,nose,a,a,always
+tv,day,a,a,always
+light,car,a,a,almost always
+butterfly,cake,a,a,never
+freeze,popsicle,a,a,about half the time
+girl,boot,a,a,rarely
+bunny,mask,a,a,always
+goose,mama,a,a,never
+gas,bill,a,a,sometimes
+hot,daddy,a,a,always
+yellow,fuzz,,,never
+dorsal,fin,a,a,almost always
+fairy,pony,a,a,never
+singing,voice,a,a,about half the time
+purple,rain,,,never
+message,machine,a,a,never
+bait,shop,a,a,rarely
+litter,tray,a,a,often
+stuffed,mushroom,a,a,never
+leather,jacket,a,a,rarely
+teddy,book,a,a,never
+brown,baby,a,a,often
+guy,dancing,,,always
+dressing,gown,a,a,never
+apple,feast,a,an,rarely
+cracker,sandwich,a,a,never
+green,cheese,,,rarely
+tiger,costume,a,a,often
+butter,sandwich,a,a,never
+dinosaur,map,a,a,never
+red,apple,an,a,often
+lady,bug,a,a,rarely
+red,barn,a,a,sometimes
+light,bulb,a,a,often
+cookie,jar,a,a,sometimes
+tool,box,a,a,almost always
+spiky,fish,a,a,never
+gingerbread,guy,a,a,always
+orange,balloon,a,an,never
+taller,one,a,a,almost always
+green,doggy,a,a,never
+tooth,mark,a,a,rarely
+juicy,juice,,,rarely
+dust,rag,a,a,often
+day,break,a,a,never
+mitten,tree,a,a,never
+purple,pants,,,never
+stereo,computer,a,a,never
+purple,red,,,never
+railway,track,a,a,almost always
+yellow,roof,a,a,never
+brake,pad,a,a,never
+pink,hat,a,a,rarely
+back,row,a,a,always
+sleeveless,top,a,a,never
+red,pepper,a,a,always
+elbow,hair,,,sometimes
+green,egg,an,a,never
+tank,top,a,a,almost always
+yellow,toe,a,a,never
+lady,car,a,a,never
+robot,head,a,a,never
+shoe,store,a,a,almost always
+chap,advertising,,,never
+daddy,fish,a,a,never
+yellow,driver,a,a,about half the time
+dog,dirt,,,never
+quarter,bag,a,a,never
+top,handle,a,a,rarely
+choir,boy,a,a,rarely
+brown,mommy,a,a,almost always
+paper,bag,a,a,rarely
+dead,baby,a,a,about half the time
+pink,paper,a,a,never
+hotel,room,a,a,never
+hot,cereal,,,rarely
+baby,fish,a,a,always
+ocean,book,a,an,rarely
+tape,recorder,a,a,always
+suite,room,a,a,sometimes
+purple,edge,an,a,never
+rock,honey,,,always
+yellow,lady,a,a,never
+metal,door,a,a,about half the time
+telephone,cord,a,a,almost always
+tail,piece,a,a,always
+garden,hose,a,a,almost always
+water,boil,a,a,never
+cotton,lining,a,a,rarely
+red,berry,a,a,about half the time
+dolly,clothes,,,rarely
+top,tooth,a,a,always
+raisin,cookie,a,a,sometimes
+purple,mom,a,a,never
+bubble,bath,a,a,rarely
+exit,entrance,an,an,never
+bear,home,a,a,rarely
+smiley,sticker,a,a,sometimes
+slippery,leg,a,a,never
+hot,strawberry,a,a,never
+giant,dragon,a,a,never
+pear,yogurt,,,rarely
+red,honey,,,never
+shoe,wax,,,never

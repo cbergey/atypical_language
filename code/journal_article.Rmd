@@ -47,6 +47,7 @@ linenumbers       : yes
 mask              : no
 draft             : no
 documentclass     : "apa6"
+keep_tex          : true
 classoption       : "man"    
 output            : papaja::apa6_pdf
 ---
@@ -257,11 +258,60 @@ gpt3_judgments <- gpt3_judgments_raw %>%
                                 gpt3_judgment == "almost always" ~ 6,
                                 gpt3_judgment == "always" ~ 7))
 
+llama_base_judgments <- read_csv(here("../data/llama_3.1_70b_base_judgments.csv")) %>%
+  mutate(llama_base_score = case_when(llama_base_judgment == "never" ~ 1,
+                                llama_base_judgment == "rarely" ~ 2,
+                                llama_base_judgment == "sometimes" ~ 3,
+                                llama_base_judgment == "about half the time" ~ 4,
+                                llama_base_judgment == "often" ~ 5,
+                                llama_base_judgment == "almost always" ~ 6,
+                                llama_base_judgment == "always" ~ 7))
+
+llama_instruct_judgments <- read_csv(here("../data/llama_3.1_70b_instruct_judgments.csv")) %>%
+  mutate(llama_instruct_score = case_when(llama_70b_instruct_judgment == "never" ~ 1,
+                                llama_instruct_judgment == "rarely" ~ 2,
+                                llama_instruct_judgment == "sometimes" ~ 3,
+                                llama_instruct_judgment == "about half the time" ~ 4,
+                                llama_instruct_judgment == "often" ~ 5,
+                                llama_instruct_judgment == "almost always" ~ 6,
+                                llama_instruct_judgment == "always" ~ 7))
+
+llama_base_judgments <- read_csv(here("../data/llama_3.1_70b_base_judgments.csv")) %>%
+  mutate(llama_base_score = case_when(llama_70b_base_judgment == "never" ~ 1,
+                                llama_base_judgment == "rarely" ~ 2,
+                                llama_base_judgment == "sometimes" ~ 3,
+                                llama_base_judgment == "about half the time" ~ 4,
+                                llama_base_judgment == "often" ~ 5,
+                                llama_base_judgment == "almost always" ~ 6,
+                                llama_base_judgment == "always" ~ 7))
+
+llama_405b_base_judgments <- read_csv(here("../data/llama_3.1_405b_base_judgments.csv")) %>%
+  mutate(llama_405b_base_score = case_when(llama_405b_base_judgment == "never" ~ 1,
+                                llama_405b_base_judgment == "rarely" ~ 2,
+                                llama_405b_base_judgment == "sometimes" ~ 3,
+                                llama_405b_base_judgment == "about half the time" ~ 4,
+                                llama_405b_base_judgment == "often" ~ 5,
+                                llama_405b_base_judgment == "almost always" ~ 6,
+                                llama_405b_base_judgment == "always" ~ 7))
+
+llama_405b_instruct_judgments <- read_csv(here("../data/llama_3.1_405b_instruct_judgments.csv")) %>%
+  mutate(llama_405b_instruct_score = case_when(llama_405b_instruct_judgment == "never" ~ 1,
+                                llama_405b_instruct_judgment == "rarely" ~ 2,
+                                llama_405b_instruct_judgment == "sometimes" ~ 3,
+                                llama_405b_instruct_judgment == "about half the time" ~ 4,
+                                llama_405b_instruct_judgment == "often" ~ 5,
+                                llama_405b_instruct_judgment == "almost always" ~ 6,
+                                llama_405b_instruct_judgment == "always" ~ 7))
+
 all_judgments <- mean_ratings %>%
   left_join(bert_judgments, by = c("adjective", "noun")) %>%
   rename(bert_prob = prob) %>%
   left_join(w2v_judgments, by = c("adjective", "noun")) %>%
   left_join(gpt3_judgments, by = c("adjective", "noun")) %>%
+  left_join(llama_base_judgments, by = c("adjective", "noun")) %>%
+  left_join(llama_instruct_judgments, by = c("adjective", "noun")) %>%
+  left_join(llama_405b_base_judgments, by = c("adjective", "noun")) %>%
+  left_join(llama_405b_instruct_judgments, by = c("adjective", "noun")) %>%
   mutate(wiki_similarity = if_else(is.nan(wiki_similarity), NA_real_, wiki_similarity)) %>%
   mutate(ldp_similarity = if_else(is.nan(ldp_similarity), NA_real_, ldp_similarity))
 ```
@@ -281,20 +331,26 @@ subj_reliability %>%
   geom_jitter(aes(alpha = 0.2))
 
 model_cors <- data.frame(
-  model = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", "Human"),
+  model = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", "Llama 70b Base", "Llama 70b Instruct", "Llama 405b Base", "Llama 405b Instruct", "Human"),
   cor = c(cor.test(all_judgments$mean_typ, all_judgments$ldp_similarity, method = "spearman")$estimate,
           cor.test(all_judgments$mean_typ, all_judgments$wiki_similarity, method = "spearman")$estimate,
           cor.test(all_judgments$mean_typ, all_judgments$bert_prob, method = "spearman")$estimate,
           cor.test(all_judgments$mean_typ, all_judgments$gpt3_score, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$llama_base_score, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$llama_instruct_score, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$llama_405b_base_score, method = "spearman")$estimate,
+          cor.test(all_judgments$mean_typ, all_judgments$llama_405b_instruct_score, method = "spearman")$estimate,
           human_cor)
 )
 
 
 cors_plot <- model_cors %>%
-  mutate(model = factor(model, levels = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", "Human"))) %>%
+  mutate(model = factor(model, levels = c("LDP_w2v", "Wiki_w2v", "BERT", "GPT_3", 
+                                          "Llama 70b Base", "Llama 70b Instruct", 
+                                          "Llama 405b Base", "Llama 405b Instruct",
+                                          "Human"))) %>%
   ggplot(aes(x = model, y = cor, fill = model)) +
   geom_col() +
-  scale_fill_paletteer_d("lisa::FridaKahlo") + 
   theme(
     strip.background =element_rect(fill="transparent"),
     panel.background = element_rect(fill = "transparent"), # bg of the panel
@@ -314,6 +370,39 @@ all_judgments %>%
   ggplot(aes(x = mean_typ, y = gpt3_score)) +
   geom_jitter(width = 0.2, height = 0.2, aes(alpha = 0.1)) +
   geom_smooth(method='lm', formula= y~x)
+
+random_indices <- sample(1:nrow(all_judgments), 10)
+all_judgments <- all_judgments %>%
+  mutate(pair = paste(adjective, noun, sep = " ")) %>%
+  mutate(label_name = NA)
+all_judgments$label_name[random_indices] <- all_judgments$pair[random_indices]
+
+all_judgments %>%
+  ggplot(aes(x = mean_typ, y = llama_instruct_score, label = label_name)) +
+  geom_jitter(aes(alpha = 0.2)) +
+  geom_smooth() +
+  xlab("Human Judgment (mean)") +
+  ylab("Llama Instruct Judgment") +
+  geom_label_repel(
+    fill = "white",  # Sets the background color to white
+    colour = "black" # Sets the text color to black
+  )
+
+all_judgments %>%
+  ggplot(aes(x = mean_typ, y = llama_base_score, label = label_name)) +
+  geom_jitter(aes(alpha = 0.2)) +
+  geom_smooth() +
+  xlab("Human Judgment (mean)") +
+  ylab("Llama Base Judgment") +
+  geom_label_repel(
+    fill = "white",  # Sets the background color to white
+    colour = "black" # Sets the text color to black
+  )
+
+all_judgments %>%
+  ggplot(aes(x = mean_typ, y = gpt3_score)) +
+  geom_jitter() +
+  geom_smooth()
 ```
 
 ```{r models}
@@ -935,6 +1024,14 @@ gpt3_cor <- wtd.cor(all_judgments %>% pull(mean_typ),
                     all_judgments %>% pull(gpt3_score)) %>%
   as_tibble()
 
+llama_base_cor <- wtd.cor(all_judgments %>% pull(mean_typ),
+                    all_judgments %>% pull(llama_base_score)) %>%
+  as_tibble()
+
+llama_instruct_cor <- wtd.cor(all_judgments %>% pull(mean_typ),
+                    all_judgments %>% pull(llama_instruct_score)) %>%
+  as_tibble()
+
 models_cor <- wtd.cor(all_judgments %>% pull(ldp_similarity),
                     all_judgments %>% pull(wiki_similarity)) %>%
   as_tibble()
@@ -955,6 +1052,12 @@ bert_cor_p <- bert_cor %>% pull(p.value) %>% printp()
 
 gpt3_cor_estimate <- gpt3_cor %>% pull(correlation)
 gpt3_cor_p <- gpt3_cor %>% pull(p.value) %>% printp()
+
+llama_base_cor_estimate <- llama_base_cor %>% pull(correlation)
+llama_base_cor_p <- llama_base_cor %>% pull(p.value) %>% printp()
+
+llama_instruct_cor_estimate <- llama_instruct_cor %>% pull(correlation)
+llama_instruct_cor_p <- llama_instruct_cor %>% pull(p.value) %>% printp()
 
 w2v_models_cor_estimate <- models_cor %>% pull(correlation)
 w2v_models_cor_p <- models_cor %>% pull(p.value) %>% printp()
@@ -1021,9 +1124,10 @@ high_low_all <- high_low_pairs %>%
 
 correct_orders <- high_low_all %>%
   select(-n) %>%
-  pivot_longer(cols = c(ldp_similarity, wiki_similarity, bert_prob, gpt3_score), 
+  pivot_longer(cols = c(ldp_similarity, wiki_similarity, bert_prob, gpt3_score, 
+                        llama_base_score, llama_instruct_score), 
                names_to = "measure", values_to = "similarity") %>%
-  select(-adjective, -mean_typ, -gpt3_judgment) %>%
+  select(-adjective, -mean_typ, -gpt3_judgment, -llama_base_judgment, -llama_instruct_judgment) %>%
   pivot_wider(names_from = "typicality", values_from = "similarity") %>%
   mutate(correct = high - low > 0) %>%
   filter(!is.na(correct)) %>%
@@ -1046,6 +1150,14 @@ gpt3_correct <- correct_orders %>%
   filter(measure == "gpt3_score") %>%
   pull(correct)
 
+llama_base_correct <- correct_orders %>%
+  filter(measure == "llama_base_score") %>%
+  pull(correct)
+
+llama_instruct_correct <- correct_orders %>%
+  filter(measure == "llama_instruct_score") %>%
+  pull(correct)
+
 pairs_total <- correct_orders %>% pull(total) %>% first()
 
 ldp_binom <- binom.test(ldp_correct, pairs_total)$p.value %>%
@@ -1055,6 +1167,10 @@ wiki_binom <- binom.test(wiki_correct, pairs_total)$p.value %>%
 bert_binom <- binom.test(bert_correct, pairs_total)$p.value %>%
   printp()
 gpt3_binom <- binom.test(gpt3_correct, pairs_total)$p.value %>%
+  printp()
+llama_base_binom <- binom.test(llama_base_correct, pairs_total)$p.value %>%
+  printp()
+llama_instruct_binom <- binom.test(llama_instruct_correct, pairs_total)$p.value %>%
   printp()
 ```
 ```{r typ-plots-compute}
@@ -1068,15 +1184,19 @@ ldp_max = max(all_judgments$ldp_similarity, na.rm = TRUE)
 bert_min = min(all_judgments$bert_prob, na.rm = TRUE)
 bert_max = max(all_judgments$bert_prob, na.rm = TRUE)
 
+
 halves_data <- high_low_all %>%
-  select(-gpt3_judgment) %>%
-  pivot_longer(cols = c(mean_typ, wiki_similarity, ldp_similarity, bert_prob, gpt3_score),
+  select(-gpt3_judgment, -llama_base_judgment) %>%
+  pivot_longer(cols = c(mean_typ, wiki_similarity, ldp_similarity, bert_prob, gpt3_score, 
+                        llama_base_score, llama_instruct_score),
               names_to = "measure", values_to = "score") %>%
   mutate(measure = factor(measure, 
                           levels = c("mean_typ", "ldp_similarity", 
-                                     "wiki_similarity", "bert_prob", "gpt3_score"), 
+                                     "wiki_similarity", "bert_prob", "gpt3_score", "llama_base_score",
+                                     "llama_instruct_score"), 
                           labels = c("Human", "LDP word2vec", 
-                                     "Wiki word2vec", "BERT", "GPT-3"))) %>%
+                                     "Wiki word2vec", "BERT", "GPT-3", "Llama 70b Base",
+                                     "Llama 70b Instruct"))) %>%
   mutate(score = if_else(measure=="Human", (score - 1)/6, score)) 
 
 human <- halves_data %>%
@@ -1086,19 +1206,24 @@ human <- halves_data %>%
   mutate(wiki_similarity = true_mean*(wiki_max - wiki_min) + wiki_min,
          ldp_similarity = true_mean*(ldp_max - ldp_min) + ldp_min,
          bert_prob = true_mean*(bert_max - bert_min) + bert_min,
-         gpt3_score = true_mean*1) %>%
-  pivot_longer(c(true_mean, wiki_similarity, ldp_similarity, bert_prob, gpt3_score),
+         gpt3_score = true_mean*1,
+         llama_base_score = true_mean*1) %>%
+  pivot_longer(c(true_mean, wiki_similarity, ldp_similarity, bert_prob, gpt3_score, llama_base_score),
                names_to = "measure", values_to = "mean") %>%
   mutate(measure = factor(measure, 
                           levels = c("true_mean", "ldp_similarity", 
-                                     "wiki_similarity", "bert_prob", "gpt3_score"), 
+                                     "wiki_similarity", "bert_prob", "gpt3_score", "llama_base_score",
+                                     "llama_instruct_score"), 
                           labels = c("True mean", "LDP word2vec", 
-                                     "Wiki word2vec", "BERT", "GPT-3"))) 
+                                     "Wiki word2vec", "BERT", "GPT-3", "Llama 70b Base",
+                                     "Llama 70b Instruct"))) 
 
 means <- halves_data %>%
     group_by(measure, typicality) %>% 
     summarise(mean=mean(score, na.rm=T)) %>%
   mutate(mean = if_else(measure=="GPT-3", (mean - 1)/6, mean)) %>%
+  mutate(mean = if_else(measure=="Llama 70b Base", (mean - 1)/6, mean)) %>%
+  mutate(mean = if_else(measure=="Llama 70b Instruct", (mean - 1)/6, mean)) %>%
     filter(measure != "Human") 
 
 grob <- grobTree(textGrob("Human ratings \n (scaled)", x=0.97,  y=0.85, hjust=1,
@@ -1176,22 +1301,24 @@ halves_data %>%
 ```{r bert-gpt, cache=F, fig.align = "center", fig.width = 6, fig.cap = 'Plots of BERT and GPT-3 noun-adjective similarities for nouns for which there was at least one atypical adjective (rated at most "sometimes"), and at least one typical adjective (rated at least "often"). Human ratings line depicts the mean human rating in each group, scaled to the range of model outputs.'}
 
 halves_data %>%
-  filter(measure %in% c("BERT", "GPT-3")) %>%
+  filter(measure %in% c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct")) %>%
   mutate(score = if_else(measure=="GPT-3", (score - 1)/6, score)) %>%
+  mutate(score = if_else(measure=="Llama 70b Base", (score - 1)/6, score)) %>%
+  mutate(score = if_else(measure=="Llama 70b Instruct", (score - 1)/6, score)) %>%
   #mutate(score = if_else(measure=="BERT", log(score), score)) %>%
   mutate(measure = factor(measure, 
-                          levels = c("BERT", "GPT-3"))) %>%
+                          levels = c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct"))) %>%
   ggplot(aes(x = typicality, y = score, group = noun)) +
   facet_wrap(~measure) +
   geom_point(alpha = .5, position=position_dodge(0.06), color = "light gray") +
   geom_line(alpha = .5, color = "light gray", position=position_dodge(0.06)) +
-  geom_line(data=human %>% filter(measure %in% c("BERT", "GPT-3")),
+  geom_line(data=human %>% filter(measure %in% c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct")),
             aes(x=typicality, y=mean, group=NA), color="black", linetype="dashed") +
-  geom_point(data=human %>% filter(measure %in% c("BERT", "GPT-3")),
+  geom_point(data=human %>% filter(measure %in% c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct")),
              aes(x=typicality, y=mean, group=NA), color="black") +
-  geom_line(data=means %>% filter(measure %in% c("BERT", "GPT-3")),
-            aes(x=typicality, y=mean, group=NA), color="steelblue", size=.8) +
-  geom_point(data=means %>% filter(measure %in% c("BERT", "GPT-3")), 
+  geom_line(data=means %>% filter(measure %in% c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct")),
+            aes(x=typicality, y=mean, group=NA), color="steelblue", size=.8, alpha = 0.7) +
+  geom_point(data=means %>% filter(measure %in% c("BERT", "GPT-3", "Llama 70b Base", "Llama 70b Instruct")), 
              aes(x=typicality, y=mean, group=NA), color="steelblue") +
   labs(x = "Binned Human-Rated Typicality", y = "Probability for BERT \n Scaled rating for GPT-3") +
   theme_few() +

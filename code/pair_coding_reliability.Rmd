@@ -7,10 +7,13 @@ date: "2025-09-02"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(SnowballC)
+library(stringi)
+
 library(here)
 ```
 
-```{r}
+```{r, eval = FALSE}
 all_utts <- read_csv(here("../data/all_corpora_adj_noun_conc_utts.csv"))
 
 sample_to_code <- all_utts %>%
@@ -23,13 +26,29 @@ sample_to_code <- all_utts %>%
 ```
 
 ```{r}
-all_coded <- read_csv(here("../data/all_corpora_utts_to_code.csv")) %>%
+all_utts <- read_csv(here("../data/all_corpora_adj_noun_conc_utts.csv"))
+
+concreteness <- read_csv(here("../data/concreteness.csv")) %>%
+  mutate(stem = wordStem(Word)) %>%
+  select(Word, stem, Conc.M, Conc.SD) %>%
+  mutate(conc_rank = ntile(Conc.M,4))
+
+#get most concrete quartile across all 40,000 items
+most_concrete <- concreteness %>%
+  mutate(conc_rank = ntile(Conc.M,4)) %>%
+  arrange(desc(Conc.M)) %>%
+  filter(conc_rank == 4)
+
+all_coded_data <- read_csv(here("../data/all_corpora_utts_to_code.csv")) %>%
   left_join(all_utts %>% select(dataset, doc_id, sentence, adj_token, noun_token), 
             by = c("dataset", "doc_id", "sentence")) %>%
   mutate(pair = paste(adj_token, noun_token, sep = " ")) %>%
   rowwise() %>%
   mutate(pair = str_squish(pair)) %>%
   ungroup() %>%
+  mutate(noun_stem = wordStem(noun_token)) %>%
+  mutate(pair = if_else(adj_token %in% most_concrete$Word &
+         noun_stem %in% most_concrete$stem, pair, "")) %>%
   group_by(sentence, doc_id) %>%
   summarise(parser_pairs = list(pair)) %>%
   ungroup() 
@@ -38,19 +57,34 @@ bm <- read.csv(here("../data/all_corpora_utts_coded_BM.csv")) %>%
   as_tibble() %>%
   mutate(pair = paste(adj, noun, sep = " ")) %>%
   mutate(pair = str_squish(pair)) %>%
+  mutate(noun_stem = wordStem(noun)) %>%
+  mutate(noun_stem = wordStem(noun)) %>%
+  mutate(pair = if_else(adj %in% most_concrete$Word &
+         noun_stem %in% most_concrete$stem, pair, "")) %>%
+  mutate(pair = str_squish(pair)) %>%
   group_by(sentence, doc_id) %>%
   summarise(bm_pairs = list(pair)) %>%
+  ungroup() %>%
+  rowwise() %>%
+  mutate(bm_pairs = if_else(is.vector(bm_pairs), list(stri_remove_empty(bm_pairs)), list(bm_pairs))) %>%
   ungroup()
  
 cb <- read.csv(here("../data/all_corpora_utts_coded_CB.csv")) %>%
   as_tibble() %>%
   mutate(pair = paste(adj, noun, sep = " ")) %>%
   mutate(pair = str_squish(pair)) %>%
+  mutate(noun_stem = wordStem(noun)) %>%
+  mutate(noun_stem = wordStem(noun)) %>%
+  mutate(pair = if_else(adj %in% most_concrete$Word &
+         noun_stem %in% most_concrete$stem, pair, "")) %>%
   group_by(sentence, doc_id) %>%
   summarise(cb_pairs = list(pair)) %>%
-  ungroup() 
+  ungroup() %>%
+  rowwise() %>%
+  mutate(cb_pairs = if_else(is.vector(cb_pairs), list(stri_remove_empty(cb_pairs)), list(cb_pairs))) %>%
+  ungroup()
 
-all_coded <- all_coded %>%
+all_coded <- all_coded_data %>%
   left_join(bm, by = c("sentence", "doc_id")) %>%
   left_join(cb, by = c("sentence", "doc_id"))
 ```
@@ -58,20 +92,20 @@ all_coded <- all_coded %>%
 ```{r}
 get_intersect <- function(list1, list2) {
   
-  if (typeof(list1) == "list" & typeof(list2) == "list") {
+  if (is.vector(list1) & is.vector(list2)) {
     print("list list")
     print(list1)
     print(list2)
     return(intersect(list1, list2))
-  } else if (typeof(list1) == "character" & typeof(list2) == "character") {
+  } else if (!is.vector(list1) & !is.vector(list2)) {
     print("character character")
     print(list1)
     print(list2)
     return(c(intersect(list1, list2)))
-  } else if (typeof(list1) == "character" & typeof(list2) == "list") {
+  } else if (!is.vector(list1) & is.vector(list2)) {
     print(intersect(c(list1), list2))
     return(intersect(c(list1), list2))
-  } else if (typeof(list1) == "list" & typeof(list2) == "character") {
+  } else if (is.vector(list1) & !is.vector(list2)) {
     print(intersect(list1, c(list2)))
     return(intersect(list1, c(list2)))
   }
@@ -86,9 +120,35 @@ jaccard <- all_coded %>%
          bm_parser_union = list(union(bm_pairs, parser_pairs))) %>%
   mutate(human_jaccard = length(human_intersect)/length(human_union),
          cb_parser_jaccard = length(cb_parser_intersect)/length(cb_parser_union),
-         bm_parser_jaccard = length(bm_parser_intersect)/length(bm_parser_union))
+         bm_parser_jaccard = length(bm_parser_intersect)/length(bm_parser_union)) %>%
+  mutate(human_jaccard = if_else(is.nan(human_jaccard), 0, human_jaccard),
+         cb_parser_jaccard = if_else(is.nan(cb_parser_jaccard), 0, cb_parser_jaccard),
+         bm_parser_jaccard = if_else(is.nan(bm_parser_jaccard), 0, bm_parser_jaccard))
 
 human_jaccard_avg <- mean(jaccard$human_jaccard)
 cb_parser_jaccard_avg <- mean(jaccard$cb_parser_jaccard)
 bm_parser_jaccard_avg <- mean(jaccard$bm_parser_jaccard)
 ```
+
+```{r generics}
+generics <- read_csv(here("../data/generics_llama_judgments.csv"))
+
+generics %>%
+  group_by(generics_llama_70b) %>%
+  count()
+
+generics_only <- generics %>%
+  filter(generics_llama_70b == "generic")
+
+generics %>%
+  filter(prenominal == FALSE) %>%
+  View()
+
+generics %>%
+  group_by(doc_id, sentence) %>%
+  distinct(generics_llama_70b) %>%
+  count() %>% 
+  filter(n > 1) %>% View()
+
+write_csv(generics_only, here("../data/generics_only.csv"))
+``` 

@@ -252,4 +252,86 @@ typical_p <- typical_token_lmer %>% filter(term == "log(age)") %>%
   pull(p.value) %>% printp()
 ```
 
+```{r generics}
+generics_cb <- read_csv(here("../data/generics_only_cb.csv")) %>%
+  rename(generics_manual_cb = generics_manual,
+         generics_adj_noun_cb = generics_adj_noun,
+         generics_neg_question_cb = generic_neg_question)
+
+generics_bm <- read_csv(here("../data/generics_only_bm.csv")) %>%
+  rename(generics_manual_bm = generics_manual,
+         generics_adj_noun_bm = generics_adj_noun,
+         generics_neg_question_bm = negation_or_question)
+
+generics_all <- generics_cb %>% left_join(generics_bm)
+
+generics_agreement <- generics_all %>%
+  filter(!is.na(generics_manual_cb) & !is.na(generics_manual_bm)) %>%
+  filter(generics_manual_cb == generics_manual_bm) %>% nrow()/110
+
+generics_agreed <- generics_all %>%
+  filter(!is.na(generics_manual_cb) & !is.na(generics_manual_bm)) %>%
+  filter(generics_manual_cb == 1 & generics_manual_bm == 1) %>% nrow()
+
+generics_agreement_adj_noun <- generics_all %>%
+  filter(!is.na(generics_manual_cb) & !is.na(generics_manual_bm)) %>%
+  filter(generics_manual_cb == 1 & generics_manual_bm == 1) %>%
+  filter(generics_adj_noun_bm == generics_adj_noun_cb) %>% nrow()/generics_agreed
+
+generics_disagreed <- generics_all %>%
+  filter(!is.na(generics_manual_cb) & !is.na(generics_manual_bm)) %>%
+  filter(generics_manual_cb != generics_manual_bm) 
+
+generics_consensus <- generics_all %>%
+  mutate(generics_consensus = generics_manual_cb | generics_manual_bm,
+         generics_adj_noun_consensus = generics_adj_noun_bm | generics_adj_noun_cb,
+         generics_neg_question_consesus = generics_neg_question_bm | generics_neg_question_cb) %>%
+  mutate(generics_consensus = if_else(is.na(generics_consensus), FALSE, generics_consensus),
+         generics_adj_noun_consensus = if_else(is.na(generics_adj_noun_consensus), FALSE, generics_adj_noun_consensus),
+         generics_neg_question_consesus = if_else(is.na(generics_neg_question_consesus), FALSE, generics_neg_question_consesus))
+
+total_utterances <- generics_consensus %>%
+  distinct(doc_id, sentence)
+
+total_generics <- generics_consensus %>%
+  filter(generics_consensus) %>%
+  distinct(doc_id, sentence)
+
+total_generics_adj_noun <- generics_consensus %>%
+  filter(generics_consensus & generics_adj_noun_consensus) %>%
+  distinct(doc_id, sentence)
+
+total_generics_no_neg_q <- generics_consensus %>%
+  filter(generics_consensus & generics_adj_noun_consensus & !generics_neg_question_consesus) %>%
+  distinct(doc_id, sentence)
+
+total_generics_neg_q <- generics_consensus %>%
+  filter(generics_consensus & generics_adj_noun_consensus & generics_neg_question_consesus) %>%
+  distinct(doc_id, sentence)
+
+
+generics_analysis <- generics_consensus %>%
+  filter(generics_consensus & generics_adj_noun_consensus & !generics_neg_question_consesus) %>%
+  rename(adjective = adj_lower, noun = noun_stem) %>%
+  left_join(mean_ratings) %>%
+  rename(mean_typ_1 = mean_typ) %>%
+  rename(noun_stem = noun, noun = noun_lemma) %>%
+  left_join(mean_ratings) %>%
+  rename(mean_typ_2 = mean_typ) %>%
+  mutate(mean_typ = if_else(is.na(mean_typ_1), mean_typ_2, mean_typ_1)) %>%
+  select(-mean_typ_1, -mean_typ_2)
+
+mean_generic_rating = mean(generics_analysis$mean_typ)
+
+hist(generics_analysis$mean_typ)
+
+t.test()
+```
+
+On a subset of 110 utterances coded by both raters, raters had `r generics_agreement`% agreement about whether an utterance was a generic. Among that subset, they had `r generics_agreement_adj_noun`% agreement about whether the coded adjective-noun pair was described generically. For utterances coded by both raters, in all subsequent statistics, we conservatively took the more lenient code (i.e., coding an utterance as a generic) from the two raters.
+
+Among the 448 utterances identified by the model as potentially being generics, 180 were manually verified by human raters as being true generics. Among these, the majority of generics did not describe a generic property that predicated the target adjective-noun pair. For example, many generics had the adjective-noun pair in an embedded noun phrase (e.g., "People love orange juice", "The red light means stop"). Only 28 utterances were coded as both being generic and predicating the relevant adjective-noun pair (e.g., "Floors are dirty", "Strawberries are red"). Five of these were flagged by raters as being negated or questioning the generic statement (e.g., "Roses are red?", "Ducks are not furry") and excluded on this basis. This leaves a set of `r nrow(generics_analysis)` generics that predicate the relevant adjective-noun pair.
+
+Examining the typicality of adjective-noun pairs predicated in generics, the features expressed in generics were on average more typical than those in the full set of utterances (M = `r mean_generic rating`).
+
 
